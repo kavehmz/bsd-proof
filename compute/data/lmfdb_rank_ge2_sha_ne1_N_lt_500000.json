@@ -1,0 +1,1583 @@
+{
+ "data": [
+  {
+   "Clabel": "194040co6",
+   "ainvs": [
+    0,
+    0,
+    0,
+    -456382227,
+    -3752677112114
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "cm": 0,
+   "conductor": 194040,
+   "id": 1246724,
+   "lmfdb_label": "194040.cu1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "107.04894931198870633224499118",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "194766c4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -2077504,
+    -1152726172
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    11,
+    13,
+    227
+   ],
+   "cm": 0,
+   "conductor": 194766,
+   "id": 1250974,
+   "lmfdb_label": "194766.bg1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "73.029393944916814150362428941",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "226005g3",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -268695,
+    67104702
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    3,
+    5,
+    13,
+    19,
+    61
+   ],
+   "cm": 0,
+   "conductor": 226005,
+   "id": 1443657,
+   "lmfdb_label": "226005.b5",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "14.136135654472850039729699307",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 4,
+   "torsion_structure": [
+    4
+   ]
+  },
+  {
+   "Clabel": "226920a6",
+   "ainvs": [
+    0,
+    1,
+    0,
+    -73824640,
+    -244170894880
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    31,
+    61
+   ],
+   "cm": 0,
+   "conductor": 226920,
+   "id": 1448897,
+   "lmfdb_label": "226920.h1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "164.71431793844876287923065060",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "245310bs8",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -2143488860,
+    -38197932575245
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    13,
+    17,
+    37
+   ],
+   "cm": 0,
+   "conductor": 245310,
+   "id": 1560756,
+   "lmfdb_label": "245310.bs1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "107.59189470948875628595780545",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "256410m4",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -3359385,
+    -2369097365
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    37
+   ],
+   "cm": 0,
+   "conductor": 256410,
+   "id": 1627898,
+   "lmfdb_label": "256410.m1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "21.921830039985959412950788272",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "256410q5",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -455384160,
+    3740487540790
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    37
+   ],
+   "cm": 0,
+   "conductor": 256410,
+   "id": 1627908,
+   "lmfdb_label": "256410.q1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "9.9260005722003181781904579861",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "297330bm4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -13993740,
+    -20149947900
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    17,
+    53
+   ],
+   "cm": 0,
+   "conductor": 297330,
+   "id": 1873434,
+   "lmfdb_label": "297330.bm1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "13.270669317160799982502334206",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "305256n4",
+   "ainvs": [
+    0,
+    1,
+    0,
+    -1628032,
+    -800087200
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    7,
+    23,
+    79
+   ],
+   "cm": 0,
+   "conductor": 305256,
+   "id": 1921011,
+   "lmfdb_label": "305256.n1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "141.53920910338295821152652544",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "312018bm4",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -3745349,
+    9047227241
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    7,
+    17,
+    19,
+    23
+   ],
+   "cm": 0,
+   "conductor": 312018,
+   "id": 1960808,
+   "lmfdb_label": "312018.bm3",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "84.138031492549986236880853663",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "341202w5",
+   "ainvs": [
+    1,
+    0,
+    0,
+    1452466,
+    -511279512
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    19,
+    41,
+    73
+   ],
+   "cm": 0,
+   "conductor": 341202,
+   "id": 2135012,
+   "lmfdb_label": "341202.w6",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "7.8634268136389463400165415786",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "348910q4",
+   "ainvs": [
+    1,
+    -1,
+    1,
+    -4597537,
+    -3791114439
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    5,
+    23,
+    37,
+    41
+   ],
+   "cm": 0,
+   "conductor": 348910,
+   "id": 2182085,
+   "lmfdb_label": "348910.q1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "2.5906767428810891916215530188",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "356730cg4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -346225,
+    -78441235
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    23,
+    47
+   ],
+   "cm": 0,
+   "conductor": 356730,
+   "id": 2228093,
+   "lmfdb_label": "356730.cg1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "32.210776294085657417018321905",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "370230cc4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -433475,
+    -109884645
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    41,
+    43
+   ],
+   "cm": 0,
+   "conductor": 370230,
+   "id": 2307606,
+   "lmfdb_label": "370230.cc1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "25.032001307238912728103291532",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "373230s4",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -1289882880,
+    -17830588500144
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    13,
+    29
+   ],
+   "cm": 0,
+   "conductor": 373230,
+   "id": 2325581,
+   "lmfdb_label": "373230.s1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "110.42213230140374140252237967",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "389130p4",
+   "ainvs": [
+    1,
+    0,
+    1,
+    -1428248,
+    -657100744
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    17,
+    109
+   ],
+   "cm": 0,
+   "conductor": 389130,
+   "id": 2420187,
+   "lmfdb_label": "389130.p1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "9.2345672754139866144125677699",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "389298cf3",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -8305024,
+    9211425080
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    7,
+    13,
+    23,
+    31
+   ],
+   "cm": 0,
+   "conductor": 389298,
+   "id": 2421323,
+   "lmfdb_label": "389298.cf1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "12.397222923820761320581268386",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "392190k2",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -9659056,
+    10808195993
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    17,
+    769
+   ],
+   "cm": 0,
+   "conductor": 392190,
+   "id": 2437939,
+   "lmfdb_label": "392190.k1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "3.4886450319357566916823362791",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "392190n2",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -5456,
+    -157387
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    17,
+    769
+   ],
+   "cm": 0,
+   "conductor": 392190,
+   "id": 2437945,
+   "lmfdb_label": "392190.n1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "8.1485332305593306046946718329",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "394485g8",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -78579308086,
+    -8478364648413622
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    3,
+    5,
+    7,
+    13,
+    17
+   ],
+   "cm": 0,
+   "conductor": 394485,
+   "id": 2450954,
+   "lmfdb_label": "394485.g1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "106.08746913246649704168671935",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "395850e6",
+   "ainvs": [
+    1,
+    1,
+    0,
+    -4724475,
+    -3954397125
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    13,
+    29
+   ],
+   "cm": 0,
+   "conductor": 395850,
+   "id": 2459227,
+   "lmfdb_label": "395850.e1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "10.905216898829349234755591810",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "401709b4",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -59523632784,
+    -5589644447990010
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    3,
+    7,
+    11,
+    37,
+    47
+   ],
+   "cm": 0,
+   "conductor": 401709,
+   "id": 2493253,
+   "lmfdb_label": "401709.b1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "194.96695121512506962689403803",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "413490da4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -1260210,
+    -544623348
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    179
+   ],
+   "cm": 0,
+   "conductor": 413490,
+   "id": 2561430,
+   "lmfdb_label": "413490.da1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "33.536015798954366332806613963",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "427025b4",
+   "ainvs": [
+    1,
+    -1,
+    1,
+    -2285605,
+    -1329366228
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    5,
+    19,
+    29,
+    31
+   ],
+   "cm": 0,
+   "conductor": 427025,
+   "id": 2640635,
+   "lmfdb_label": "427025.b1",
+   "manin_constant": 1,
+   "num_bad_primes": 4,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "16.640540435955725391791740937",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "428298m2",
+   "ainvs": [
+    1,
+    1,
+    0,
+    -251982140,
+    -1536766349538
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    13,
+    17,
+    19
+   ],
+   "cm": 0,
+   "conductor": 428298,
+   "id": 2647584,
+   "lmfdb_label": "428298.m1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "38.082267119073360132906079240",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "433590v4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -115624000,
+    -478551677068
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    97,
+    149
+   ],
+   "cm": 0,
+   "conductor": 433590,
+   "id": 2679164,
+   "lmfdb_label": "433590.v1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "99.145157998960863348524178079",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "439110q4",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -57435,
+    -5283145
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    17,
+    41
+   ],
+   "cm": 0,
+   "conductor": 439110,
+   "id": 2710847,
+   "lmfdb_label": "439110.q1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "7.8656737081547429494306106481",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "442680ba3",
+   "ainvs": [
+    0,
+    1,
+    0,
+    341984,
+    -45496480
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    17,
+    31
+   ],
+   "cm": 0,
+   "conductor": 442680,
+   "id": 2731789,
+   "lmfdb_label": "442680.ba4",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "58.745676719039608271795117154",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "448800bh4",
+   "ainvs": [
+    0,
+    -1,
+    0,
+    -149608,
+    -22223288
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    17
+   ],
+   "cm": 0,
+   "conductor": 448800,
+   "id": 2767330,
+   "lmfdb_label": "448800.bh1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "28.059239645924009946926944723",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "451248f4",
+   "ainvs": [
+    0,
+    -1,
+    0,
+    -9626624,
+    -11493119232
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    7,
+    17,
+    79
+   ],
+   "cm": 0,
+   "conductor": 451248,
+   "id": 2781380,
+   "lmfdb_label": "451248.f1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "68.839851921099663149402895921",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "453390bu4",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -266896,
+    -53182411
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    17,
+    127
+   ],
+   "cm": 0,
+   "conductor": 453390,
+   "id": 2793567,
+   "lmfdb_label": "453390.bu1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "12.342323693098902126373556781",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "457470j4",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -488085,
+    -131125609
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    13,
+    17,
+    23
+   ],
+   "cm": 0,
+   "conductor": 457470,
+   "id": 2816939,
+   "lmfdb_label": "457470.j1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "15.827864247522952280556173620",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "463080b4",
+   "ainvs": [
+    0,
+    -1,
+    0,
+    -2469760,
+    -1493107028
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    17,
+    227
+   ],
+   "cm": 0,
+   "conductor": 463080,
+   "id": 2849470,
+   "lmfdb_label": "463080.b1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "122.61903974834877804253812126",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "465120g4",
+   "ainvs": [
+    0,
+    0,
+    0,
+    -1395363,
+    -634422998
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    17,
+    19
+   ],
+   "cm": 0,
+   "conductor": 465120,
+   "id": 2861365,
+   "lmfdb_label": "465120.g1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "53.377409373560298544688550350",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "472290a4",
+   "ainvs": [
+    1,
+    1,
+    0,
+    -189903,
+    -31930773
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    13,
+    173
+   ],
+   "cm": 0,
+   "conductor": 472290,
+   "id": 2902458,
+   "lmfdb_label": "472290.a1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "9.1481345952049317494966872831",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "485112h4",
+   "ainvs": [
+    0,
+    1,
+    0,
+    -2587264,
+    -1602666208
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    17,
+    29,
+    41
+   ],
+   "cm": 0,
+   "conductor": 485112,
+   "id": 2977179,
+   "lmfdb_label": "485112.h1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "140.86468178095227715540388526",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "485826t4",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -27842,
+    -1694521
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    11,
+    17,
+    433
+   ],
+   "cm": 0,
+   "conductor": 485826,
+   "id": 2981895,
+   "lmfdb_label": "485826.t1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "5.2151425690177457147611990506",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "488070bp4",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -2688354,
+    -6364417860
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    17,
+    29
+   ],
+   "cm": 0,
+   "conductor": 488070,
+   "id": 2995977,
+   "lmfdb_label": "488070.bp4",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "58.944382726489105376524116164",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "491970bp4",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -11104090891,
+    -450377916058711
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    23,
+    31
+   ],
+   "cm": 0,
+   "conductor": 491970,
+   "id": 3017966,
+   "lmfdb_label": "491970.bp1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "160.51869157698896927188387463",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "494760co4",
+   "ainvs": [
+    0,
+    1,
+    0,
+    -1697120,
+    -851540592
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    19,
+    31
+   ],
+   "cm": 0,
+   "conductor": 494760,
+   "id": 3034031,
+   "lmfdb_label": "494760.co1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "12.801067207110258227414187859",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "495482q4",
+   "ainvs": [
+    1,
+    -1,
+    1,
+    -312631,
+    -67196325
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    13,
+    17,
+    19,
+    59
+   ],
+   "cm": 0,
+   "conductor": 495482,
+   "id": 3038049,
+   "lmfdb_label": "495482.q1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "6.0419597783393742220445694591",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "499290e4",
+   "ainvs": [
+    1,
+    1,
+    0,
+    -11458,
+    -452978
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    17,
+    89
+   ],
+   "cm": 0,
+   "conductor": 499290,
+   "id": 3060038,
+   "lmfdb_label": "499290.e2",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "2.3460969951935067304568164850",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  }
+ ],
+ "meta": {
+  "count": 42,
+  "date": "2026-09-11",
+  "note": "rank>=2, sha!=1 (LMFDB `sha` = analytic order of Sha, rounded), conductor<500000",
+  "query": "https://www.lmfdb.org/api/ec_curvedata/?rank=py{\"$gte\":2}&sha=py{\"$ne\":1}&conductor=py{\"$lt\":500000}&_fields=Clabel,lmfdb_label,conductor,rank,analytic_rank,sha,sha_primes,torsion,torsion_structure,ainvs,optimality,manin_constant,cm,semistable,bad_primes,regulator,signD,num_bad_primes&_sort=conductor,lmfdb_label&_format=json"
+ }
+}

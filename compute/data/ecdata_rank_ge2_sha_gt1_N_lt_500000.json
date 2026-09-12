@@ -1,0 +1,345 @@
+{
+ "data": [
+  {
+   "Clabel": "194040co6",
+   "ainvs": "[0,0,0,-456382227,-3752677112114]",
+   "conductor": 194040,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "194766c4",
+   "ainvs": "[1,0,0,-2077504,-1152726172]",
+   "conductor": 194766,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "226005g3",
+   "ainvs": "[1,1,1,-268695,67104702]",
+   "conductor": 226005,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 4
+  },
+  {
+   "Clabel": "226920a6",
+   "ainvs": "[0,1,0,-73824640,-244170894880]",
+   "conductor": 226920,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "245310bs8",
+   "ainvs": "[1,1,1,-2143488860,-38197932575245]",
+   "conductor": 245310,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "256410m4",
+   "ainvs": "[1,-1,0,-3359385,-2369097365]",
+   "conductor": 256410,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "256410q5",
+   "ainvs": "[1,-1,0,-455384160,3740487540790]",
+   "conductor": 256410,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "297330bm4",
+   "ainvs": "[1,0,0,-13993740,-20149947900]",
+   "conductor": 297330,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "305256n4",
+   "ainvs": "[0,1,0,-1628032,-800087200]",
+   "conductor": 305256,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "312018bm4",
+   "ainvs": "[1,1,1,-3745349,9047227241]",
+   "conductor": 312018,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "341202w5",
+   "ainvs": "[1,0,0,1452466,-511279512]",
+   "conductor": 341202,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "348910q4",
+   "ainvs": "[1,-1,1,-4597537,-3791114439]",
+   "conductor": 348910,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "356730cg4",
+   "ainvs": "[1,0,0,-346225,-78441235]",
+   "conductor": 356730,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "370230cc4",
+   "ainvs": "[1,0,0,-433475,-109884645]",
+   "conductor": 370230,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "373230s4",
+   "ainvs": "[1,-1,0,-1289882880,-17830588500144]",
+   "conductor": 373230,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "389130p4",
+   "ainvs": "[1,0,1,-1428248,-657100744]",
+   "conductor": 389130,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "389298cf3",
+   "ainvs": "[1,0,0,-8305024,9211425080]",
+   "conductor": 389298,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "392190k2",
+   "ainvs": "[1,1,1,-9659056,10808195993]",
+   "conductor": 392190,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "392190n2",
+   "ainvs": "[1,1,1,-5456,-157387]",
+   "conductor": 392190,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "394485g8",
+   "ainvs": "[1,1,1,-78579308086,-8478364648413622]",
+   "conductor": 394485,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "395850e6",
+   "ainvs": "[1,1,0,-4724475,-3954397125]",
+   "conductor": 395850,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "401709b4",
+   "ainvs": "[1,1,1,-59523632784,-5589644447990010]",
+   "conductor": 401709,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "413490da4",
+   "ainvs": "[1,0,0,-1260210,-544623348]",
+   "conductor": 413490,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "427025b4",
+   "ainvs": "[1,-1,1,-2285605,-1329366228]",
+   "conductor": 427025,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "428298m2",
+   "ainvs": "[1,1,0,-251982140,-1536766349538]",
+   "conductor": 428298,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "433590v4",
+   "ainvs": "[1,0,0,-115624000,-478551677068]",
+   "conductor": 433590,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "439110q4",
+   "ainvs": "[1,-1,0,-57435,-5283145]",
+   "conductor": 439110,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "442680ba3",
+   "ainvs": "[0,1,0,341984,-45496480]",
+   "conductor": 442680,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "448800bh4",
+   "ainvs": "[0,-1,0,-149608,-22223288]",
+   "conductor": 448800,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "451248f4",
+   "ainvs": "[0,-1,0,-9626624,-11493119232]",
+   "conductor": 451248,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "453390bu4",
+   "ainvs": "[1,1,1,-266896,-53182411]",
+   "conductor": 453390,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "457470j4",
+   "ainvs": "[1,-1,0,-488085,-131125609]",
+   "conductor": 457470,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "463080b4",
+   "ainvs": "[0,-1,0,-2469760,-1493107028]",
+   "conductor": 463080,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "465120g4",
+   "ainvs": "[0,0,0,-1395363,-634422998]",
+   "conductor": 465120,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "472290a4",
+   "ainvs": "[1,1,0,-189903,-31930773]",
+   "conductor": 472290,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "485112h4",
+   "ainvs": "[0,1,0,-2587264,-1602666208]",
+   "conductor": 485112,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "485826t4",
+   "ainvs": "[1,1,1,-27842,-1694521]",
+   "conductor": 485826,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "488070bp4",
+   "ainvs": "[1,-1,0,-2688354,-6364417860]",
+   "conductor": 488070,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "491970bp4",
+   "ainvs": "[1,1,1,-11104090891,-450377916058711]",
+   "conductor": 491970,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "494760co4",
+   "ainvs": "[0,1,0,-1697120,-851540592]",
+   "conductor": 494760,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "495482q4",
+   "ainvs": "[1,-1,1,-312631,-67196325]",
+   "conductor": 495482,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  },
+  {
+   "Clabel": "499290e4",
+   "ainvs": "[1,1,0,-11458,-452978]",
+   "conductor": 499290,
+   "rank": 2,
+   "sha": "4",
+   "torsion": 2
+  }
+ ],
+ "meta": {
+  "count": 42,
+  "date": "2026-09-11",
+  "source": "https://raw.githubusercontent.com/JohnCremona/ecdata/master/allbigsha/allbigsha.<range>"
+ }
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+# Wrapper around the Python 3.11 + cypari2 interpreter installed under .tools/env
+# (see compute/README.md). Sets GP_DATA_DIR so that cypari2's pari.ellinit("389a1") works.
+set -eu
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+ENV="$ROOT/.tools/env"
+export PATH="$ENV/bin:$PATH"
+export GP_DATA_DIR="$ENV/share/pari"
+exec "$ENV/bin/python3" "$@"

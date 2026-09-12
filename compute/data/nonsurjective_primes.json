@@ -1,0 +1,103 @@
+{
+ "meta": {
+  "command": "sage -c ... E.galois_representation().non_surjective()  (SageMath 10.7)",
+  "note": "primes p for which the mod-p Galois representation is not surjective onto GL_2(F_p)"
+ },
+ "data": {
+  "389a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "433a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "446d1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "563a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "571b1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "643a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "655a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "664a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "681c1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "707a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "709a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "718b1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "794a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "817a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "916c1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "944e1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "997b1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "1001c1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  },
+  "5077a1": {
+   "non_surjective_primes": [],
+   "cm": false,
+   "torsion_order": 1
+  }
+ }
+}

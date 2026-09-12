@@ -1,0 +1,829 @@
+{
+ "data": [
+  {
+   "Clabel": "194040co6",
+   "ainvs": [
+    0,
+    0,
+    0,
+    -456382227,
+    -3752677112114
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11
+   ],
+   "cm": 0,
+   "conductor": 194040,
+   "ecdata_bsd": {
+    "L1": "13.9865233347408",
+    "ainvs": "[0,0,0,-456382227,-3752677112114]",
+    "rank": 2,
+    "real_period": "0.0326638500999618",
+    "regulator": "107.048949311989",
+    "sha": "4.00000000000000",
+    "tamagawa": 4,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "255990",
+     "129052966"
+    ],
+    [
+     "2472260/64",
+     "385385049/64"
+    ]
+   ],
+   "id": 1246724,
+   "lmfdb_label": "194040.cu1",
+   "manin_constant": 1,
+   "mwbsd": {
+    "area": "0.0015045722542661242872363988804",
+    "conductor": 194040,
+    "gens": [
+     [
+      255990,
+      129052966,
+      1
+     ],
+     [
+      618065,
+      385385049,
+      4
+     ]
+    ],
+    "heights": [
+     {
+      "__RealLiteral__": 0,
+      "data": "10.554040313254906660475928086",
+      "prec": 97
+     },
+     {
+      "__RealLiteral__": 0,
+      "data": "10.566922552179976296880122729",
+      "prec": 97
+     }
+    ],
+    "lmfdb_label": "194040.cu1",
+    "ngens": 2,
+    "rank_bounds": [
+     2,
+     2
+    ],
+    "real_period": "0.032663850099961814433934229010",
+    "sha_an": "4.0000000000000000000000000000",
+    "special_value": "13.986523334740838047212587495025169239",
+    "tamagawa_product": 4,
+    "torsion_generators": [
+     [
+      -12334,
+      0,
+      1
+     ]
+    ],
+    "xcoord_integral_points": [
+     -12334,
+     255990
+    ]
+   },
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "107.04894931198870633224499118",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "194766c4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -2077504,
+    -1152726172
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    11,
+    13,
+    227
+   ],
+   "cm": 0,
+   "conductor": 194766,
+   "ecdata_bsd": {
+    "L1": "18.3671502473984",
+    "ainvs": "[1,0,0,-2077504,-1152726172]",
+    "rank": 2,
+    "real_period": "0.125751764154390",
+    "regulator": "73.0293939449168",
+    "sha": "4.00000000000000",
+    "tamagawa": 2,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "5488",
+     "388078"
+    ],
+    [
+     "15424",
+     "1899178"
+    ]
+   ],
+   "id": 1250974,
+   "lmfdb_label": "194766.bg1",
+   "manin_constant": 1,
+   "mwbsd": {
+    "area": "0.026666059667715762259105507363",
+    "conductor": 194766,
+    "gens": [
+     [
+      5488,
+      388078,
+      1
+     ],
+     [
+      15424,
+      1899178,
+      1
+     ]
+    ],
+    "heights": [
+     {
+      "__RealLiteral__": 0,
+      "data": "8.4049404510600571258755768585",
+      "prec": 97
+     },
+     {
+      "__RealLiteral__": 0,
+      "data": "9.3496591381469759665654150018",
+      "prec": 97
+     }
+    ],
+    "lmfdb_label": "194766.bg1",
+    "ngens": 2,
+    "rank_bounds": [
+     2,
+     2
+    ],
+    "real_period": "0.12575176415438964357443294755",
+    "sha_an": "4.0000000000000000000000000000",
+    "special_value": "18.367150247398380628561590603793270410",
+    "tamagawa_product": 2,
+    "torsion_generators": [
+     [
+      -3329,
+      3329,
+      2
+     ]
+    ],
+    "xcoord_integral_points": [
+     5488,
+     15424
+    ]
+   },
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "73.029393944916814150362428941",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "226005g3",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -268695,
+    67104702
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    3,
+    5,
+    13,
+    19,
+    61
+   ],
+   "cm": 0,
+   "conductor": 226005,
+   "ecdata_bsd": {
+    "L1": "7.62744290644241",
+    "ainvs": "[1,1,1,-268695,67104702]",
+    "rank": 2,
+    "real_period": "0.269785289731179",
+    "regulator": "14.1361356544728",
+    "sha": "4.00000000000000",
+    "tamagawa": 8,
+    "torsion": 4
+   },
+   "gens": [
+    [
+     "620",
+     "11493"
+    ],
+    [
+     "4890",
+     "337721"
+    ]
+   ],
+   "id": 1443657,
+   "lmfdb_label": "226005.b5",
+   "manin_constant": 1,
+   "mwbsd": {
+    "area": "0.013909324584009390505100578933",
+    "conductor": 226005,
+    "gens": [
+     [
+      620,
+      11493,
+      1
+     ],
+     [
+      4890,
+      337721,
+      1
+     ]
+    ],
+    "heights": [
+     {
+      "__RealLiteral__": 0,
+      "data": "2.9940339823113973992402116374",
+      "prec": 97
+     },
+     {
+      "__RealLiteral__": 0,
+      "data": "4.9249686912640450066166597085",
+      "prec": 97
+     }
+    ],
+    "lmfdb_label": "226005.b5",
+    "ngens": 2,
+    "rank_bounds": [
+     2,
+     2
+    ],
+    "real_period": "0.26978528973117886465396571154",
+    "sha_an": "4.0000000000000000000000000000",
+    "special_value": "7.6274429064424112181080828641441999742",
+    "tamagawa_product": 8,
+    "torsion_generators": [
+     [
+      315,
+      3563,
+      1
+     ]
+    ],
+    "xcoord_integral_points": [
+     -234,
+     35,
+     315,
+     620,
+     4890
+    ]
+   },
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "14.136135654472850039729699307",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 4,
+   "torsion_structure": [
+    4
+   ]
+  },
+  {
+   "Clabel": "226920a6",
+   "ainvs": [
+    0,
+    1,
+    0,
+    -73824640,
+    -244170894880
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    31,
+    61
+   ],
+   "cm": 0,
+   "conductor": 226920,
+   "ecdata_bsd": {
+    "L1": "16.9672151796875",
+    "ainvs": "[0,1,0,-73824640,-244170894880]",
+    "rank": 2,
+    "real_period": "0.0515049796279031",
+    "regulator": "164.714317938449",
+    "sha": "4.00000000000000",
+    "tamagawa": 2,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "58543",
+     "14002884"
+    ],
+    [
+     "627100166/2744",
+     "299572999935/2744"
+    ]
+   ],
+   "id": 1448897,
+   "lmfdb_label": "226920.h1",
+   "manin_constant": 1,
+   "mwbsd": {
+    "area": "0.0046417557678391574459966246299",
+    "conductor": 226920,
+    "gens": [
+     [
+      58543,
+      14002884,
+      1
+     ],
+     [
+      44792869,
+      299572999935,
+      14
+     ]
+    ],
+    "heights": [
+     {
+      "__RealLiteral__": 0,
+      "data": "11.058858174493783327517848845",
+      "prec": 97
+     },
+     {
+      "__RealLiteral__": 0,
+      "data": "17.639035081065887303859154681",
+      "prec": 97
+     }
+    ],
+    "lmfdb_label": "226920.h1",
+    "ngens": 2,
+    "rank_bounds": [
+     2,
+     2
+    ],
+    "real_period": "0.051504979627903073315353828380",
+    "sha_an": "4.0000000000000000000000000000",
+    "special_value": "16.967215179687506554530096022007587414",
+    "tamagawa_product": 2,
+    "torsion_generators": [
+     [
+      -4961,
+      0,
+      1
+     ]
+    ],
+    "xcoord_integral_points": [
+     -4961,
+     58543
+    ]
+   },
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "164.71431793844876287923065060",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "245310bs8",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -2143488860,
+    -38197932575245
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    13,
+    17,
+    37
+   ],
+   "cm": 0,
+   "conductor": 245310,
+   "ecdata_bsd": {
+    "L1": "19.0980403845322",
+    "ainvs": "[1,1,1,-2143488860,-38197932575245]",
+    "rank": 2,
+    "real_period": "0.0221880565865338",
+    "regulator": "107.591894709489",
+    "sha": "4.00000000000000",
+    "tamagawa": 8,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "-5776230/216",
+     "2131405/216"
+    ],
+    [
+     "-1979617458/74088",
+     "718236905/74088"
+    ]
+   ],
+   "id": 1560756,
+   "lmfdb_label": "245310.bs1",
+   "manin_constant": 1,
+   "mwbsd": {
+    "area": "0.00041338950364077882712206427163",
+    "conductor": 245310,
+    "gens": [
+     [
+      -962705,
+      2131405,
+      6
+     ],
+     [
+      -47133749,
+      718236905,
+      42
+     ]
+    ],
+    "heights": [
+     {
+      "__RealLiteral__": 0,
+      "data": "8.1528756000096812796898671360",
+      "prec": 97
+     },
+     {
+      "__RealLiteral__": 0,
+      "data": "14.877772111120391562714705881",
+      "prec": 97
+     }
+    ],
+    "lmfdb_label": "245310.bs1",
+    "ngens": 2,
+    "rank_bounds": [
+     2,
+     2
+    ],
+    "real_period": "0.022188056586533824297245062656",
+    "sha_an": "4.0000000000000000000000000000",
+    "special_value": "19.098040384532205785489220756561074286",
+    "tamagawa_product": 8,
+    "torsion_generators": [
+     [
+      -106989,
+      106985,
+      2
+     ]
+    ],
+    "xcoord_integral_points": []
+   },
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "107.59189470948875628595780545",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "256410m4",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -3359385,
+    -2369097365
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    37
+   ],
+   "cm": 0,
+   "conductor": 256410,
+   "ecdata_bsd": {
+    "L1": "9.77848264993328",
+    "ainvs": "[1,-1,0,-3359385,-2369097365]",
+    "rank": 2,
+    "real_period": "0.111515355151658",
+    "regulator": "21.9218300399860",
+    "sha": "4.00000000000000",
+    "tamagawa": 4,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "-1057",
+     "578"
+    ],
+    [
+     "90447",
+     "27150434"
+    ]
+   ],
+   "id": 1627898,
+   "lmfdb_label": "256410.m1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "21.921830039985959412950788272",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "256410q5",
+   "ainvs": [
+    1,
+    -1,
+    0,
+    -455384160,
+    3740487540790
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    37
+   ],
+   "cm": 0,
+   "conductor": 256410,
+   "ecdata_bsd": {
+    "L1": "10.0711831599920",
+    "ainvs": "[1,-1,0,-455384160,3740487540790]",
+    "rank": 2,
+    "real_period": "0.253656623499457",
+    "regulator": "9.92600057220032",
+    "sha": "4.00000000000000",
+    "tamagawa": 4,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "12377",
+     "4634"
+    ],
+    [
+     "12333",
+     "-3811"
+    ]
+   ],
+   "id": 1627908,
+   "lmfdb_label": "256410.q1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "9.9260005722003181781904579861",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "297330bm4",
+   "ainvs": [
+    1,
+    0,
+    0,
+    -13993740,
+    -20149947900
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    5,
+    11,
+    17,
+    53
+   ],
+   "cm": 0,
+   "conductor": 297330,
+   "ecdata_bsd": {
+    "L1": "24.8610905331550",
+    "ainvs": "[1,0,0,-13993740,-20149947900]",
+    "rank": 2,
+    "real_period": "0.0780577638895166",
+    "regulator": "13.2706693171608",
+    "sha": "4.00000000000000",
+    "tamagawa": 24,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "-2160",
+     "1110"
+    ],
+    [
+     "-138220/64",
+     "71015/64"
+    ]
+   ],
+   "id": 1873434,
+   "lmfdb_label": "297330.bm1",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "13.270669317160799982502334206",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "305256n4",
+   "ainvs": [
+    0,
+    1,
+    0,
+    -1628032,
+    -800087200
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    7,
+    23,
+    79
+   ],
+   "cm": 0,
+   "conductor": 305256,
+   "ecdata_bsd": {
+    "L1": "18.9173614858665",
+    "ainvs": "[0,1,0,-1628032,-800087200]",
+    "rank": 2,
+    "real_period": "0.133654565443056",
+    "regulator": "141.539209103383",
+    "sha": "4.00000000000000",
+    "tamagawa": 1,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "13663",
+     "1589880"
+    ],
+    [
+     "379244602/39304",
+     "36911019915/39304"
+    ]
+   ],
+   "id": 1921011,
+   "lmfdb_label": "305256.n1",
+   "manin_constant": 1,
+   "num_bad_primes": 5,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "141.53920910338295821152652544",
+   "semistable": false,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": 1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  },
+  {
+   "Clabel": "312018bm4",
+   "ainvs": [
+    1,
+    1,
+    1,
+    -3745349,
+    9047227241
+   ],
+   "analytic_rank": 2,
+   "bad_primes": [
+    2,
+    3,
+    7,
+    17,
+    19,
+    23
+   ],
+   "cm": 0,
+   "conductor": 312018,
+   "ecdata_bsd": {
+    "L1": "17.0301799142607",
+    "ainvs": "[1,1,1,-3745349,9047227241]",
+    "rank": 2,
+    "real_period": "0.101203817180871",
+    "regulator": "84.1380314925501",
+    "sha": "4.00000000000000",
+    "tamagawa": 2,
+    "torsion": 2
+   },
+   "gens": [
+    [
+     "-16370/8",
+     "730331/8"
+    ],
+    [
+     "39182/8",
+     "2612155/8"
+    ]
+   ],
+   "id": 1960808,
+   "lmfdb_label": "312018.bm3",
+   "manin_constant": 1,
+   "num_bad_primes": 6,
+   "optimality": 0,
+   "rank": 2,
+   "regulator": "84.138031492549986236880853663",
+   "semistable": true,
+   "sha": 4,
+   "sha_primes": [
+    2
+   ],
+   "signD": -1,
+   "torsion": 2,
+   "torsion_structure": [
+    2
+   ]
+  }
+ ],
+ "meta": {
+  "date": "2026-09-11",
+  "note": "10 rank-2 curves with sha>1 of smallest conductor",
+  "source": "LMFDB API (lmfdb_rank_ge2_sha_ne1_N_lt_500000.json)"
+ }
+}

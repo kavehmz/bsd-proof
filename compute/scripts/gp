@@ -1,0 +1,19 @@
+#!/bin/sh
+# Wrapper around the PARI/GP binary installed under .tools/env (see compute/README.md).
+#
+# - Puts .tools/env/bin first on PATH (gp, gphelp, python).
+# - Points GP_DATA_DIR at the conda-forge data packages (elldata, galdata, seadata),
+#   so that ellinit("389a1") (Cremona labels) works.
+# - Sets a large default stack (parisize / parisizemax) since p-adic L-functions and
+#   higher-order derivatives of L-functions are memory hungry.
+# - Sets realprecision to 60 decimal digits by default (override with -D realprecision=NN
+#   or \p inside a script).
+#
+# Usage:  compute/scripts/gp [gp options] [script.gp]
+#         compute/scripts/gp -q < script.gp
+set -eu
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+ENV="$ROOT/.tools/env"
+export PATH="$ENV/bin:$PATH"
+export GP_DATA_DIR="$ENV/share/pari"
+exec "$ENV/bin/gp" -D parisize=256M -D parisizemax=32G -D realprecision=60 -D threadsizemax=4G -D nbthreads=16 "$@"

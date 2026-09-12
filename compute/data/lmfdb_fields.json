@@ -1,0 +1,252 @@
+{
+ "_query_syntax": {
+  "pagination": "_offset=k (100 per page, k<=10000), _fields=a,b,c, _sort=conductor, _format=json",
+  "range (Python literal passed to the DB layer)": "conductor=py{\"$lt\":500000}, sha=py{\"$ne\":1}, rank=py{\"$gte\":2}",
+  "typed equality": "rank=i2, torsion=i5, Clabel=s389a1, lmfdb_label=s389.a1"
+ },
+ "ec_curvedata": {
+  "example": {
+   "Ciso": "11a",
+   "Clabel": "11a2",
+   "Cnumber": 2,
+   "abc_quality": 1.0929566831983986,
+   "absD": 11,
+   "adelic_genus": 37,
+   "adelic_index": 1200,
+   "adelic_level": 550,
+   "ainvs": [
+    0,
+    -1,
+    1,
+    -7820,
+    -263580
+   ],
+   "analytic_rank": 0,
+   "bad_primes": [
+    11
+   ],
+   "class_deg": 25,
+   "class_size": 3,
+   "cm": 0,
+   "conductor": 11,
+   "degree": 5,
+   "elladic_images": [
+    "25.120.0.3"
+   ],
+   "faltings_height": {
+    "__RealLiteral__": 0,
+    "data": "0.49670911509864712261136540515",
+    "prec": 97
+   },
+   "faltings_index": 2,
+   "faltings_ratio": 25,
+   "id": 1,
+   "intrinsic_torsion": 1,
+   "iso_nlabel": 0,
+   "isogeny_degrees": [
+    1,
+    5,
+    25
+   ],
+   "jinv": [
+    -52893159101157376,
+    11
+   ],
+   "lmfdb_iso": "11.a",
+   "lmfdb_label": "11.a1",
+   "lmfdb_number": 1,
+   "manin_constant": 1,
+   "min_quad_twist_ainvs": [
+    0,
+    -1,
+    1,
+    -7820,
+    -263580
+   ],
+   "min_quad_twist_disc": 1,
+   "modell_images": [
+    "5B.1.2"
+   ],
+   "modm_images": [
+    "5.24.0-5.a.2.2",
+    "22.2.0.a.1",
+    "25.120.0-25.a.2.2",
+    "110.48.1.?",
+    "275.600.12.?",
+    "550.1200.37.?"
+   ],
+   "nonmax_primes": [
+    5
+   ],
+   "nonmax_rad": 5,
+   "num_bad_primes": 1,
+   "num_int_pts": 0,
+   "optimality": 0,
+   "potential_good_reduction": false,
+   "rank": 0,
+   "regulator": 1,
+   "semistable": true,
+   "serre_invariants": [
+    [
+     11,
+     12,
+     1
+    ]
+   ],
+   "sha": 1,
+   "sha_primes": [],
+   "signD": -1,
+   "stable_faltings_height": {
+    "__RealLiteral__": 0,
+    "data": "0.49670911509864712261136540515",
+    "prec": 97
+   },
+   "szpiro_ratio": 16.058687318281603,
+   "torsion": 1,
+   "torsion_primes": [],
+   "torsion_structure": []
+  },
+  "fields": [
+   "Ciso",
+   "Clabel",
+   "Cnumber",
+   "abc_quality",
+   "absD",
+   "adelic_genus",
+   "adelic_index",
+   "adelic_level",
+   "ainvs",
+   "analytic_rank",
+   "bad_primes",
+   "class_deg",
+   "class_size",
+   "cm",
+   "conductor",
+   "degree",
+   "elladic_images",
+   "faltings_height",
+   "faltings_index",
+   "faltings_ratio",
+   "id",
+   "intrinsic_torsion",
+   "iso_nlabel",
+   "isogeny_degrees",
+   "jinv",
+   "lmfdb_iso",
+   "lmfdb_label",
+   "lmfdb_number",
+   "manin_constant",
+   "min_quad_twist_ainvs",
+   "min_quad_twist_disc",
+   "modell_images",
+   "modm_images",
+   "nonmax_primes",
+   "nonmax_rad",
+   "num_bad_primes",
+   "num_int_pts",
+   "optimality",
+   "potential_good_reduction",
+   "rank",
+   "regulator",
+   "semistable",
+   "serre_invariants",
+   "sha",
+   "sha_primes",
+   "signD",
+   "stable_faltings_height",
+   "szpiro_ratio",
+   "torsion",
+   "torsion_primes",
+   "torsion_structure"
+  ]
+ },
+ "ec_localdata": {
+  "example": {
+   "conductor": 100,
+   "conductor_valuation": 2,
+   "discriminant_valuation": 4,
+   "id": 623,
+   "j_denominator_valuation": 0,
+   "kodaira_symbol": 4,
+   "lmfdb_label": "100.a1",
+   "prime": 2,
+   "reduction_type": 0,
+   "root_number": -1,
+   "tamagawa_number": 3
+  },
+  "fields": [
+   "conductor",
+   "conductor_valuation",
+   "discriminant_valuation",
+   "id",
+   "j_denominator_valuation",
+   "kodaira_symbol",
+   "lmfdb_label",
+   "prime",
+   "reduction_type",
+   "root_number",
+   "tamagawa_number"
+  ]
+ },
+ "ec_mwbsd": {
+  "example": {
+   "area": {
+    "__RealLiteral__": 0,
+    "data": "0.42820637712534201167782961302",
+    "prec": 97
+   },
+   "conductor": 100,
+   "gens": [],
+   "heights": [],
+   "id": 304,
+   "lmfdb_label": "100.a1",
+   "ngens": 0,
+   "rank_bounds": [
+    0,
+    0
+   ],
+   "real_period": {
+    "__RealLiteral__": 0,
+    "data": "0.84206597485082626734264842803",
+    "prec": 97
+   },
+   "sha_an": {
+    "__RealLiteral__": 0,
+    "data": "1.0000000000000000000000000000",
+    "prec": 97
+   },
+   "special_value": {
+    "__RealLiteral__": 0,
+    "data": "1.2630989622762394010139726420412490646",
+    "prec": 127
+   },
+   "tamagawa_product": 6,
+   "torsion_generators": [
+    [
+     -18,
+     0,
+     1
+    ]
+   ],
+   "xcoord_integral_points": [
+    -18
+   ]
+  },
+  "fields": [
+   "area",
+   "conductor",
+   "gens",
+   "heights",
+   "id",
+   "lmfdb_label",
+   "ngens",
+   "rank_bounds",
+   "real_period",
+   "sha_an",
+   "special_value",
+   "tamagawa_product",
+   "torsion_generators",
+   "xcoord_integral_points"
+  ]
+ }
+}

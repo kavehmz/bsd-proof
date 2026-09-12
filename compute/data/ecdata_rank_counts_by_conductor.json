@@ -1,0 +1,75 @@
+{
+ "data": [
+  {
+   "all_curves": 5113,
+   "conductor_max_exclusive": 1000,
+   "conductor_min": 1,
+   "rank2": 18,
+   "rank3": 0,
+   "rank4": 0
+  },
+  {
+   "all_curves": 59574,
+   "conductor_max_exclusive": 10000,
+   "conductor_min": 1000,
+   "rank2": 2370,
+   "rank3": 1,
+   "rank4": 0
+  },
+  {
+   "all_curves": 592709,
+   "conductor_max_exclusive": 100000,
+   "conductor_min": 10000,
+   "rank2": 54587,
+   "rank3": 541,
+   "rank4": 0
+  },
+  {
+   "all_curves": 624965,
+   "conductor_max_exclusive": 200000,
+   "conductor_min": 100000,
+   "rank2": 69868,
+   "rank3": 1571,
+   "rank4": 0
+  },
+  {
+   "all_curves": 607003,
+   "conductor_max_exclusive": 300000,
+   "conductor_min": 200000,
+   "rank2": 72987,
+   "rank3": 2101,
+   "rank4": 1
+  },
+  {
+   "all_curves": 594285,
+   "conductor_max_exclusive": 400000,
+   "conductor_min": 300000,
+   "rank2": 74516,
+   "rank3": 2465,
+   "rank4": 0
+  },
+  {
+   "all_curves": 581056,
+   "conductor_max_exclusive": 500000,
+   "conductor_min": 400000,
+   "rank2": 74326,
+   "rank3": 2808,
+   "rank4": 0
+  }
+ ],
+ "meta": {
+  "conductor_bound_exclusive": 500000,
+  "date": "2026-09-11",
+  "source": "https://raw.githubusercontent.com/JohnCremona/ecdata/master/allcurves/allcurves.<range>",
+  "totals": {
+   "all_curves": 3064705,
+   "by_rank": {
+    "0": 1170876,
+    "1": 1535669,
+    "2": 348672,
+    "3": 9487,
+    "4": 1
+   }
+  }
+ }
+}
