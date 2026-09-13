@@ -1,0 +1,33 @@
+{
+  "curve": "389a1",
+  "ainvs": [
+    0,
+    1,
+    1,
+    -2,
+    0
+  ],
+  "conductor": 389,
+  "root_number": 1,
+  "sage_version": "10.7",
+  "precision_bits": 96,
+  "t_cutoff": 40,
+  "decay_target": 60,
+  "fourier_cutoff": 189,
+  "eta_cutoff": 189,
+  "normalization": "f=q+sum_(n>=2) a_n q^n; x=log(sqrt(N)*y); rho=y*f(iy); U=log(eta(iy)*eta(i*N*y))+x/2",
+  "folded_integral": "(1/pi)*integral_(c,infinity) f(i*t/(2*pi))*W(t)^2 dt; c=2*pi/sqrt(N)",
+  "eta_coefficients": "b_n=sigma_1(n)/n, computed as exact rational numbers; 0<b_n<=n",
+  "finite_integral": "[110.3030495519480638493 +/- 1.14e-20]",
+  "coefficient_error_bound": "[7.4118622269105413320656091e-24 +/- 8.00e-50]",
+  "eta_uniform_error_bound": "[7.2920953101205197115879287e-24 +/- 4.99e-50]",
+  "eta_integral_error_bound": "[3.7164329524517701648427507e-21 +/- 7.51e-47]",
+  "integration_error_bound": "[1.272706807753851464999472009e-12 +/- 4.14e-40]",
+  "correction_integral": "[110.30304955195 +/- 3.21e-12]",
+  "correction_rational_endpoints": [
+    "4267142546738570554881062447/38685626227668133590597632",
+    "4267142546738669025801909807/38685626227668133590597632"
+  ],
+  "strictly_positive": true,
+  "scope": "Proves the eta second-jet correction is nonzero on the actual curve; does not prove arithmetic rationality, integrality, or BSD."
+}

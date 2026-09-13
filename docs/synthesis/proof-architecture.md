@@ -1,147 +1,119 @@
-# Proof architecture — BSD over \(\mathbb{Q}\)
+# Corrected proof architecture — BSD over the rationals
 
-Status: coordinator synthesis after Wave 2 agent failure (Fable 5.1 quota exhausted, 2026-09-11).
-Tags follow `../00-charter.md`. Implications below are either `[THEOREM]` (cited) or `[NEW]` reductions already proved in `../03-obstructions-rank-ge-2.md`.
+Updated: 2026-09-12 after the [continuation audit](continuation-2026-09-12.md).
+This replaces the previous claim that P1, P2, and complex rationality alone
+were already a sufficient package.
 
----
+## 1. Exact bookkeeping
 
-## 0. The target
+Write $r=\operatorname{rank}E(\mathbb Q)$, $a=\operatorname{ord}_{s=1}L(E,s)$,
+$s_p=\operatorname{corank}_{\mathbb Z_p}\operatorname{Sel}_{p^\infty}(E/\mathbb Q)$,
+and $t_p=\operatorname{corank}_{\mathbb Z_p}\operatorname{Sha}(E/\mathbb Q)[p^\infty]$.
 
-Let \(E/\mathbb{Q}\) be an elliptic curve.
+**[THEOREM]** The Kummer sequence gives $s_p=r+t_p$.
+The primary Sha group is cofinitely generated, so $t_p=0$ is equivalent to
+its finiteness. Thus
+$$
+[s_p=a\text{ and }\operatorname{Sha}[p^\infty]\text{ finite}]
+\iff[r=a\text{ and }\operatorname{Sha}[p^\infty]\text{ finite}].
+$$
+If $s_p=a$ and $a$ independent points are exhibited, then $r=a$ and
+$\operatorname{Sha}[p^\infty]$ is finite. Rank equality alone does not establish either
+primary finiteness or $s_p=a$.
 
-- **BSD(rank):** \(r_{\mathrm{alg}}=r_{\mathrm{an}}\).
-- **BSD(lead):** \(\operatorname{Sha}(E/\mathbb{Q})\) is finite and
-  \[
-  \frac{L^{(r)}(E,1)}{r!}=\frac{\Omega_E\cdot\operatorname{Reg}_{\mathrm{NT}}\cdot\prod_p c_p\cdot\#\operatorname{Sha}}{\#E(\mathbb{Q})_{\mathrm{tors}}^2}.
-  \]
+**[THEOREM]** Primary decomposition gives
+$$
+\operatorname{Sha}\text{ finite}\iff
+[\operatorname{Sha}[p^\infty]\text{ finite for every prime }p]
+\ \land\ [\operatorname{Sha}[p]=0\text{ for all but finitely many primes }p].
+$$
+An assertion about ordinary primes alone does not establish the second clause.
 
-Write \(\mathrm{Sel}(p)\) for “\(\operatorname{corank}_{\mathbb{Z}_p}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=r_{\mathrm{an}}\)” and \(\mathrm{Fin}(p)\) for “\(\operatorname{Sha}[p^\infty]\) is finite”.
+## 2. Selmer witnesses
 
-`[THEOREM]` (standard). \(\mathrm{Sel}(p)\wedge\mathrm{Fin}(p)\) at one \(p\) \(\Rightarrow\) BSD(rank). Full \(\operatorname{Sha}\) finite \(\iff\) \(\mathrm{Fin}(p)\) for every \(p\) and \(\operatorname{Sha}[p]=0\) for almost all \(p\).
+**[CONDITIONAL]** In the rank-two Heegner setup of corrected Proposition 2.2,
+with analytic-rank-one twist and the stated structure theorem available,
+$$\nu_\infty=1\iff s_p=2.$$
+A Mordell–Weil lower bound or primary finiteness remains necessary to deduce
+rank two. No equivalence with $\mathscr M_1=\mathscr M_\infty$ is asserted.
 
----
+**[CONDITIONAL]** For non-CM $E$, $p\ge5$, residual surjectivity, and the
+Manin-constant hypothesis, a nonzero Kurihara family gives
+$$s_p=\operatorname{ord}(\widetilde{\boldsymbol\delta}).$$
+This is Kim's Theorem 3.1; it does not impose ordinarity.
+See the [source and application](continuation-2026-09-12.md#2-what-this-proves-arithmetically).
+To use this route for $a$, one must connect the modular-symbol index to the
+complex analytic rank, then supply the rank/primary-finiteness input above.
+CM curves require a separate route compatible with their residual images.
 
-## 1. Dependency graph
+**[NEW, independently reviewed deduction]** With $r_0$ independent points, a unit Kurihara
+witness with exactly $r_0$ prime factors implies $r=r_0$ and $\operatorname{Sha}[p^\infty]=0$.
+The [proof](continuation-2026-09-12.md#5-a-more-concrete-uniform-target)
+is a direct deduction from Kim's corank and finite-part formulas.
+For 389a1 at $5$, the concrete calculation has been checked directly against
+those formulas; it supplies the witness $41\cdot61$.
+
+## 3. Leading terms and uniformity
+
+Assume $r=a$, and put
+$$c_E=\frac{L^{(r)}(E,1)}{r!\,\Omega_E\operatorname{Reg}_{\rm NT}},\qquad
+C_E=\prod_{q\mid N}c_q,\qquad t=\#E(\mathbb Q)_{\rm tors}.$$
+
+These are separate proof obligations:
+
+- **[GAP] Rationality:** $c_E\in\mathbb Q^\times$.
+- **[GAP] Primary control:** prove finiteness and determine $\#\operatorname{Sha}[p^\infty]$
+  for every relevant prime.
+- **[GAP] Comparison:** identify the rational $c_E$ with those arithmetic orders.
+
+**[CONDITIONAL]** If $\operatorname{Sha}$ is finite, $c_E$ is positive rational, and
+$$v_p(c_E)=v_p(C_E\#\operatorname{Sha}/t^2)\quad\text{for every prime }p,$$
+then full BSD(lead) follows. Indeed the positive rational quotient of the two
+sides has zero valuation at every prime, hence is $1$. This is a sufficient
+bookkeeping package, not a proof of its premises.
+
+The ordinary-prime $\mathrm U(E)$ of Proposition 3.3 is another, stronger local
+comparison assumption. Under that proposition's integral main-conjecture and
+height hypotheses it implies almost-all-prime triviality *within its specified
+ordinary set*. It neither identifies its rational constant with the complex
+$c_E$ nor covers the complementary primes automatically. The reverse direction
+also needs the $p$-adic BSD formulas and the required height nonvanishing.
+
+## 4. Completed deductions and the current test-curve target
+
+The [odd-rank bridge](odd-rank-selmer-bridge.md) proves $s_p\ge3$ in odd
+analytic rank at least three under its stated ordinary and semistable
+supersingular hypotheses. This settles the former GAP 5 in its ordinary
+range. The next odd lower-bound statement is O5 in that note.
+
+For 389a1, [analytic rank equality](analytic-rank-certificates.md),
+[the full basis and real interval](bsd-archimedean-bound.md), and
+[triviality at $2,3,389$](exceptional-prime-finiteness.md) are certified.
+The [uniform-witness theorem](uniform-witness-attack.md) proves, at every
+$p\notin S_0=\{2,3,389\}$,
+$$u_p=2+\dim_{\mathbb F_p}\operatorname{Sha}(389a1)[p],\qquad u_p<\infty.$$
+Thus the following two-node target is sufficient for full BSD for this curve:
 
 ```mermaid
 flowchart TD
-  mod["modularity: L entire"] --> ran["r_an defined"]
-  ran --> r01["r_an ≤ 1"]
-  ran --> r2["r_an = 2"]
-  ran --> r3["r_an ≥ 3"]
-
-  r01 --> GZK["Gross–Zagier–Kolyvagin + Kato + BFH/MM"]
-  GZK --> BSD01["BSD rank + Sha finite, r_an ≤ 1"]
-  BSD01 --> lead01["BSD lead, r_an ≤ 1, at all but finitely many p"]
-
-  r2 --> P1["P1: ν_∞ = 1"]
-  r2 --> P2["P2: ord δ̃ = 2"]
-  P1 --> Kim["Kim higher GZ"]
-  P2 --> Kim
-  Kim --> Sel2["Sel(p) at one p"]
-  Sel2 --> pts["two independent points, or Fin(p)"]
-  pts --> BSD2r["BSD rank, r_an = 2"]
-  BSD2r --> P3["P3: U(E) / rationality of L''/ΩReg"]
-  P3 --> BSD2l["BSD lead + Sha finite, r_an = 2"]
-
-  r3 --> P2odd["P2: ord δ̃ = r_an"]
-  P2odd --> Sel3["Sel(p)"]
-  Sel3 --> P3odd["P3 in rank ≥ 3"]
-  P3odd --> BSD3["BSD rank + lead, r_an ≥ 3"]
+  rank["Proved: algebraic and analytic rank two"] --> bsd["Full BSD for 389a1"]
+  witness["GAP: first unit index two at every p outside S0"] --> good["Sha primary parts zero outside S0"]
+  good --> sha["Full Sha is zero"]
+  exceptions["Proved: Sha primary parts at 2,3,389 are zero"] --> sha
+  sha --> bsd
+  integral["GAP: complex BSD quotient is an integer"] --> one["Complex BSD quotient equals one"]
+  interval["Proved: real quotient between 0.9931 and 1.0077"] --> one
+  one --> bsd
 ```
 
----
+The integrality node is an unproved arithmetic comparison, not a consequence
+of the narrow interval or of rationality alone. An almost-all-prime witness
+argument introducing additional exceptions must handle those primes separately.
+The [one-sided comparison criterion](derived-comparison-attack.md#6-the-units-can-be-bypassed-a-one-sided-and-archimedean-reduction)
+and [uniform torsor degree criterion](genus-one-finiteness-attack.md#3-the-uniform-degree-criterion-really-is-full-finiteness)
+are alternative approaches with explicit hypotheses.
 
-## 2. Closed nodes
-
-### 2.1 Rank \(\le 1\)
-
-`[THEOREM]` If \(r_{\mathrm{an}}\le 1\) then \(r_{\mathrm{alg}}=r_{\mathrm{an}}\) and \(\operatorname{Sha}(E/\mathbb{Q})\) is finite.
-
-Sources, with the exact engine:
-
-- \(r_{\mathrm{an}}=0\): Kato [Kat04] (Euler system + reciprocity \(L(E,1)\)); alternatively Kolyvagin on a twist of analytic rank 1 (BFH90, MM91 produce the twist).
-- \(r_{\mathrm{an}}=1\): Gross–Zagier [GZ86] + Kolyvagin [Kol90] + existence of a Heegner \(K\) with \(r_{\mathrm{an}}(E/K)=1\) [BFH90], [MM91].
-- Converses: Skinner [Ski20]; Zhang [Zha14]; BCGS [BCGS, Cor. A].
-
-`[CONDITIONAL]` The \(p\)-part of BSD(lead) in rank \(\le 1\) is a theorem for odd good ordinary \(p\) under the integral / rational main conjecture and the usual image hypotheses (Jetchev–Skinner–Wan [JSW17], Skinner–Urban [SU14], Wan, Castella–Grossi–Skinner [CGS25]). Remaining \(p\): a finite list per curve (bad, supersingular, Eisenstein, \(p=2\)).
-
-### 2.2 Density
-
-`[THEOREM]` (Bhargava–Skinner–Zhang [BSZ14]). At least \(66.48\%\) of \(E/\mathbb{Q}\) ordered by height satisfy BSD(rank); all of them have rank \(\le 1\).
-
-This node is closed and **does not touch** \(r_{\mathrm{an}}\ge 2\).
-
-### 2.3 Rank-agnostic machines
-
-These are theorems in arbitrary rank; they do not identify the rank with \(r_{\mathrm{an}}\).
-
-| Machine | Output | Source |
-|---------|--------|--------|
-| Rational cyclotomic IMC | \(\operatorname{ord}_{T=0}f_E=r_p\) if \(E[p]\) irreducible, \(p\) odd good ordinary | Wan [Wan15]; [BCGS, Thm. 3.2.6] |
-| Integral IMC | \(f_E=L_p\) in \(\Lambda\) if \(\bar\rho\) surjective and ramified at some \(q\|N\) | Skinner–Urban [SU14] |
-| Kolyvagin structure | \(\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=\nu_\infty+1\) (rank 2 setup of Prop. 2.2 in `03`) | Kolyvagin [Kol91]; Zhang [Zha14]; BCGS [BCGS] |
-| Kurihara–Kim | \(\operatorname{corank}\operatorname{Sel}_{p^\infty}=\operatorname{ord}(\tilde{\boldsymbol\delta})\) | Kurihara [Kur14]; Kim [Kim24], [Kim25] |
-| Kato vanishing | \(\zeta_E^{\mathrm{Kato}}=0\) if \(r_{\mathrm{an}}\ge 2\) | [BDV22] + Euler-system bound; Prop. 1.1 of `03` `[NEW]` |
-| \(p\)-parity | \(\operatorname{corank}\operatorname{Sel}_{p^\infty}\equiv r_{\mathrm{an}}\pmod 2\) | Dokchitser–Dokchitser [DD10] |
-
----
-
-## 3. Open nodes, and the shortest sufficient list
-
-### 3.1 Minimal package
-
-`[NEW]` (coordinator; the equivalences are Props. 2.2, 5.1, 3.3 of `03`). The three statements below, plus the 2026 theorems of §2, imply **full BSD over \(\mathbb{Q}\)**.
-
-**P1 (Kolyvagin index).** For every \(E/\mathbb{Q}\) with \(r_{\mathrm{an}}=2\) and every Heegner \(K\) with \(r_{\mathrm{an}}(E^K)=1\), there is a prime \(p\) as in [Zha14] or [BCGS] with \(\nu_\infty(E,K,p)=1\).
-
-**P2 (Kurihara / Mazur–Tate).** For every \(E/\mathbb{Q}\) there is a good ordinary \(p\ge 5\) with \(\bar\rho_{E,p}\) surjective and Manin constant prime to \(p\) such that \(\tilde\delta_n=0\) in \(\mathbb{Z}_p/I_n\) for all \(n\) with \(\nu(n)<r_{\mathrm{an}}\), and \(\tilde\delta_n\ne 0\) for some \(n\) with \(\nu(n)=r_{\mathrm{an}}\).
-
-**P3 (uniformity).** For every \(E/\mathbb{Q}\) with \(r_{\mathrm{alg}}=r_{\mathrm{an}}\), the constant
-\[
-c_E=\frac{L^{(r)}(E,1)}{r!\,\Omega_E\operatorname{Reg}_{\mathrm{NT}}}
-\]
-is rational and nonzero; equivalently \(\mathrm{U}(E)\) of Prop. 3.3 of `03` holds.
-
-### 3.2 Redundancies
-
-- In rank 2, P1 \(\iff\) P2 at the same \(p\): Kim [Kim24, Thm. 2.3] gives \(\operatorname{ord}(\kappa^{\mathrm{Heeg}})+1=\max\{\operatorname{ord}\tilde\delta(E),\operatorname{ord}\tilde\delta(E^K)\}\), and \(\operatorname{ord}\tilde\delta(E^K)=1\) by GZK. So **either P1 or P2** finishes BSD(rank)+\(\mathrm{Fin}(p)\) in rank 2.
-- P2 alone gives \(\mathrm{Sel}(p)\) in every rank (Kim [Kim24, Thm. 3.1]). BSD(rank) still needs \(\mathrm{Fin}(p)\) or \(r_{\mathrm{alg}}\ge r_{\mathrm{an}}\) (exhibited points).
-- P3 is BSD(lead) once the rank is known. It is the only known route to \(\operatorname{Sha}\) finite at **all** \(p\) in rank \(\ge 2\) (`03`, §3.3).
-
-### 3.3 What is *not* on the shortest list
-
-- Schneider non-degeneracy in rank 1 (GAP 1): avoidable for BSD via Heegner; needed only for \(\mathrm{T}(E,p)\).
-- Higher Gross–Zagier over \(\mathbb{Q}\) (GAP 4): sufficient for P3, not necessary (P3 can be proved another way).
-- \(\mathrm{T}(E,p)\) upper bound (GAP 3): equivalent to BSD(rank)+\(\mathrm{Fin}(p)\)+Schneider, hence strictly stronger than BSD(rank).
-
----
-
-## 4. Curve-by-curve versus uniform
-
-For a **single** curve with known generators (every Cremona curve of rank 2 with \(N\) small, e.g. 389a1):
-
-- BSD(rank) \(\iff\) \(\mathrm{Sel}(p)\) at one \(p\) \(\iff\) P1 or P2 at that \(p\), **or** \(r_p=r_{\mathrm{alg}}\) (a finite \(p\)-adic computation) plus Prop. 3.1 of `03`.
-- The last route **already runs**: Stein–Wuthrich [SW13] and the compute lab give \(r_p=2\) for 389a1 at thousands of ordinary \(p\), hence \(\mathrm{Fin}(p)\) at those \(p\). This is a **verification**, not a uniform proof: each \(p\) is a separate computation, and \(\operatorname{Sha}\) as a whole remains open.
-
-For a **uniform** theorem over all \(E/\mathbb{Q}\), the finite computation is unavailable. Then P1 or P2 is required in every rank \(\ge 2\), and P3 is required for BSD(lead).
-
----
-
-## 5. Status of P1, P2, P3
-
-| Statement | Status 2026-09-11 | Where isolated |
-|-----------|-------------------|----------------|
-| P1 | Open. Equivalent to \(\kappa_\ell^{\mathrm{Heeg}}\ne 0\) for one Kolyvagin prime. Analytic handle is \(L^{\mathrm{alg}}(g_\ell/K,1)\bmod p\) for a level-raised form, not \(L''(E,1)\). | `03` GAP 6, Prop. 2.2; approach B |
-| P2 | Open for \(r_{\mathrm{an}}\ge 2\) (the vanishing \(\tilde\delta_1=0\) is \(L(E,1)=0\); the next vanishings are horizontal). | `03` GAP 5, Cor. 2.4, Layer 5 |
-| P3 | Open for every rank \(\ge 2\). No \(E/\mathbb{Q}\) of rank \(\ge 2\) has \(\operatorname{Sha}\) known finite. | `03` GAP 7, Prop. 3.3; [SW13, p. 1758] |
-
-No 2023–2026 paper located in Wave 1 (or in the aborted Wave 2 literature sweep) claims to close P1, P2, or P3. Ultra-Kolyvagin work (e.g. arXiv:2511.08793, 2605.26917) reorganises Euler-system bounds; it does not identify \(\nu_\infty\) with \(r_{\mathrm{an}}\).
-
----
-
-## 6. What would finish it (one sentence each)
-
-- **Rank 2, one curve, one \(p\):** exhibit \(\ell\) with \(\kappa_\ell^{\mathrm{Heeg}}\ne 0\), or prove \(\operatorname{ord}(\tilde{\boldsymbol\delta})=2\).
-- **Rank 2, all \(p\):** prove \(c_E\in\mathbb{Q}^\times\) (for 389a1 the number is \(1\) to \(>20\) digits).
-- **All ranks, uniformly:** prove P2 (Mazur–Tate refined vanishing \(\theta_n\in I_n^{r_{\mathrm{an}}}\)) and P3.
+Completing these nodes would settle this curve, not the universal BSD objective.
+Uniform higher-rank comparisons, CM coverage, and the corresponding leading-term
+identifications for all curves remain separate obligations. No complete proof
+or counterexample has been obtained.

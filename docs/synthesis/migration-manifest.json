@@ -1,0 +1,1842 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-13T06:19:00.977100+00:00",
+  "paths_relative_to": "extracted bsd-conjecture directory",
+  "research_checkpoint": "docs/synthesis/checkpoint-manifest.json",
+  "scope": "working research files, raw outputs, package records, cached data and referenced sources",
+  "excluded": [
+    ".git",
+    "native environments/package binaries",
+    "account/chat/agent state",
+    "exports",
+    "runs",
+    "Python bytecode"
+  ],
+  "self_hash_rule": "This manifest excludes itself. The companion archive checksum covers its bytes.",
+  "files": {
+    ".gitignore": {
+      "sha256": "3a2d8357735a14ed1810e69dc57ba78519c15b7dc6ec158de51d6f4a36910418",
+      "bytes": 71
+    },
+    ".tools/ecdata/allbigsha/allbigsha.00000-09999": {
+      "sha256": "f86b955d5f332ea91377b2c8b2a9a73b399c5ecf711476a830705ac3e74af2f5",
+      "bytes": 104070
+    },
+    ".tools/ecdata/allbigsha/allbigsha.10000-19999": {
+      "sha256": "3a57dac994e6f748675f1b01c8ee4c748d258592e543f71f43a3fc8fb22b46df",
+      "bytes": 149203
+    },
+    ".tools/ecdata/allbigsha/allbigsha.100000-109999": {
+      "sha256": "0bede2862fda869dee75d56fa072d29e92324b108014c8eb96bd19d59ae97d35",
+      "bytes": 210293
+    },
+    ".tools/ecdata/allbigsha/allbigsha.110000-119999": {
+      "sha256": "820fa71ddba19127eef19fc4a556bb2826b836b0c9d890377e7e249e03643a38",
+      "bytes": 208914
+    },
+    ".tools/ecdata/allbigsha/allbigsha.120000-129999": {
+      "sha256": "cf31465662b29c55b8c58a349939d7ab9b96d72d326d7589227539fedb1924af",
+      "bytes": 212714
+    },
+    ".tools/ecdata/allbigsha/allbigsha.130000-139999": {
+      "sha256": "c8b6e68dad7dc0a96fdfe03d53abb207b37fb81daafe8b7bf01b2f42b765677f",
+      "bytes": 216073
+    },
+    ".tools/ecdata/allbigsha/allbigsha.140000-149999": {
+      "sha256": "8a2680beab6fe3ec690333df96f601593e0caca74ca6077d0caee26f4a8acb37",
+      "bytes": 221070
+    },
+    ".tools/ecdata/allbigsha/allbigsha.150000-159999": {
+      "sha256": "d01ac01f5d180a0553f6ac05a742c51752fb3fde5d37ab410ffe4f810d7378ab",
+      "bytes": 212470
+    },
+    ".tools/ecdata/allbigsha/allbigsha.160000-169999": {
+      "sha256": "9f6cdace7f1d4be227be13a948d51a5f0b674072c6ce452ea0b01a84919b3b84",
+      "bytes": 213788
+    },
+    ".tools/ecdata/allbigsha/allbigsha.170000-179999": {
+      "sha256": "196c32df20dd9ffa94675afe577360f3996fe371518776dbd37d664b2d0b05d6",
+      "bytes": 210379
+    },
+    ".tools/ecdata/allbigsha/allbigsha.180000-189999": {
+      "sha256": "dbf69b555c18b17d3804e09d61bdcc69dd941af3346cb269064fd21f51e462ae",
+      "bytes": 221476
+    },
+    ".tools/ecdata/allbigsha/allbigsha.190000-199999": {
+      "sha256": "17afd035dd242300d99e9ede4f2b4cf40b2b77c75fca991bbc9f6db9be536542",
+      "bytes": 219901
+    },
+    ".tools/ecdata/allbigsha/allbigsha.20000-29999": {
+      "sha256": "be55fba194d579fa362518c6687e0b7e2bfbcb6e693df3c5206c08bfed52453d",
+      "bytes": 161660
+    },
+    ".tools/ecdata/allbigsha/allbigsha.200000-209999": {
+      "sha256": "3d3f0b52461df114301b7a1c6bd7fa17eb110b92073b6abd4f762050fa7d5f4c",
+      "bytes": 229681
+    },
+    ".tools/ecdata/allbigsha/allbigsha.210000-219999": {
+      "sha256": "5adc85a2726c808aef5206b66a921074beb34adf80d21d19df4c35a0f03c4726",
+      "bytes": 219850
+    },
+    ".tools/ecdata/allbigsha/allbigsha.220000-229999": {
+      "sha256": "b48f929aeaa7bfbb55e129d53049215d843acf989ecede8161433c0c0f593e54",
+      "bytes": 223093
+    },
+    ".tools/ecdata/allbigsha/allbigsha.230000-239999": {
+      "sha256": "d2f8b5aab80e659a015e53dc23cbb6fbf0fb36f5516079fde541a8a132c99eca",
+      "bytes": 216852
+    },
+    ".tools/ecdata/allbigsha/allbigsha.240000-249999": {
+      "sha256": "1c77bd2ef7d37fe4bab4139987607821faa7d0576f7afa8c581e66251c13a5b3",
+      "bytes": 228158
+    },
+    ".tools/ecdata/allbigsha/allbigsha.250000-259999": {
+      "sha256": "1cddcfe47857791ce0fe45ee9bafd7be7dd98ef4d7d728ce6a3939132449bebe",
+      "bytes": 222779
+    },
+    ".tools/ecdata/allbigsha/allbigsha.260000-269999": {
+      "sha256": "fc3de938be38025e2f946be9b5e60fe9781df6d4f1f5ea1e37edc67d6eda527f",
+      "bytes": 231657
+    },
+    ".tools/ecdata/allbigsha/allbigsha.270000-279999": {
+      "sha256": "4cec80802614523938852e7d3402ddcebf244106700004801391811dd1acd8ed",
+      "bytes": 231975
+    },
+    ".tools/ecdata/allbigsha/allbigsha.280000-289999": {
+      "sha256": "9d79c157584d92549910f504e2d1b55bc69f8ca9b2ba61a49e0e02373ddb736c",
+      "bytes": 228627
+    },
+    ".tools/ecdata/allbigsha/allbigsha.290000-299999": {
+      "sha256": "062d5003a6581507ea659bffc624ad5bc513594ab2f0074838d1ba71b177da43",
+      "bytes": 234558
+    },
+    ".tools/ecdata/allbigsha/allbigsha.30000-39999": {
+      "sha256": "8f20001fc3aa4b5ed4d195d3d096e46006df58fd353ffe0bd663043472e57ac2",
+      "bytes": 179756
+    },
+    ".tools/ecdata/allbigsha/allbigsha.300000-309999": {
+      "sha256": "9f6686d6f3ab667a6182fcd9f8e87ea28ce007e966730b0f9a0a49d81a5cf32a",
+      "bytes": 224370
+    },
+    ".tools/ecdata/allbigsha/allbigsha.310000-319999": {
+      "sha256": "933212783a489f35ba357e436b039805c5d9dd90538906fb8382e5cdca01eb68",
+      "bytes": 234707
+    },
+    ".tools/ecdata/allbigsha/allbigsha.320000-329999": {
+      "sha256": "8adde2d5d365949c34fdac64a6dce830db4191cba0a2607632bbc04ddc3af524",
+      "bytes": 228018
+    },
+    ".tools/ecdata/allbigsha/allbigsha.330000-339999": {
+      "sha256": "cb55bb2e5da50dbb819a9e5a7b8f219b30ee8d0e68c7db8981a253411b919b21",
+      "bytes": 223169
+    },
+    ".tools/ecdata/allbigsha/allbigsha.340000-349999": {
+      "sha256": "369a0221d733d207882bcb63ac3245854967f93be5f5712e44e12f5c7df3873d",
+      "bytes": 238377
+    },
+    ".tools/ecdata/allbigsha/allbigsha.350000-359999": {
+      "sha256": "3ad398d7b6e50c74d3e2b88febe866237d2e484464c43868c96acef1a92f9f23",
+      "bytes": 232051
+    },
+    ".tools/ecdata/allbigsha/allbigsha.360000-369999": {
+      "sha256": "7fe24fe9c0ea18ece794109f9c49f081cb98f527062733d30e29da61d94e52bb",
+      "bytes": 228215
+    },
+    ".tools/ecdata/allbigsha/allbigsha.370000-379999": {
+      "sha256": "50c9745a5b0631b8714199991a02cdd0feb86ca26efcc2adb7d57396c5bd881e",
+      "bytes": 229619
+    },
+    ".tools/ecdata/allbigsha/allbigsha.380000-389999": {
+      "sha256": "901613729d7312fc98350cf1310e53733bc29556614f5596938c371036cf627b",
+      "bytes": 236694
+    },
+    ".tools/ecdata/allbigsha/allbigsha.390000-399999": {
+      "sha256": "205adb797166827cfbaf69358c9568915d5310b702a766a687d48b467fe31422",
+      "bytes": 228844
+    },
+    ".tools/ecdata/allbigsha/allbigsha.40000-49999": {
+      "sha256": "e33050380a6c2c3527ae657db86af30f702d77fa31e42968f8873f4cd8b9f581",
+      "bytes": 180796
+    },
+    ".tools/ecdata/allbigsha/allbigsha.400000-409999": {
+      "sha256": "91ac33e430cda3094839cc19387486f70628b4ddca3ecdf0822b4972318e1f6b",
+      "bytes": 219670
+    },
+    ".tools/ecdata/allbigsha/allbigsha.410000-419999": {
+      "sha256": "50de86aa205be82e4b92841c9dd898eade54a7850b1656ad165eb64125a23a1a",
+      "bytes": 233838
+    },
+    ".tools/ecdata/allbigsha/allbigsha.420000-429999": {
+      "sha256": "3bae117df1caed1612a26b6fd795603ec54c404aff26f8012d27f5c3abf89e3f",
+      "bytes": 228032
+    },
+    ".tools/ecdata/allbigsha/allbigsha.430000-439999": {
+      "sha256": "8ea907bdd21fdb92ee368988ee90063e1ed6cd6f781c00aa5494a71bb81cb03c",
+      "bytes": 234533
+    },
+    ".tools/ecdata/allbigsha/allbigsha.440000-449999": {
+      "sha256": "f557669338f8b40bc879d5d0ae8fe63c8f32c26fafda1cf7063ee9ed495f67fa",
+      "bytes": 226598
+    },
+    ".tools/ecdata/allbigsha/allbigsha.450000-459999": {
+      "sha256": "5f0014616aee13d0d828023d291dc6c3cc21be772dc9d7c7658d638bc07cb050",
+      "bytes": 229326
+    },
+    ".tools/ecdata/allbigsha/allbigsha.460000-469999": {
+      "sha256": "eaa13f38247fb850bf1139c514a7cb8e5f47752aa1a488712768d1dfd2e19611",
+      "bytes": 235530
+    },
+    ".tools/ecdata/allbigsha/allbigsha.470000-479999": {
+      "sha256": "764209d0da977c5d1598a9113eb46822e0534b8468b559a48a573848c4eb77f2",
+      "bytes": 230070
+    },
+    ".tools/ecdata/allbigsha/allbigsha.480000-489999": {
+      "sha256": "eb416bdb545dcf22de82af29e586707436b17a10c202ae2fe088afbd3c03bdac",
+      "bytes": 241279
+    },
+    ".tools/ecdata/allbigsha/allbigsha.490000-499999": {
+      "sha256": "d5e53a5be5b81e8eb47f6c52956e531543b45902cbba6acdc0a90906920698ac",
+      "bytes": 241647
+    },
+    ".tools/ecdata/allbigsha/allbigsha.50000-59999": {
+      "sha256": "7cd40f2d2aee68bdac4e58c1282ba43249fe7852a394ab5165a2fba0ee0b8de5",
+      "bytes": 191975
+    },
+    ".tools/ecdata/allbigsha/allbigsha.60000-69999": {
+      "sha256": "4e1c2f911d9b9b5cd55c811275c83f0c53c836d7a84b16066be0e9f0214df3a5",
+      "bytes": 199475
+    },
+    ".tools/ecdata/allbigsha/allbigsha.70000-79999": {
+      "sha256": "1512702c77560992ec75851cba93a208b040f675f34ee2009368d2163f378ea7",
+      "bytes": 195249
+    },
+    ".tools/ecdata/allbigsha/allbigsha.80000-89999": {
+      "sha256": "7add2e56f73195dab62e4eb0f5413bd4e5af12b88a3092258496e68b9b9af90a",
+      "bytes": 198741
+    },
+    ".tools/ecdata/allbigsha/allbigsha.90000-99999": {
+      "sha256": "11a151536fd73c0c0e9a231adcd1205972869272214b0dadd509f3add49720bb",
+      "bytes": 206126
+    },
+    ".tools/ecdata/allbsd/allbsd.00000-09999": {
+      "sha256": "b078b5226d276fbc64289833abfd8430e3f5969c657bc32f94db546e8f96e8fd",
+      "bytes": 6307455
+    },
+    ".tools/ecdata/allbsd/allbsd.190000-199999": {
+      "sha256": "aa123862da5af092e0192ef6aaab89e05920c641f883f8b7dac6be675520d2d2",
+      "bytes": 6411385
+    },
+    ".tools/ecdata/allbsd/allbsd.220000-229999": {
+      "sha256": "9d6936441995709ec526e5e8a615f402b2f526fb5311d07306aa0bb40048193c",
+      "bytes": 6430067
+    },
+    ".tools/ecdata/allbsd/allbsd.240000-249999": {
+      "sha256": "e9200dd87b20acf6ee3e42722df40ed6bb748b969226efd2fbf77c2b61b97b40",
+      "bytes": 6443766
+    },
+    ".tools/ecdata/allbsd/allbsd.250000-259999": {
+      "sha256": "1661713df5f3d626cf1b5ad198c3b91972557ee8311da31b10dcb83e59cd8a4d",
+      "bytes": 6343133
+    },
+    ".tools/ecdata/allbsd/allbsd.290000-299999": {
+      "sha256": "55286c8e238928410596eedd08fa821ee5623b76af75bb96278a6f572dd03838",
+      "bytes": 6333625
+    },
+    ".tools/ecdata/allbsd/allbsd.300000-309999": {
+      "sha256": "cbe1b138917e58f1c9c70b5ef13869eee53bac1bf4f9b373ed4300440e12936b",
+      "bytes": 6232408
+    },
+    ".tools/ecdata/allbsd/allbsd.310000-319999": {
+      "sha256": "ef8b6750be76066ef7c908ee8be572a75f1857ba8d56cc9f7ba0f3917a2807ef",
+      "bytes": 6327810
+    },
+    ".tools/ecdata/allcurves/allcurves.00000-09999": {
+      "sha256": "259f3846329395b371e8079c77a6f1097adaebc98a054974573e241416efa968",
+      "bytes": 2146401
+    },
+    ".tools/ecdata/allcurves/allcurves.10000-19999": {
+      "sha256": "8cb6f95c0a42e8ae575350e761b80870a64d3b9bb3bab698341b03b4b0cac1db",
+      "bytes": 2416177
+    },
+    ".tools/ecdata/allcurves/allcurves.100000-109999": {
+      "sha256": "9d7e8382495cbdd6b5c92cba5722cd643958e09222c6be022db2fb8fc55f1e1f",
+      "bytes": 2432314
+    },
+    ".tools/ecdata/allcurves/allcurves.110000-119999": {
+      "sha256": "1605dc587cfd78e0f9f4aa2dcb05c1414d82c5705bcc03fcad2fa9e7528d9ea7",
+      "bytes": 2434056
+    },
+    ".tools/ecdata/allcurves/allcurves.120000-129999": {
+      "sha256": "529eda3cefba8008907927931494c9a95fbbc106161e683d5123f65563dbc16a",
+      "bytes": 2444716
+    },
+    ".tools/ecdata/allcurves/allcurves.130000-139999": {
+      "sha256": "94b526de50f806b1561402320a18b459f27ae80952b700dac53ccc41ced62a35",
+      "bytes": 2433972
+    },
+    ".tools/ecdata/allcurves/allcurves.140000-149999": {
+      "sha256": "252ffbc47ec5cbcc009efe6f3f3b24a88d1e4275ae900c964726468098f88dc0",
+      "bytes": 2457639
+    },
+    ".tools/ecdata/allcurves/allcurves.150000-159999": {
+      "sha256": "e32bf9380cd874bbbc5869a3bd974db5bbdc8174c779f8e1868271a59318149e",
+      "bytes": 2394713
+    },
+    ".tools/ecdata/allcurves/allcurves.160000-169999": {
+      "sha256": "0e3f54b3bf2ccf0ece1dae0a11739d0e53e2baa74945218b3b5748da57858b5c",
+      "bytes": 2408609
+    },
+    ".tools/ecdata/allcurves/allcurves.170000-179999": {
+      "sha256": "47123898d4daa831b92ad2ceb28a4f3e6a31da926ec0aa8476df553eb691e952",
+      "bytes": 2416171
+    },
+    ".tools/ecdata/allcurves/allcurves.180000-189999": {
+      "sha256": "d6991512f329ed6386f60fe09c3583c6e818d03384a294cece40a6951fca8c36",
+      "bytes": 2365925
+    },
+    ".tools/ecdata/allcurves/allcurves.190000-199999": {
+      "sha256": "c51661c8b51b30ae30b69db6a0adffd7e52bb356bd751aab5807f9ca161373ed",
+      "bytes": 2373686
+    },
+    ".tools/ecdata/allcurves/allcurves.20000-29999": {
+      "sha256": "3a2863d2b9a9f7e422dd237d265f203c6bfe4b0a9bfb61610248b31447a86378",
+      "bytes": 2417141
+    },
+    ".tools/ecdata/allcurves/allcurves.200000-209999": {
+      "sha256": "8d857c3e2add7eaabce468cea65570f289ec6d03b5ce60eec1e75b6867328986",
+      "bytes": 2447723
+    },
+    ".tools/ecdata/allcurves/allcurves.210000-219999": {
+      "sha256": "f5589342a67280d94f14d24c125d05a92eeebddb54b1d3779f6520a5e97b92e1",
+      "bytes": 2400290
+    },
+    ".tools/ecdata/allcurves/allcurves.220000-229999": {
+      "sha256": "f4fba3c93efa5c090ea7f5c7256f6841f467596e0291cbe7b176c09c51420357",
+      "bytes": 2387668
+    },
+    ".tools/ecdata/allcurves/allcurves.230000-239999": {
+      "sha256": "721c9ad7cdfde7b4c4574113952c4ec45cd9ff04e49b436af1ef419c0a7fc4d4",
+      "bytes": 2340608
+    },
+    ".tools/ecdata/allcurves/allcurves.240000-249999": {
+      "sha256": "3c7ce8812e98bcf51ec9741c63839a04811b193af249d3e6d83ce28a17e83871",
+      "bytes": 2394656
+    },
+    ".tools/ecdata/allcurves/allcurves.250000-259999": {
+      "sha256": "cd178956f86f93c065ab36ad84a2726b6eddf606cad8fe57c19e1ab1f093f3de",
+      "bytes": 2356351
+    },
+    ".tools/ecdata/allcurves/allcurves.260000-269999": {
+      "sha256": "02fc9810a9469fa55f1e9689ffcebead9038c3ec8128d5f9442da08dfb8dbd3e",
+      "bytes": 2329377
+    },
+    ".tools/ecdata/allcurves/allcurves.270000-279999": {
+      "sha256": "f2a5fe19ce2fbad9cddba261ca991bd97aae62cb45554f24246b6616c862c55a",
+      "bytes": 2362513
+    },
+    ".tools/ecdata/allcurves/allcurves.280000-289999": {
+      "sha256": "632a9eca0a78b9f6868bbb1a1ac38f83fd81864f687e580e01b5ab9e3935e1b9",
+      "bytes": 2363307
+    },
+    ".tools/ecdata/allcurves/allcurves.290000-299999": {
+      "sha256": "5f665d88859e8bb1766de3c270a8d01d20b9384b3fdc6c8197877ba9353f8fb8",
+      "bytes": 2355123
+    },
+    ".tools/ecdata/allcurves/allcurves.30000-39999": {
+      "sha256": "693409b3d8099268df7c454cc33ba690dfd2eab4fb06c3a4326b6b8234d7fc6e",
+      "bytes": 2421517
+    },
+    ".tools/ecdata/allcurves/allcurves.300000-309999": {
+      "sha256": "12c1ce97ba122a713a031bf1f0cb9ca59cafd9eef37017b884636ece7ca3bedb",
+      "bytes": 2318397
+    },
+    ".tools/ecdata/allcurves/allcurves.310000-319999": {
+      "sha256": "8a3123e787383672d5720dc8e4fe5c0c03fee562407ca72e0bc4e726637c0993",
+      "bytes": 2357727
+    },
+    ".tools/ecdata/allcurves/allcurves.320000-329999": {
+      "sha256": "2488c8d08feb3b7587ac66fef8c062c2407b28b02e263eb187aca8d8095f3bc7",
+      "bytes": 2323465
+    },
+    ".tools/ecdata/allcurves/allcurves.330000-339999": {
+      "sha256": "fea0ee0a2ad7304e38b1dd8040181cba63f323b859f27ed5ffe845a13a728da3",
+      "bytes": 2347381
+    },
+    ".tools/ecdata/allcurves/allcurves.340000-349999": {
+      "sha256": "abc868d88f982cbcfca703503ad9eb1e7c954ea3229a3cefbe78b3afa9335b10",
+      "bytes": 2406455
+    },
+    ".tools/ecdata/allcurves/allcurves.350000-359999": {
+      "sha256": "f851711970f2d5c830f508ea1bbfa5767f0ce9c111c8ee1904378ae496527bcd",
+      "bytes": 2320915
+    },
+    ".tools/ecdata/allcurves/allcurves.360000-369999": {
+      "sha256": "2a1610201c179e0f5be2a5bf165e1cde98e632f82caa97fdecf8900b67c67e5e",
+      "bytes": 2337281
+    },
+    ".tools/ecdata/allcurves/allcurves.370000-379999": {
+      "sha256": "74512fcbf1a1746937c0c6658a8694ea8e327ba2ce322038f3de4f3944e0f2a1",
+      "bytes": 2330009
+    },
+    ".tools/ecdata/allcurves/allcurves.380000-389999": {
+      "sha256": "1f23455f8530fc8966c048df80b2c7d85eb60dcf0441a9ad618f360c874305ed",
+      "bytes": 2363976
+    },
+    ".tools/ecdata/allcurves/allcurves.390000-399999": {
+      "sha256": "a9cfd38213e185cf20a3373ec9c3593efc121ebd793f6f1a22d29591eae40736",
+      "bytes": 2294476
+    },
+    ".tools/ecdata/allcurves/allcurves.40000-49999": {
+      "sha256": "53c60910cc04de5de37372795d9ad79a9c2551364802f6a808242d3b5543139f",
+      "bytes": 2424905
+    },
+    ".tools/ecdata/allcurves/allcurves.400000-409999": {
+      "sha256": "c43f864f143f938e4034f3429ded64ab3d2d48a41395daa74462eee36ec709e2",
+      "bytes": 2274684
+    },
+    ".tools/ecdata/allcurves/allcurves.410000-419999": {
+      "sha256": "1d7bbe905775112faae15b26369b3af139bb55d97aee1d6504f59310783c07e7",
+      "bytes": 2320568
+    },
+    ".tools/ecdata/allcurves/allcurves.420000-429999": {
+      "sha256": "cc305cd0690d4ceea42adbe063c6353cdde668e633665700cb7512d9ac1a3fac",
+      "bytes": 2303219
+    },
+    ".tools/ecdata/allcurves/allcurves.430000-439999": {
+      "sha256": "3d67205314818b744027ca64a24ea002aa52ae7d7de3f0159f07b9113b7b049e",
+      "bytes": 2306391
+    },
+    ".tools/ecdata/allcurves/allcurves.440000-449999": {
+      "sha256": "470b0ad6213c0083101a4e37dfa6792a4952b26a0810d6ace82343acfb07ffcd",
+      "bytes": 2272455
+    },
+    ".tools/ecdata/allcurves/allcurves.450000-459999": {
+      "sha256": "8fbdb29037eeb07129c0732c50a9008d1f8d2064b14554ad68f17d513dff3612",
+      "bytes": 2291051
+    },
+    ".tools/ecdata/allcurves/allcurves.460000-469999": {
+      "sha256": "b59eb074b9237f9edbebf00c2caae8b76b79e0c93aabf34c133f6778d963c170",
+      "bytes": 2267704
+    },
+    ".tools/ecdata/allcurves/allcurves.470000-479999": {
+      "sha256": "0ded61ce4b6d1f495e6353f5f83b25b0a35cc2c01ed7de8effc594824c410534",
+      "bytes": 2313744
+    },
+    ".tools/ecdata/allcurves/allcurves.480000-489999": {
+      "sha256": "8e98cf3eacafe377b0a613b747b99f4049cec9fcf69f468bd3b9ca741823dc18",
+      "bytes": 2355415
+    },
+    ".tools/ecdata/allcurves/allcurves.490000-499999": {
+      "sha256": "863cce8b0706eee957d9001987821393a643fa5de1c2c91db6d513b1cda3d1cd",
+      "bytes": 2300557
+    },
+    ".tools/ecdata/allcurves/allcurves.50000-59999": {
+      "sha256": "29cf0ff77041350cc86cf0f61db42c265c501f85a75e3684975e7daf6a02c632",
+      "bytes": 2408829
+    },
+    ".tools/ecdata/allcurves/allcurves.60000-69999": {
+      "sha256": "630d4b7c04dbe93347d353ee8f56240e5a8c8f1b531e6411da9a0f6ae3260290",
+      "bytes": 2409085
+    },
+    ".tools/ecdata/allcurves/allcurves.70000-79999": {
+      "sha256": "f15e0e6a7d342cb49506b1bb4e33a231ddff2525bba856969fd2d3889e2fde6c",
+      "bytes": 2400921
+    },
+    ".tools/ecdata/allcurves/allcurves.80000-89999": {
+      "sha256": "a8976d385185dffed2208fc8a65c24473211aff319cf69a5288796d693585fa5",
+      "bytes": 2411812
+    },
+    ".tools/ecdata/allcurves/allcurves.90000-99999": {
+      "sha256": "d36bfb34fd89c2bbf6bf2c96438664b9438cd2debac6ce63d7934c28983be9e8",
+      "bytes": 2422252
+    },
+    ".tools/ecdata/allgens/allgens.190000-199999": {
+      "sha256": "4e18bd6bc12c9f1cfa1ce014b8366c49b78f7fb24b9c8d023d58262bfc97a3c6",
+      "bytes": 3630392
+    },
+    ".tools/ecdata/allgens/allgens.220000-229999": {
+      "sha256": "de3177759c1b05cf2f0cbd798fad7654d39b469f5c987275303fce9b60f77124",
+      "bytes": 3644574
+    },
+    ".tools/ecdata/allgens/allgens.240000-249999": {
+      "sha256": "a1d1d406f369cd0852d4857abd06620f101565485c2c035b10554663dd01f394",
+      "bytes": 3662413
+    },
+    ".tools/ecdata/allgens/allgens.250000-259999": {
+      "sha256": "fd53ccb88da1af0f7851b45860fd6d866ca623982b6928bbd974ba164f598814",
+      "bytes": 3605606
+    },
+    ".tools/ecdata/allgens/allgens.290000-299999": {
+      "sha256": "f33df171c1cfb8563d0553bf6caacb117ceb05200dbee5a1485a1e998adff804",
+      "bytes": 3619489
+    },
+    ".tools/ecdata/allgens/allgens.300000-309999": {
+      "sha256": "3bf8e2adffa3ce75805451b3201dbe7f08cdff9a490138a9d3c37fed8cbe3def",
+      "bytes": 3563731
+    },
+    ".tools/ecdata/allgens/allgens.310000-319999": {
+      "sha256": "8b6e5879f8984998ec9cc2c968ef45f10fa8d276da5e0b060492526fbd321f82",
+      "bytes": 3624368
+    },
+    ".tools/handoff-sources/cm-derived-kato2004.pdf": {
+      "sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+      "bytes": 18010813
+    },
+    ".tools/handoff-sources/cm-derived-kato2004.txt": {
+      "sha256": "eb5256be4d9544180c18311d5872e24e34c94640aef3b05b9531b10f3b5cb3e8",
+      "bytes": 350097
+    },
+    ".tools/handoff-sources/cm-nonvanishing-nekovar-selmer.txt": {
+      "sha256": "8c47bc6b806f1eaced3f334eef86eb7e6a08e4245c09c757f1e144e28deb792a",
+      "bytes": 46052
+    },
+    ".tools/handoff-sources/cm-presentation-nekovar.pdf": {
+      "sha256": "61c84e5ad3252a2e520747215ac57a282addc2b58c824a3637bcd77bbe02153f",
+      "bytes": 42932456
+    },
+    ".tools/handoff-sources/cm-uniform-nekovar-height.txt": {
+      "sha256": "a9bfe1b11a4ac5882b413cc4fba3200bdfcdaa9d72a55e8978deda4766a3a556",
+      "bytes": 47891
+    },
+    ".tools/handoff-sources/harmonic-du-yang.pdf": {
+      "sha256": "6cc35991ffe96906f491db9ed005cad3ddb93398ad68d6132461604c4d78659b",
+      "bytes": 480395
+    },
+    ".tools/handoff-sources/harmonic-sprang-polylog.pdf": {
+      "sha256": "a116198a0c40dd785ac417d5321e3906de26392afd0c6920489f71bc466727b0",
+      "bytes": 417760
+    },
+    ".tools/handoff-sources/heegner-kato-bdv22.pdf": {
+      "sha256": "4536fcf4292acb75b437a5826285ef6daf5083cbd0f1adfc19d96f2728928a8e",
+      "bytes": 868036
+    },
+    ".tools/handoff-sources/heegner-kato-kato281.png": {
+      "sha256": "5da8bbbadaf269336d40eabc2ef657734d59b16f625bbaddcd8063779a537e91",
+      "bytes": 156731
+    },
+    ".tools/handoff-sources/higher-theta-kings-rossler.pdf": {
+      "sha256": "6eb0c6ab7208e5630f79f3b35b0b0b998ed8b71ffb371a90c83ba23d0c152893",
+      "bytes": 301549
+    },
+    ".tools/handoff-sources/higher-theta-ssy.pdf": {
+      "sha256": "59c0b417227cbf4858cfc3405fbcf51641019c692a670731492757c44c019053",
+      "bytes": 577516
+    },
+    ".tools/handoff-sources/integrated-brunault.pdf": {
+      "sha256": "8fd73faba5db08328c2884d9f35b79bc528145428766444f3eb8097f3b494fb7",
+      "bytes": 1506692
+    },
+    ".tools/handoff-sources/review-secondary-rost.pdf": {
+      "sha256": "a87d65d2e5b1744e00e7001fe29110c04c27c6e5e5a1aabc1d7b291e772e851f",
+      "bytes": 543897
+    },
+    ".tools/handoff-sources/review-secondary-rost328.png": {
+      "sha256": "145b4f4d88af1d5e0c04c4e252cfd6cd5ffc34f188911dd79051a67d0a02a0f8",
+      "bytes": 125205
+    },
+    ".tools/handoff-sources/review-theta-bost-p274.png": {
+      "sha256": "d9ae28c043fa2e34df15bca996e0195882932cabcaf2ade41f21585635f4ceef",
+      "bytes": 124102
+    },
+    ".tools/handoff-sources/review-theta-bost1999.pdf": {
+      "sha256": "b8153e541bd5b8b7112ec911bcb0a81c79b614926c869512131d062c7e968532",
+      "bytes": 6964750
+    },
+    "AGENTS.md": {
+      "sha256": "e7b04454414f3619c6ddb153d1601e10e384b808c5ddda183d3cc6d16c009f37",
+      "bytes": 3899
+    },
+    "README.md": {
+      "sha256": "5877c21bfc788ddc78dba2c8e086727f4d3b9aa8818f27bfe2f67a9c891af82f",
+      "bytes": 2346
+    },
+    "START_HERE.md": {
+      "sha256": "4ed0d96bb8e4d738c8563570bc303b1103091868aa9ad67d9be8fef5702284b2",
+      "bytes": 3367
+    },
+    "compute/README.md": {
+      "sha256": "0b76e792c803ad0d8f4ec5137e92c9a81deb0e046b9e5ffc190e7fe22da7f83c",
+      "bytes": 15749
+    },
+    "compute/data/analytic_rank_certificates.json": {
+      "sha256": "6752e42e19c7cd5d4d3d8ba48e3c267cd8113dbd2ba2c3c47b2f071b0a1fcc0f",
+      "bytes": 3608
+    },
+    "compute/data/arithmetic_surface_389a1.json": {
+      "sha256": "c52dc80dba3de6740c7521b7556cfe04af00232e3b7182200a0ba739e5b6f6c2",
+      "bytes": 1013
+    },
+    "compute/data/bsd_archimedean_interval.json": {
+      "sha256": "0d0c1d90d02b42d825ca47ddb6281d92580d3b58264e71d6eec0aec0f93a4f73",
+      "bytes": 44975
+    },
+    "compute/data/bsd_table.log": {
+      "sha256": "e17ee928ac54690e63b2cfc74657961503391921b8e037a8bca3cda3f23c69f7",
+      "bytes": 38601
+    },
+    "compute/data/bsd_table.md": {
+      "sha256": "d23314fadc0245d97f788f00a4af51a0bafc59351908b685116add216eaf1406",
+      "bytes": 6050
+    },
+    "compute/data/bsd_table.stdout": {
+      "sha256": "819afad7f0cda697b0a3126ad7e26f19268233776272a7a96c43313cdce05041",
+      "bytes": 38706
+    },
+    "compute/data/bsd_table.tsv": {
+      "sha256": "7de3b12074e35b34ddeed5702b9f60bc5f07680b4d515225894af3404fc7be15",
+      "bytes": 15557
+    },
+    "compute/data/bsd_table_vs_lmfdb.md": {
+      "sha256": "a4ce7f0db05b6b1188f29e1afe2b8046d2adb3ec524d8ccdc4b7c058cd4d8009",
+      "bytes": 4762
+    },
+    "compute/data/certify_ran.json": {
+      "sha256": "94bd4f797aed3371849cc37e2630b726236cd246c1a3dc8113494f161b6ae3af",
+      "bytes": 2185
+    },
+    "compute/data/certify_ran.log": {
+      "sha256": "9f0ca29fb191104ae987247bce39a17599f4b9f65ba5f1f1a78970f8874c5ade",
+      "bytes": 9956
+    },
+    "compute/data/cm39_analytic_rank_certificate.json": {
+      "sha256": "ca709ee9550994f0e3d1022423ce6ac1eb27c5bc1ae6b152338684e7a6f11c2d",
+      "bytes": 1786
+    },
+    "compute/data/cm39_padic_derivative_certificate.json": {
+      "sha256": "22164e5e22c37f18cd5cb12ecf3a3296a106ef6e70c4b35f62267f4ad46bb85a",
+      "bytes": 115405
+    },
+    "compute/data/cm_local_taylor_mod5.json": {
+      "sha256": "900a9060c40de02e5d541276d358938a7929b6538f4fef23db31f6954462c307",
+      "bytes": 3873
+    },
+    "compute/data/cm_local_taylor_mod5_independent.json": {
+      "sha256": "a9c2cc60c05adeee2f06d17c33a16435c0b6c5f5b9ab8bdbf7621e050e7c31ae",
+      "bytes": 3275
+    },
+    "compute/data/coherent_measure_example.json": {
+      "sha256": "be2a4baa104f9731ae26b23069b9d39ec54948f865b68249c9e04060955d3296",
+      "bytes": 1625
+    },
+    "compute/data/ecdata_bsd_reference.json": {
+      "sha256": "210bba3f5ffe5b2f1219a05d6627530eadcddbd8823bce0abde32b17e3ae462c",
+      "bytes": 5253
+    },
+    "compute/data/ecdata_rank3_N_lt_500000.csv": {
+      "sha256": "a911c8416c1ca3e56f121ab33523a9a4a453ca1a3597bf272a201e155e5435de",
+      "bytes": 396368
+    },
+    "compute/data/ecdata_rank4_N_lt_500000.csv": {
+      "sha256": "04827ffffbc699fd120fd662e88dedcd7399eb621dc2a2b02698c94150ff85d6",
+      "bytes": 77
+    },
+    "compute/data/ecdata_rank_counts_by_conductor.csv": {
+      "sha256": "9f19a6fbe1dfeed3c734daafb500bd52947741e56469275015f7dd23735e9958",
+      "bytes": 288
+    },
+    "compute/data/ecdata_rank_counts_by_conductor.json": {
+      "sha256": "e6b5e4bf9ee8ee9ac6e95431975bd676054b4a6abc58e6deea9a1a601627a648",
+      "bytes": 1373
+    },
+    "compute/data/ecdata_rank_ge2_sha_gt1_N_lt_500000.csv": {
+      "sha256": "1581f7d6d91068a0482ed9b28c9d90becf495ddae48b63b7075bb6f89fd6df9a",
+      "bytes": 2343
+    },
+    "compute/data/ecdata_rank_ge2_sha_gt1_N_lt_500000.json": {
+      "sha256": "09d28f25771803a660fdd442b571ce0f5e5355ef0b66693b975cc97d310146ea",
+      "bytes": 6380
+    },
+    "compute/data/eta_correction_389a1.json": {
+      "sha256": "296d02a17662ee81a581fefd5e8790336d0b2430478df99becc923e1999902c9",
+      "bytes": 1320
+    },
+    "compute/data/exceptional_primes_389a1.json": {
+      "sha256": "eb7bb1b804caead57772795e6d732a633b9252f64d987362b0e34c297b4ef6b7",
+      "bytes": 2835
+    },
+    "compute/data/kurihara_389a1_p5.json": {
+      "sha256": "ca3c082a9e6c5cb265b7196a54e11d6fd4b689f343505f09e95276ea4a6e4e96",
+      "bytes": 1546
+    },
+    "compute/data/lmfdb_fields.json": {
+      "sha256": "9f781e0c3fa32527082defebdc5b1cd16877d3907c61a774b67a612083c61704",
+      "bytes": 4608
+    },
+    "compute/data/lmfdb_rank2_sha_picks.gp": {
+      "sha256": "49de3921f1dc00103874aed27b99057f914cb6ddfeb377d41c1e1ecef4a3cf7e",
+      "bytes": 1325
+    },
+    "compute/data/lmfdb_rank2_sha_picks.json": {
+      "sha256": "3353ec535e5ea11f7a160f088553b0fa2fa6984181b8f8f65d8eda94a3f92935",
+      "bytes": 13817
+    },
+    "compute/data/lmfdb_rank_ge2_sha_ne1_N_lt_500000.csv": {
+      "sha256": "b61c3d5e476397b2624e32547be1852c4d4e0cb979d20babfddde1d696d17069",
+      "bytes": 6387
+    },
+    "compute/data/lmfdb_rank_ge2_sha_ne1_N_lt_500000.json": {
+      "sha256": "27af4b62dbbe766ca9abc190f02095ee4962b0361eece0d536aed287956f2e9e",
+      "bytes": 23511
+    },
+    "compute/data/nonsurjective_primes.json": {
+      "sha256": "418d6b17be9cec4d83de73f96c68352cdf48e4de66849a68a500b16c291b7c0a",
+      "bytes": 1889
+    },
+    "compute/data/padic_ranks_pari_1.jsonl": {
+      "sha256": "c634d7284398086ee3ec6396d2d56d8e9a8071a280c0393bd7ba846dc20fc5e4",
+      "bytes": 33121
+    },
+    "compute/data/padic_ranks_pari_1.log": {
+      "sha256": "ab6b9c1c6caae13b125e6b311eafbbc1a1b598172a2992f1e4451bb6ca5c62a8",
+      "bytes": 30548
+    },
+    "compute/data/padic_ranks_pari_2.jsonl": {
+      "sha256": "3c679acd721ea3812cf3376fd6cd5f2fa1e31a6bab78ebcd8fd48e5d354bbecb",
+      "bytes": 30756
+    },
+    "compute/data/padic_ranks_pari_2.log": {
+      "sha256": "96d63f5f0f02ca18b5ca1e815ed1f4c42d449c9bd0e9eea7476cd0dd9051b55d",
+      "bytes": 28619
+    },
+    "compute/data/padic_ranks_pari_3.jsonl": {
+      "sha256": "2fe33345c6e472512759c176cd8a9f149ba6a6c61db28891c4084514e66541bb",
+      "bytes": 32633
+    },
+    "compute/data/padic_ranks_pari_3.log": {
+      "sha256": "82b5497edf99335669ea202a425be33e3359b5e90ea8376a970d3b6d661fc94b",
+      "bytes": 30295
+    },
+    "compute/data/padic_ranks_pari_4.jsonl": {
+      "sha256": "87d9dfbe876b0cfd92e6ca34d1e7d6e2bdca3b60bedc76b45e8fe3554a0873f7",
+      "bytes": 20832
+    },
+    "compute/data/padic_ranks_pari_4.log": {
+      "sha256": "0f25691a6df4480c15e552bc48aebe7ff2529d74a8b06edb227c58c8dcd9e674",
+      "bytes": 20213
+    },
+    "compute/data/padic_ranks_report.md": {
+      "sha256": "ecb42481b723c8317c0c7884ceb895c879f6b6bf605c1a0a95201ab4594b7f75",
+      "bytes": 40395
+    },
+    "compute/data/padic_ranks_sage_1.jsonl": {
+      "sha256": "4938a995e46027dcf41192476fcbc961a6690fca4308a0fa55b64ed1d6c21c55",
+      "bytes": 61493
+    },
+    "compute/data/padic_ranks_sage_1.log": {
+      "sha256": "3f3e1cae5669067dd6c4c8c7dd60cc74890b36dfe6dc742159b18e69f4d4f706",
+      "bytes": 41783
+    },
+    "compute/data/padic_ranks_sage_2.jsonl": {
+      "sha256": "91622fe85438c0b25ef22604959d8e8e422514f9960d96a3ce12510f0e696286",
+      "bytes": 58482
+    },
+    "compute/data/padic_ranks_sage_2.log": {
+      "sha256": "18827e55700de5eabb31a7d00c5a95bc8cf0c644dd025e3f592cb4c3d2c7d230",
+      "bytes": 40032
+    },
+    "compute/data/padic_ranks_sage_3.jsonl": {
+      "sha256": "1dd9c8ca3473be19bb6bc57a36f93ea5fb2b6e67e75d934c8bf0bbd3d21b5c6c",
+      "bytes": 59255
+    },
+    "compute/data/padic_ranks_sage_3.log": {
+      "sha256": "bef96a66bc16d2deb4e5a4b45954b2e89f4d5b49fe3b65a30c0040e55ab582a5",
+      "bytes": 40395
+    },
+    "compute/data/padic_ranks_sage_4.jsonl": {
+      "sha256": "0b438c792d6a2c1f63b60b063154b9146caf20806d5f44bf28bbfec78cb58ba9",
+      "bytes": 47472
+    },
+    "compute/data/padic_ranks_sage_4.log": {
+      "sha256": "f29f08e812eea069b4d9cd4973b3680de8e15fe131924ad246281cfcd6e20a55",
+      "bytes": 32726
+    },
+    "compute/data/padic_ranks_sage_5.jsonl": {
+      "sha256": "7e95eb0eb38e52763f03625a06e9cf47cbdd81775f7350ae2a16f46b19f86b5e",
+      "bytes": 562
+    },
+    "compute/data/padic_ranks_sage_5.log": {
+      "sha256": "c07ab6c580fb4ab7201842fba3fe501278184160bf78fc7d2b0697264c72b5c6",
+      "bytes": 944
+    },
+    "compute/environment/installed-package-inventory.json": {
+      "sha256": "885e301de6b5ebda0d060af23fa4109c210149db91a61a0d296c31d6ed04251f",
+      "bytes": 186619
+    },
+    "compute/environment/pari-osx-arm64-explicit.txt": {
+      "sha256": "ab77f11fb3ca02bf293747a35643aac45780155eb17b2805f3988a8c4c45a3c1",
+      "bytes": 6202
+    },
+    "compute/environment/sage-osx-arm64-explicit.txt": {
+      "sha256": "be7aaf5bea1f1015197b5ac655306b83c691657834366cbf13a3cf2ebf88e1b4",
+      "bytes": 45426
+    },
+    "compute/scripts/arithmetic_surface_check.py": {
+      "sha256": "c3e711b0c718c1afdbea80fd5fdf82492c4d568f3825fb3af2bec9299ac6c2e6",
+      "bytes": 2564
+    },
+    "compute/scripts/bsd_table.gp": {
+      "sha256": "c36c4e83374df609dfb0a52f94ccd65edd57da8e6938b6f6c22bb4cd633db658",
+      "bytes": 7963
+    },
+    "compute/scripts/build_handoff.py": {
+      "sha256": "6229ed18549ad9adf9f837c839443fa6338fa4387998d271419f50dba26b41b0",
+      "bytes": 4390
+    },
+    "compute/scripts/certify_bsd_interval.py": {
+      "sha256": "9560778c6bb638d7660bdbd1864c62e97b8917c0504a4d22c76494afb135e279",
+      "bytes": 15460
+    },
+    "compute/scripts/certify_cm39.py": {
+      "sha256": "ffa88410ff02c124fccc0278403618009b2612467f45bdfb29b0ae265ed130eb",
+      "bytes": 2520
+    },
+    "compute/scripts/certify_cm39_padic.py": {
+      "sha256": "6f21c0c8d74af6a248918c9537585da11456f24060425c1b98da5d9ef5fde27e",
+      "bytes": 9659
+    },
+    "compute/scripts/certify_eta_correction.py": {
+      "sha256": "5ae8b09bd1baea01ad7a67b5e1205375001cc34304c1311f0a4dd9f18750ab68",
+      "bytes": 4666
+    },
+    "compute/scripts/certify_exceptional_primes.py": {
+      "sha256": "4597982f71c66c3cd4f69262948d772dc61997ad0d8cc1794a618a24ba554112",
+      "bytes": 5566
+    },
+    "compute/scripts/certify_mellin.py": {
+      "sha256": "09e1f3993300e4403532792ec728e3fa4653646cf397ab32d25a34f6f2fe06b0",
+      "bytes": 5275
+    },
+    "compute/scripts/certify_ran.gp": {
+      "sha256": "b910d068176db3d0a92d48305e56eb63eebb713c534ecefae9c9fdad66616998",
+      "bytes": 6503
+    },
+    "compute/scripts/cm_local_taylor_mod5.py": {
+      "sha256": "0fffae4120bc9a2632bc174444832fea0bb3f91450bdc984e594d2ee0e336586",
+      "bytes": 5019
+    },
+    "compute/scripts/coherent_measure_check.py": {
+      "sha256": "54154aac6a29187ca378dc21aa52bbcffc9a9a4f54024ef7bd6c6b42930a6d3f",
+      "bytes": 1421
+    },
+    "compute/scripts/gp": {
+      "sha256": "7d3f2325b70f70cc1f72e55a292956a2d08d449f162f1590dd28ceea05c55228",
+      "bytes": 921
+    },
+    "compute/scripts/kurihara_witness.py": {
+      "sha256": "a63e566e1db6fc804621db6435df394d0f30a89158c39575b5976427a0cca1db",
+      "bytes": 5409
+    },
+    "compute/scripts/lmfdb_rank2.py": {
+      "sha256": "47c49754f2ee1f05b1bb56f5503a429f1c4410d917c1bb720e1c67c2ca283919",
+      "bytes": 29977
+    },
+    "compute/scripts/padic_ranks.gp": {
+      "sha256": "85c8bff012502cc75164583884a0bd22dc57377b8f81cfa7584c7e01a54df836",
+      "bytes": 8736
+    },
+    "compute/scripts/padic_ranks_sage.py": {
+      "sha256": "b964226d1879c7fa787073a4ea886d7a075e1cef9aaf2d4f29423f841b6387cb",
+      "bytes": 6960
+    },
+    "compute/scripts/padic_report.py": {
+      "sha256": "5163811536995b562b4349bcfc2391cd955075bf2ec08116288191f90131d36a",
+      "bytes": 13850
+    },
+    "compute/scripts/python": {
+      "sha256": "ee7bb333aeebe036406d6b25ca25a933a9ad8ee170b442765f75a4e2f47b2606",
+      "bytes": 353
+    },
+    "compute/scripts/run_cm_local_verifier_portable.py": {
+      "sha256": "78461e2d1cd22566ce39cc726811a88a7a5588035277435a52ecae50e817d357",
+      "bytes": 4273
+    },
+    "compute/scripts/verify_cm_local_taylor_mod5.py": {
+      "sha256": "72c397c20fcb27e250b282d950305fc36493a4ef1b8231be276adec0eb788027",
+      "bytes": 7973
+    },
+    "compute/scripts/verify_handoff.py": {
+      "sha256": "1f89c892373ee2a80c303da88a3dfe04cac881607ec4d8bd62506a4a8668374e",
+      "bytes": 5287
+    },
+    "docs/00-charter.md": {
+      "sha256": "f62ca795b99a3c238c2276d2e67793d183b341bf9f86379ec89a6f2412691ac1",
+      "bytes": 6289
+    },
+    "docs/01-statement-and-reductions.md": {
+      "sha256": "4ca7db72040b4d1be9a7eabb0533e265da1251466b57acc844a405a0fd5ecc83",
+      "bytes": 101706
+    },
+    "docs/02-state-of-the-art.md": {
+      "sha256": "d071c86fd6dfaa0319dc97b666926305883a8647e39b22ccb148f5537e1fa328",
+      "bytes": 114459
+    },
+    "docs/03-obstructions-rank-ge-2.md": {
+      "sha256": "a67a7361385c3a1ae9bd40fe2d087ca2d336803fb37ae281629adfac603291a3",
+      "bytes": 99173
+    },
+    "docs/04-wave2-brief.md": {
+      "sha256": "588e7223db1571a3f8c98919a4e0c0f4edd6e4695f60bd84935591fbfca79b50",
+      "bytes": 3280
+    },
+    "docs/approaches/A-iwasawa-padic.md": {
+      "sha256": "ce51d10888c9a28d4c8d3291a5967ea63217df0668717802e8fa0116be7f684e",
+      "bytes": 124146
+    },
+    "docs/approaches/B-euler-systems-heegner-kolyvagin.md": {
+      "sha256": "b91c5ea583291dff815189fa1b5e3d5d056a20fa069050f60fc4e00d0338b10c",
+      "bytes": 105285
+    },
+    "docs/approaches/C-higher-rank-euler-systems-diagonal-cycles.md": {
+      "sha256": "99fbe697aa543ccec3cbce92b3d1fae81d574d0d557a5ab35a6d6fa76c6248b8",
+      "bytes": 88943
+    },
+    "docs/approaches/D-function-field-analogy.md": {
+      "sha256": "742d2ec05ea6c1e7292b624cf0a3dfcf536e9c761a4a4a8692cc19c36e1fca13",
+      "bytes": 124098
+    },
+    "docs/approaches/E-arithmetic-statistics.md": {
+      "sha256": "00b4893171309b2fede819681c71c419ac2405ea3c5c51dfca62b06d96fed123",
+      "bytes": 90054
+    },
+    "docs/approaches/F-analytic-side.md": {
+      "sha256": "837c02f01f396224b631710458eaed5016c4f0a025f819534add355a779864fa",
+      "bytes": 92957
+    },
+    "docs/approaches/G-motivic-bloch-kato.md": {
+      "sha256": "80364b71fac1f8eb775d7fa0122909e8b090216443fcd05d6fc173b51cea9e3a",
+      "bytes": 106243
+    },
+    "docs/approaches/H-sha-and-descent.md": {
+      "sha256": "e9ea9a3d08c2306cd40b98ffa3914d9e5d78c0956aa15f3bd823241f4e15ed9f",
+      "bytes": 3488
+    },
+    "docs/synthesis/analytic-rank-certificates.md": {
+      "sha256": "883d572c19003d1f828451541f0007709b29f58c87fde6aa242e5dd96e07236b",
+      "bytes": 5799
+    },
+    "docs/synthesis/arithmetic-green-checkpoint.md": {
+      "sha256": "6f443353bf701b023d1f88bcfe61b4c660e42391587609f31115a8544323c0d0",
+      "bytes": 5576
+    },
+    "docs/synthesis/arithmetic-green-comparison.md": {
+      "sha256": "a623e4b34557669b2617f44ad8a7fbf07ee89688e2d18aadcf8eaa5c104910b9",
+      "bytes": 22621
+    },
+    "docs/synthesis/arithmetic-metric-checkpoint.md": {
+      "sha256": "2e0f9d674aec3a3c91795b0b54f54bac78ada51ab10cac6b3bd8b9b793c2fdcc",
+      "bytes": 2327
+    },
+    "docs/synthesis/arithmetic-metric-realization.md": {
+      "sha256": "05ca2063be12ecc4c5d1b04587dd74fbeb52433f25cd036f09135624cd08d786",
+      "bytes": 10933
+    },
+    "docs/synthesis/bott-comparison-attack.md": {
+      "sha256": "6885fed6f77f842407e4e00471e29abaa3bf4100426bde915050c657a82d6a88",
+      "bytes": 17968
+    },
+    "docs/synthesis/bott-comparison-checkpoint.md": {
+      "sha256": "bb1925d5b991d22e96fe5e70b077087588e44a9a4c9d68e5b40a4d880f5e46a0",
+      "bytes": 3349
+    },
+    "docs/synthesis/bsd-archimedean-bound.md": {
+      "sha256": "7c9e8aa1e2e8d00bad68d61e0469cd4ac9a591f8cc359ed1c68bc3f2d873890e",
+      "bytes": 13694
+    },
+    "docs/synthesis/checkpoint-manifest.json": {
+      "sha256": "406e9c0b6619c313887578b340936252124f97e3a53c1e0fad28e794b734f1da",
+      "bytes": 68503
+    },
+    "docs/synthesis/cm-asymmetric-ray-attack.md": {
+      "sha256": "a9546add1fa0aff37891dec2d3bb320d70c0db6b4339b4b3513f131722f38f92",
+      "bytes": 26706
+    },
+    "docs/synthesis/cm-asymmetric-ray-checkpoint.md": {
+      "sha256": "a42626e51d0831c31feedfe162a20fc912a2da28c0306978cb21ff46118e66cd",
+      "bytes": 6279
+    },
+    "docs/synthesis/cm-biextension-checkpoint.md": {
+      "sha256": "e0c9a42c569c629a8c7576a1c2f919042f63cffa6d7091b5a40380e4fc69faba",
+      "bytes": 6502
+    },
+    "docs/synthesis/cm-biextension-cycle-attack.md": {
+      "sha256": "8f766eb4a8397dc67a3f214e7b60d0ba5887549f140c8bcc8fe8ef4770669b12",
+      "bytes": 25260
+    },
+    "docs/synthesis/cm-cyclotomic-pairing-attack.md": {
+      "sha256": "131a38b8370fc4fa94da9fd0db5bfb0587ea169dca5e1d451f5ad9efa498240f",
+      "bytes": 21776
+    },
+    "docs/synthesis/cm-cyclotomic-pairing-checkpoint.md": {
+      "sha256": "fe715b947fa077f753592903808a4412f0c861fe7735a9c139a1a7288ec27d46",
+      "bytes": 6026
+    },
+    "docs/synthesis/cm-derivative-nonvanishing-attack.md": {
+      "sha256": "f010f5281080f40c8eb52e843e205296f069e493ba0c181e2731d4ab1aa028a6",
+      "bytes": 22546
+    },
+    "docs/synthesis/cm-derivative-nonvanishing-checkpoint.md": {
+      "sha256": "b9857bd00fc86f45ddecd1f8e0c03e9d5f891ad8966b79c3efd985e153c808ca",
+      "bytes": 7460
+    },
+    "docs/synthesis/cm-derived-unit-attack.md": {
+      "sha256": "84ba7a4af55b49078478b907cd451d55a67cf3e5313598eeac9ce0839bf008e8",
+      "bytes": 31246
+    },
+    "docs/synthesis/cm-derived-unit-checkpoint.md": {
+      "sha256": "037cfa54148d81d7180acea809b0bd039a36b2eab524d8c51ecd3215cda5fc9d",
+      "bytes": 11245
+    },
+    "docs/synthesis/cm-derived-unsmoothing-attack.md": {
+      "sha256": "c96e12b312b4e2df693a4a299a0c0cddeb680b6394a5b10c055bcbc4d841a29a",
+      "bytes": 23094
+    },
+    "docs/synthesis/cm-derived-unsmoothing-checkpoint.md": {
+      "sha256": "002f713b0e61bfd79e31e7b63fc363c65ad5166f69f9e4c6a8e18f28edf330f2",
+      "bytes": 5028
+    },
+    "docs/synthesis/cm-global-selector-attack.md": {
+      "sha256": "d63fb289b162ea3d7d434938a3fa939304e6f39920f0dc8e8004aa88087a076f",
+      "bytes": 33285
+    },
+    "docs/synthesis/cm-global-selector-checkpoint.md": {
+      "sha256": "681f46a126d24abf353d5340437e4803b29e176d40c82b13705047a6def62d9d",
+      "bytes": 9179
+    },
+    "docs/synthesis/cm-iwasawa-presentation-attack.md": {
+      "sha256": "b8e93f0139ef77987d3f88c57731d66d348d223aa1a3ca01b2f24e5ba6c1db02",
+      "bytes": 24431
+    },
+    "docs/synthesis/cm-iwasawa-presentation-checkpoint.md": {
+      "sha256": "663705ea17d951051c0f644f72cc02814bf34ac215ef26c7993561f079e9d901",
+      "bytes": 7994
+    },
+    "docs/synthesis/cm-local-point-comparison-attack.md": {
+      "sha256": "79d4ec292b1b2094e7fc388c4c40efff825a34bd8da7243bc2eeab5b8ed9ade6",
+      "bytes": 19531
+    },
+    "docs/synthesis/cm-local-point-comparison-checkpoint.md": {
+      "sha256": "af0029365ac6f9b9177da0134dbf5298ce5c7ee1f4507800242919ea22e6e7b8",
+      "bytes": 16762
+    },
+    "docs/synthesis/cm-mixed-extension-attack.md": {
+      "sha256": "afec089ad4e37c0fdacdd4bf405c221ea7de56e966c45ffd0d3b61e67f7e824e",
+      "bytes": 26716
+    },
+    "docs/synthesis/cm-mixed-extension-checkpoint.md": {
+      "sha256": "8112ef1f5cea41cefeb144596913556caf1c2170706ebf301fcfee71c07c0aa5",
+      "bytes": 7915
+    },
+    "docs/synthesis/cm-moment-source-check.md": {
+      "sha256": "988b6a79ebf14c5ead501ef7546b1f337cf7348f2ad1fedf45d7302626db4922",
+      "bytes": 17438
+    },
+    "docs/synthesis/cm-motivic-derivative-attack.md": {
+      "sha256": "0d98c7d573b74a2bded524b25671f249d5c83de7aa665c4a32d7e56462ef2d98",
+      "bytes": 21834
+    },
+    "docs/synthesis/cm-motivic-derivative-checkpoint.md": {
+      "sha256": "bec5a0648c7ffe7248ebab4dc8d94a68b9ed26d2ba4dfb528c9e40a1766a044a",
+      "bytes": 6138
+    },
+    "docs/synthesis/cm-ray-local-conditions-attack.md": {
+      "sha256": "860d394de6d82a3dfc319b582be5cc0ec90f8c07bc6d137d58a6b1c3ab8fc790",
+      "bytes": 18135
+    },
+    "docs/synthesis/cm-ray-local-conditions-checkpoint.md": {
+      "sha256": "be524e6ea83ddfa5091e1e63b06dc0cba7671589bdbd996fa72998bb6f49b06b",
+      "bytes": 5188
+    },
+    "docs/synthesis/cm-regulator-checkpoint.md": {
+      "sha256": "f1a54d1e8429781be530ef858eba698a4d84699b5cd89f6703706e06f91d7a40",
+      "bytes": 9233
+    },
+    "docs/synthesis/cm-regulator-tensor-attack.md": {
+      "sha256": "38e9eb77df659e5648a047064b25de1a0a615aafe7ed8fe609a59e7f3f95327f",
+      "bytes": 32606
+    },
+    "docs/synthesis/cm-symbol-point-reciprocity-attack.md": {
+      "sha256": "cfe92120c0822e4fc6fb42240386f650999e12a3c215ba397649049efce68767",
+      "bytes": 26427
+    },
+    "docs/synthesis/cm-symbol-point-reciprocity-checkpoint.md": {
+      "sha256": "a19535f58d67940dcaef3bcdc1088d94b5ad3dd4da95a280b2e90db6689c56af",
+      "bytes": 9085
+    },
+    "docs/synthesis/cm-two-variable-jet-attack.md": {
+      "sha256": "a73b0e4f033bd497c46b01e60fb370f1b355589fce47513efc7891fbfdebd96c",
+      "bytes": 21838
+    },
+    "docs/synthesis/cm-two-variable-jet-checkpoint.md": {
+      "sha256": "47fea55da65cf14592467e13dc20f47a95e5184eaaea2e715ec3e088e614e112",
+      "bytes": 5554
+    },
+    "docs/synthesis/cm-uniform-carry-attack.md": {
+      "sha256": "686d325b92d29ef2ab025b9abb9fea7ad074355e41af85f7c9a34c37acf1395b",
+      "bytes": 29684
+    },
+    "docs/synthesis/cm-uniform-carry-checkpoint.md": {
+      "sha256": "7ae8eb9f023d83772e2cb3a02a2a284c00a9b5a6619c9c9ac3f10283925eebbb",
+      "bytes": 5335
+    },
+    "docs/synthesis/coherent-moment-attack.md": {
+      "sha256": "7f23b428efe9b8b9713aba33ed5dbb7dc7a29727bfae7949cf047870c0be3448",
+      "bytes": 9432
+    },
+    "docs/synthesis/coherent-moment-checkpoint.md": {
+      "sha256": "6069246952e7914ab730d6437a3c7d5a5c5ccf6cb7385c1e55fde474e55cfb09",
+      "bytes": 2539
+    },
+    "docs/synthesis/cold-resume-review.md": {
+      "sha256": "adad7d9692764ffa0d657e55e77b77b28925dd42873516811904820e587ab7a7",
+      "bytes": 9479
+    },
+    "docs/synthesis/continuation-2026-09-12.md": {
+      "sha256": "417e8d3e5710bc1571b39c7f9b2da457433f3d1a45a65eea4b86e5e58bd73e87",
+      "bytes": 12502
+    },
+    "docs/synthesis/continuity-bott-derived-audit.md": {
+      "sha256": "08e04d6704fc04abc8599066e57df0510262041ee9bd94c01d91b938756caa54",
+      "bytes": 8747
+    },
+    "docs/synthesis/continuity-round-audit.md": {
+      "sha256": "45d50e5d29b6df78413215a25dfe95cdf2edecc865b88f10ca0a0a4ca20bb0de",
+      "bytes": 13478
+    },
+    "docs/synthesis/coordinator-log.md": {
+      "sha256": "39ca06fc69d6452ab4f2f6b17e579acbe48384bf11882914a82cf5b6b781699c",
+      "bytes": 4387
+    },
+    "docs/synthesis/derived-comparison-attack.md": {
+      "sha256": "72d39f4c08cdefc052dae8842598e862b4a38816e328dd4e13dd42f4c4ff064c",
+      "bytes": 24996
+    },
+    "docs/synthesis/eta-correction-certificate.md": {
+      "sha256": "d26b1eafd34886df79c9db32f18db4797651c9d517f3b3c2c5d9d20b4ed552e1",
+      "bytes": 9968
+    },
+    "docs/synthesis/eta-correction-checkpoint.md": {
+      "sha256": "0c599ba2ec33a00adf3ab22ba189c5fbbf55809c49cc43d2e8086abc3dab16a8",
+      "bytes": 2661
+    },
+    "docs/synthesis/exceptional-prime-finiteness.md": {
+      "sha256": "ea656144805b6265045f5c85ea43836bfdd561caaf8d02fd2fced2babce2e532",
+      "bytes": 19337
+    },
+    "docs/synthesis/exponential-spectral-attack.md": {
+      "sha256": "69d821a58e48af6a948423e5b863cb51047a9319eadddfacb4189f315ffe33a2",
+      "bytes": 17274
+    },
+    "docs/synthesis/exponential-spectral-checkpoint.md": {
+      "sha256": "83e3da56b5c11a4c2f2af887c085b0541807e3f1524dfa2f3517839e8bfb78e6",
+      "bytes": 4782
+    },
+    "docs/synthesis/family-specialization-attack.md": {
+      "sha256": "57dfcb9451795d69af502757da3ec057eed6afe91b3fd293e84ce56f8715c09c",
+      "bytes": 28289
+    },
+    "docs/synthesis/family-specialization-checkpoint.md": {
+      "sha256": "82d1e36501cecd319e514fcded6766c552886595fd8449f26bcb8316238a3c3c",
+      "bytes": 12632
+    },
+    "docs/synthesis/final-report-2026-09-11.md": {
+      "sha256": "8dc4ab6eafc7e763d14cfd41fd3d7f60ddfaf71b3808b087f53f2dab998b64b4",
+      "bytes": 6455
+    },
+    "docs/synthesis/final-report.md": {
+      "sha256": "a8390e79fb8b89c3247febf22e6481a5c88b5a6d2a67da57a5ea0608565338b7",
+      "bytes": 46619
+    },
+    "docs/synthesis/fresh-session-prompt.md": {
+      "sha256": "f274d8ccdbbd4bd161efc8b1d53f385b2aa491863f2f6c9b11bc6314fbcce13c",
+      "bytes": 3720
+    },
+    "docs/synthesis/genus-one-finiteness-attack.md": {
+      "sha256": "c08deed1b2f0a79e027cd616f4b80381822691d8bd32442e09a24f763523ee81",
+      "bytes": 23499
+    },
+    "docs/synthesis/harmonic-theta-arithmetic-attack.md": {
+      "sha256": "b3d05991ddc0d54b6397ab5af17c57e719f25b2007e2a3b0a72313d473e5c968",
+      "bytes": 25570
+    },
+    "docs/synthesis/harmonic-theta-arithmetic-checkpoint.md": {
+      "sha256": "73abb3df0da55a6ea0e12b9a80a00b9f76e460a6d4e56bdcde0d2d41457da027",
+      "bytes": 5226
+    },
+    "docs/synthesis/hecke-brauer-annihilator-attack.md": {
+      "sha256": "e653dc74808578bafcd62a7ac27469f18db73736cea5a66df920c0d4fb19c944",
+      "bytes": 24615
+    },
+    "docs/synthesis/hecke-brauer-checkpoint.md": {
+      "sha256": "06d47301e4ba2a725d113181f02c0999b64b476899d5dc1332627a247a79a933",
+      "bytes": 8274
+    },
+    "docs/synthesis/heegner-cofactor-lift-attack.md": {
+      "sha256": "55393737ba7c0efe5c04e29731ad68eccaaf7194add8b04b3b8f0ca90725390b",
+      "bytes": 24682
+    },
+    "docs/synthesis/heegner-cofactor-lift-checkpoint.md": {
+      "sha256": "49a13d4ca832234c5272cca9441ee5b0643fda0d539457a8260fa00ead042d48",
+      "bytes": 9534
+    },
+    "docs/synthesis/heegner-defect-duality.md": {
+      "sha256": "7458a46b10c27649c00bad2e6f8472c6cb8a032fface89d1eac379db582e9b05",
+      "bytes": 16205
+    },
+    "docs/synthesis/heegner-duality-checkpoint.md": {
+      "sha256": "478b4ba42c7c2fd09cbb417313d92e37df7383f3f15310f96c798fdee70471f3",
+      "bytes": 4046
+    },
+    "docs/synthesis/heegner-gysin-bridge.md": {
+      "sha256": "22309d8c7b8fa8ce8df0967dbbacffebbed3c5ba07136362ac7cafee2ddab7f5",
+      "bytes": 22013
+    },
+    "docs/synthesis/heegner-gysin-checkpoint.md": {
+      "sha256": "bcc66bf0043e0d5b7a4cdd04942ebef27b0b584b4c97e2245ea37d4ce3b10e34",
+      "bytes": 4472
+    },
+    "docs/synthesis/heegner-higher-residue-attack.md": {
+      "sha256": "81163adbaa58abdfb7d172e08c796486e0b20f3393c9553936f45571b1bbf405",
+      "bytes": 22582
+    },
+    "docs/synthesis/heegner-higher-residue-checkpoint.md": {
+      "sha256": "662cb249fca00fe33f2f89f52325108c0128bf3f0ca0303daa025c99ad58766a",
+      "bytes": 6670
+    },
+    "docs/synthesis/heegner-kato-comparison-attack.md": {
+      "sha256": "ba6c2c910786399866ff73c53d42dc0f6b80243f9635f0d80bd1601bc87ed118",
+      "bytes": 30291
+    },
+    "docs/synthesis/heegner-kato-comparison-checkpoint.md": {
+      "sha256": "abf503c133130793f12569e4d3bb90ca4f7d29f956dddbeafe249682a7ac3ee4",
+      "bytes": 6316
+    },
+    "docs/synthesis/heegner-local-reciprocity-attack.md": {
+      "sha256": "443167a4055ace3172cf9e780d5517ae8aa1ff974566e56cca2a7becd33425f7",
+      "bytes": 24894
+    },
+    "docs/synthesis/heegner-local-reciprocity-checkpoint.md": {
+      "sha256": "71ae6b16c1df16cab8470d475764ffef8166506939b6212e8b8107f70958b9ad",
+      "bytes": 6265
+    },
+    "docs/synthesis/heegner-mixed-quadratic-attack.md": {
+      "sha256": "4121946ab2cc19e5e8ddc690865f0a7e7a5473f59bfce36c930c37fef32486f5",
+      "bytes": 19830
+    },
+    "docs/synthesis/heegner-mixed-quadratic-checkpoint.md": {
+      "sha256": "de6b8bb774ff45a82eb89a090e545a108484cbddbba1b6daa458ee98fd47f910",
+      "bytes": 7039
+    },
+    "docs/synthesis/heegner-native-height-checkpoint.md": {
+      "sha256": "f2ce4b729b4a8b3aefedefa92804a32e7ce8b3ebcb9d210ec7f76f82ec7ab9e6",
+      "bytes": 7309
+    },
+    "docs/synthesis/heegner-native-height-comparison.md": {
+      "sha256": "6f8acbf8b26408ff4697f06d192c8c0300ce71189039d3d1d68cdae3b94340af",
+      "bytes": 21502
+    },
+    "docs/synthesis/heegner-native-pairing-attack.md": {
+      "sha256": "c311a920510333924cb3315d07882e2ffd6b9d12f0f6b4da395565a959b64a2a",
+      "bytes": 19825
+    },
+    "docs/synthesis/heegner-native-pairing-checkpoint.md": {
+      "sha256": "f8971075aad8bb527b24e53f1027ad37fe7091332944ff65526244014a11cffc",
+      "bytes": 6951
+    },
+    "docs/synthesis/heegner-prym-norm-attack.md": {
+      "sha256": "ee06ca6515ea00951ac84d9915feb5a06648f688dce6aee6ae6fe8357a975397",
+      "bytes": 19890
+    },
+    "docs/synthesis/heegner-prym-norm-checkpoint.md": {
+      "sha256": "2ddf4b8be4e1179e7beed1224b1859ef6187c0ffe3424ff383fca56db499d8e3",
+      "bytes": 7632
+    },
+    "docs/synthesis/heegner-tame-nullhomotopy-attack.md": {
+      "sha256": "3cf9adb929e9ff5cbe8b06702fb93db5e1f418276acf7394fae067682bb669b2",
+      "bytes": 23989
+    },
+    "docs/synthesis/heegner-tame-nullhomotopy-checkpoint.md": {
+      "sha256": "ac587a5c3ee15d0c9abea9404ca65585aae0b71a0a2195cc2f16756f086944ab",
+      "bytes": 5954
+    },
+    "docs/synthesis/heegner-toric-vanishing-attack.md": {
+      "sha256": "9646aab58977e2d80b10109f764b36d13ae8579e65caab1b5e09c2e1a20778e5",
+      "bytes": 20009
+    },
+    "docs/synthesis/heegner-toric-vanishing-checkpoint.md": {
+      "sha256": "28687335f2ca5ec72c3d2fa633e7645035397a1a5ab70cdabadddb0d66ed3692",
+      "bytes": 5389
+    },
+    "docs/synthesis/higher-arithmetic-theta-attack.md": {
+      "sha256": "d6872aeb65140256dd471198052d6c9e44ff17d97ba383c7b22e7c37a3f987ce",
+      "bytes": 19654
+    },
+    "docs/synthesis/higher-arithmetic-theta-checkpoint.md": {
+      "sha256": "72849b9e7e012d457a3fe3166ac316613e756b8258c3cce9ab62b73ce3d58179",
+      "bytes": 5701
+    },
+    "docs/synthesis/higher-period-integrality-attack.md": {
+      "sha256": "a3941068331e676d0c91cdccfb25b877b847c14c79fb3e4b96f0bdb56424c4c4",
+      "bytes": 25327
+    },
+    "docs/synthesis/higher-period-integrality-checkpoint.md": {
+      "sha256": "6b7d4b68779ec0287de2e1e5dfd1f9eeeab174bbb7d90454da2f4903492ce78d",
+      "bytes": 3669
+    },
+    "docs/synthesis/integrated-spectral-comparison-attack.md": {
+      "sha256": "4f893548581348beacc42763ab13b1c76c81985d857f984853747fa1641d7856",
+      "bytes": 28517
+    },
+    "docs/synthesis/integrated-spectral-comparison-checkpoint.md": {
+      "sha256": "9287a02e6d13a1639139ab1dbb5d79124cb19c135da5066174857a9c72241d0f",
+      "bytes": 5447
+    },
+    "docs/synthesis/k-theory-lattice-attack.md": {
+      "sha256": "068e1d6582f8ebc7379b3197f8401033355e5d57f60f85657b9f9544a16db853",
+      "bytes": 9754
+    },
+    "docs/synthesis/k-theory-lattice-checkpoint.md": {
+      "sha256": "5f87aabf4778dd19af9bbd6a4f9a1ccbff678e9fc6d20f3571bf0767af853279",
+      "bytes": 2255
+    },
+    "docs/synthesis/k2-arithmetic-divisor-attack.md": {
+      "sha256": "d2cd3f46c9c22bdac40abd35733f31999419093f751f4ec791aabbfd6327e954",
+      "bytes": 17714
+    },
+    "docs/synthesis/k2-arithmetic-divisor-checkpoint.md": {
+      "sha256": "4afaa7daaff378168aed0140dd90db4b91462c23825e297722068faf909a1281",
+      "bytes": 5529
+    },
+    "docs/synthesis/marked-coefficient-extension-attack.md": {
+      "sha256": "76a2f2e074b8fd6019e617f0ab5cf27c328d4bcfe54dd570f79cc7972c2f281d",
+      "bytes": 39693
+    },
+    "docs/synthesis/marked-coefficient-extension-checkpoint.md": {
+      "sha256": "e8f3cb6947ca651d4e6091caee08992a0578645c74f989ff6c78b6470d3c4dbb",
+      "bytes": 9303
+    },
+    "docs/synthesis/marked-rational-boundary-lift-attack.md": {
+      "sha256": "ddfdd2d3de3708b1f0bba359e79d87de7154fc2e0e5e6cc34bac98c3da3f47dc",
+      "bytes": 22747
+    },
+    "docs/synthesis/marked-rational-boundary-lift-checkpoint.md": {
+      "sha256": "0d551e96867b293cbfed1bf1150c5b50acc79833127cbd076d5032bd469d1e55",
+      "bytes": 13172
+    },
+    "docs/synthesis/mellin-trace-checkpoint.md": {
+      "sha256": "c404678a5fd9e2798163958c8d4b426e0cdbfd56df740376a3d5d8cace51f9c2",
+      "bytes": 2079
+    },
+    "docs/synthesis/mellin-trace-comparison.md": {
+      "sha256": "c026d58299bd4df7038e7599c1d77880b0dc79d6b97171d31531ba5862546680",
+      "bytes": 9712
+    },
+    "docs/synthesis/mellin-variation-attack.md": {
+      "sha256": "d1593b9af23f9d85618ad9407d8c7a9b0c89ea3f8d6cbf51cc8fc1009a3bf73b",
+      "bytes": 24536
+    },
+    "docs/synthesis/mellin-variation-checkpoint.md": {
+      "sha256": "886f5ddd55050b56ba47acf56f70b8eebcfa27ccd43240b741fe2cce3f137078",
+      "bytes": 5897
+    },
+    "docs/synthesis/migration-audit-2026-09-13.md": {
+      "sha256": "972995731bf04a42eaa7593bdc96dd9d73a16072f1de2327af21831aa60bd7a7",
+      "bytes": 6291
+    },
+    "docs/synthesis/migration-guide.md": {
+      "sha256": "860068d511a526936e4a28a6c0ba3b2f12f35626dc2614a3fe5fa9d8929c6b54",
+      "bytes": 9217
+    },
+    "docs/synthesis/modular-visibility-attack.md": {
+      "sha256": "37542251441d069046ac3f8b2ed1d3c81c068f19da1eb41bf9eb201e0eee0261",
+      "bytes": 25283
+    },
+    "docs/synthesis/modular-visibility-checkpoint.md": {
+      "sha256": "0b7340292a8cd73c7c1daa0b7c604931321d55e9cfd8366417ff6ccdc0329ef5",
+      "bytes": 8029
+    },
+    "docs/synthesis/next-research-plan.md": {
+      "sha256": "c49eb49e68e02a89fdd70f9a5aa952b6349fd51d0e980b1aa4ecd004df0f3f26",
+      "bytes": 9214
+    },
+    "docs/synthesis/odd-rank-selmer-bridge.md": {
+      "sha256": "2fc588e2089525ae86cd59ae8b8f1fa03ac82b03489a8d44e6d123c9abab368b",
+      "bytes": 17280
+    },
+    "docs/synthesis/point-determinant-single-valued-attack.md": {
+      "sha256": "b62b7815e953d44e0046f4eaaaec432f3361b2245300f16f517971becf888766",
+      "bytes": 22270
+    },
+    "docs/synthesis/point-determinant-single-valued-checkpoint.md": {
+      "sha256": "435a79322e30bfe503470dec8685d1b4d497ba6b95baeb5cfc456dd889a1381f",
+      "bytes": 6331
+    },
+    "docs/synthesis/point-k2-derived-symbol-attack.md": {
+      "sha256": "aa76b2ef290d848b2a7f8d73e9e2f2b858df0069c847c6811469e297a929d728",
+      "bytes": 20362
+    },
+    "docs/synthesis/point-k2-derived-symbol-checkpoint.md": {
+      "sha256": "15eca00a5a7424c3fd9faa283c9ed6be669e0274aac6629eb646a8c038342e0b",
+      "bytes": 6623
+    },
+    "docs/synthesis/poisson-hodge-framing-attack.md": {
+      "sha256": "ef6e517f0762b3e4f915caa6538b6335ab484b1d13c24ed39207b3111764d54f",
+      "bytes": 15671
+    },
+    "docs/synthesis/poisson-hodge-framing-checkpoint.md": {
+      "sha256": "61bdaae3b2b99309ec8e2f8a561fbd2f34204bb8203a51345813f156f7ce7b3a",
+      "bytes": 11369
+    },
+    "docs/synthesis/poisson-iterated-source-attack.md": {
+      "sha256": "4d868c23be380ae12bb22da21c5c02536f32e2081685002d876ea1efbc3caa2a",
+      "bytes": 15130
+    },
+    "docs/synthesis/poisson-iterated-source-checkpoint.md": {
+      "sha256": "a5ce9d0837d6304beebd4e73e4a07424b790dd75cbc321e367f59d253e341ffe",
+      "bytes": 8159
+    },
+    "docs/synthesis/poisson-path-motive-attack.md": {
+      "sha256": "a6470b0f45c1d33fef2b8581f0d4af810410594abda4573134982548e322127f",
+      "bytes": 19806
+    },
+    "docs/synthesis/poisson-path-motive-checkpoint.md": {
+      "sha256": "0df1a07c68236667021942ecb6736c18e4f22ddc9ff2f980f8c71cdb5b97459b",
+      "bytes": 10133
+    },
+    "docs/synthesis/poisson-tangential-fiber-attack.md": {
+      "sha256": "19647f2b3b90e818eec3355f32cec7e7e9f1c9fde128e948d0cfbc4f7f165f49",
+      "bytes": 21419
+    },
+    "docs/synthesis/poisson-tangential-fiber-checkpoint.md": {
+      "sha256": "8192c0db31c877f7415cce86b6e03b0d92f707fb82599977174c6af6f4bb7a4e",
+      "bytes": 14213
+    },
+    "docs/synthesis/projective-monodromy-attack.md": {
+      "sha256": "ab0485f73cbbfca131de6f6730a72f6186706cdee403b7183e1ff36073fb7e5a",
+      "bytes": 27726
+    },
+    "docs/synthesis/projective-monodromy-checkpoint.md": {
+      "sha256": "476adcc0cfcf8834328d7bc2eb259f41c003e6bbaf756cfd378aad2d0ee147a2",
+      "bytes": 7731
+    },
+    "docs/synthesis/projective-torsion-connection-attack.md": {
+      "sha256": "0b8aa4adcd457e15dd04555c30a26b5b49a9253efc3ca66da2c4ccff48f2acb3",
+      "bytes": 23079
+    },
+    "docs/synthesis/projective-torsion-connection-checkpoint.md": {
+      "sha256": "5be8391723e9f9a285d048ef07a99a34cf51943940907ddc04afc81ac32cfe72",
+      "bytes": 7583
+    },
+    "docs/synthesis/proof-architecture.md": {
+      "sha256": "cc341394a3dda82d4c4cb76ddc06ef8d28c1e888fdc5abfebef5be3875215269",
+      "bytes": 6158
+    },
+    "docs/synthesis/radial-graph-correction-attack.md": {
+      "sha256": "97d3f87c501f99977d7cdaab489b349ed83d44c1aba2ec5b5e8c63638e4427a7",
+      "bytes": 25066
+    },
+    "docs/synthesis/radial-graph-correction-checkpoint.md": {
+      "sha256": "567b43002303d9fd951a6ee7f572c1fa79eeb38954d793bad51c4705ed005f55",
+      "bytes": 11134
+    },
+    "docs/synthesis/relative-beta2-boundary-attack.md": {
+      "sha256": "d7f2f57926794e0b37bc89516057738411d1b800eb24f768285d1f401e344ad2",
+      "bytes": 15067
+    },
+    "docs/synthesis/relative-beta2-boundary-checkpoint.md": {
+      "sha256": "c67c1bdf63822360bfb7a10bf6636e527bc58cc23bbb225e064ce55cbe43cad2",
+      "bytes": 7018
+    },
+    "docs/synthesis/relative-cup-trace-attack.md": {
+      "sha256": "f62d358d7552e997882080affec6c06c95a6377f706ceac4962dc491a97f500e",
+      "bytes": 17259
+    },
+    "docs/synthesis/relative-cup-trace-checkpoint.md": {
+      "sha256": "8b3ba10d957f1842f7410f19d95f96da31777e0c75ebe2b9b4c04c92f078ab2c",
+      "bytes": 6259
+    },
+    "docs/synthesis/relative-modular-cycle-attack.md": {
+      "sha256": "b1aee6952f0f009f886db89ae4acf5001c889ac49744f5622cd2592a4853ce78",
+      "bytes": 25072
+    },
+    "docs/synthesis/relative-modular-cycle-checkpoint.md": {
+      "sha256": "841b0427940bf94789fabfe8d368579830fff7755297cf402d0b789e28d228f3",
+      "bytes": 6237
+    },
+    "docs/synthesis/research-ledger.md": {
+      "sha256": "63b87a284f3f40c2ccb6b4ab7f215dfe9d3369404d073dbafcf4eaeaefeb9a05",
+      "bytes": 172450
+    },
+    "docs/synthesis/research-state.md": {
+      "sha256": "bd897c9dbe261931748bb20d39990d350b95c36d8c3c5b1221b11345cfa72410",
+      "bytes": 34842
+    },
+    "docs/synthesis/review-analytic-certificates.md": {
+      "sha256": "d98b96ebe6e9babc19f4476c5586696a6ac602f68bfbe658b7aff4e802bb764a",
+      "bytes": 10417
+    },
+    "docs/synthesis/review-arithmetic-green.md": {
+      "sha256": "8dd4db927bbf874c5177fa28745f4823374277080e34b8cd5b6506c02a61c38e",
+      "bytes": 11690
+    },
+    "docs/synthesis/review-arithmetic-metric.md": {
+      "sha256": "8304ad1a1f06e2191efcfbce55d5bc4e48c55313e2135317ea9d702a9cc35925",
+      "bytes": 11323
+    },
+    "docs/synthesis/review-bott-comparison.md": {
+      "sha256": "105143408520337d34728579f95797573e3ff96f83115d66bcebcddf9bb7e273",
+      "bytes": 11355
+    },
+    "docs/synthesis/review-cm-asymmetric-ray.md": {
+      "sha256": "1152334aa76d7220d02c97d1a737d11d8495376c468fbcb687e008311675f744",
+      "bytes": 14085
+    },
+    "docs/synthesis/review-cm-biextension-cycle.md": {
+      "sha256": "e17594059c763b460ab513cc4a29f203ca06a3b238e7a12a1a7147aa535fbac0",
+      "bytes": 7050
+    },
+    "docs/synthesis/review-cm-cyclotomic-pairing.md": {
+      "sha256": "a81ef3f6909a88b119623325732ee575090500550db79fbd73d96154d9c62cb0",
+      "bytes": 12558
+    },
+    "docs/synthesis/review-cm-derivative-integral-bound.md": {
+      "sha256": "7d74f240f63e86852e7fe1c196d5db5f1ddafea9968265e5bfe102917af64705",
+      "bytes": 7163
+    },
+    "docs/synthesis/review-cm-derivative-nonvanishing.md": {
+      "sha256": "277458f323be31ff34dc38ef8d370baf4fd74de71843b5daf8a06a27e49836b4",
+      "bytes": 11353
+    },
+    "docs/synthesis/review-cm-derived-unit.md": {
+      "sha256": "6eb5e2c61a7e4ce72a93de9b0e84f951a22895ad4bbb3d4159c9b9503a829176",
+      "bytes": 15801
+    },
+    "docs/synthesis/review-cm-derived-unsmoothing.md": {
+      "sha256": "90ec6465d318a918f0b2081f7e2d1b3202c386e1c197b99ecc097a90cbe127f7",
+      "bytes": 13208
+    },
+    "docs/synthesis/review-cm-global-selector.md": {
+      "sha256": "586f9bc57f6984e71dbf53ba2d235decf518ab9e6d4432c1fd831a68fa236fd1",
+      "bytes": 15658
+    },
+    "docs/synthesis/review-cm-iwasawa-presentation.md": {
+      "sha256": "84b2831c38f37b316165670cda46e97c11ad4d082c1154c166655fe581b9c77c",
+      "bytes": 9379
+    },
+    "docs/synthesis/review-cm-local-point-comparison.md": {
+      "sha256": "f2242d2b6b8655c6eb67180719163a47bd77836b810882f23befb029f7ca69e0",
+      "bytes": 10492
+    },
+    "docs/synthesis/review-cm-local-taylor-certificate.md": {
+      "sha256": "c64bb530dd9201b58bd2611a660ab190c1ccb14829fd37a1d150d2449bd63392",
+      "bytes": 15936
+    },
+    "docs/synthesis/review-cm-mixed-extension.md": {
+      "sha256": "cdbecbae1c7b5293ae7165d140c83f2b66699a1066059180b8cccf5e143a8fdf",
+      "bytes": 13410
+    },
+    "docs/synthesis/review-cm-motivic-derivative.md": {
+      "sha256": "f8807034d7c6c8ac9757ca1b46e020727ae9672f5cf58ef31c6c781d1ce815b7",
+      "bytes": 12618
+    },
+    "docs/synthesis/review-cm-ray-local-conditions.md": {
+      "sha256": "ba0a15b88b44ea6b80f7713fa99a2fe2084694f03029fb6726faff0c1392859a",
+      "bytes": 9341
+    },
+    "docs/synthesis/review-cm-regulator-tensor.md": {
+      "sha256": "4cd894c1e96271e50b4b581a7b31549619314e25637da4ef260af0a986ed3427",
+      "bytes": 9648
+    },
+    "docs/synthesis/review-cm-symbol-point-reciprocity.md": {
+      "sha256": "9db1bad19d470c2375c15b8039f1828617740514b46e012ef942f96309455e83",
+      "bytes": 12704
+    },
+    "docs/synthesis/review-cm-two-variable-jet.md": {
+      "sha256": "11fd7d780c6c1ad22940cdbce5658336fcd0be5b876fc0c5eaa2e2bfc40707f6",
+      "bytes": 10159
+    },
+    "docs/synthesis/review-cm-uniform-carry.md": {
+      "sha256": "cca0cfa9f56f53004f58ad190ef88b9e4062014c17bf4923d6ae9a2253d7d53e",
+      "bytes": 10232
+    },
+    "docs/synthesis/review-coherent-moment.md": {
+      "sha256": "4a2fa6bbd15f330278d9adefd18ec264d11f1b9d6227e0e275f7a92aae485230",
+      "bytes": 6308
+    },
+    "docs/synthesis/review-exponential-spectral.md": {
+      "sha256": "a15603306ce27701bc240e35deb2257ddb4faeb566154df50b7ce6e967413143",
+      "bytes": 10148
+    },
+    "docs/synthesis/review-family-specialization.md": {
+      "sha256": "602fac0ada338283537a0c765141ddf4c454378c26ed6c550e69c9d953def011",
+      "bytes": 10609
+    },
+    "docs/synthesis/review-harmonic-theta-arithmetic.md": {
+      "sha256": "586b0ab8bde475ac643767ef78469bd6a31c511b6ac9d7d9877a0f41f0793511",
+      "bytes": 12013
+    },
+    "docs/synthesis/review-hecke-brauer.md": {
+      "sha256": "140f77fcb1599ccf9d5896f06dc4eab1425ae03cf3485074bd318e8188ceca06",
+      "bytes": 6185
+    },
+    "docs/synthesis/review-heegner-cofactor-lift.md": {
+      "sha256": "3ce0ff3bc050890b4a69aef346a88731cf27c42cbfe8721cca2e9b9a8fc8a586",
+      "bytes": 12967
+    },
+    "docs/synthesis/review-heegner-defect-duality.md": {
+      "sha256": "4e59857e7a4342248c5bab6b8b53a89c939ef12dbb32ddf03a941468a6a6c76f",
+      "bytes": 11632
+    },
+    "docs/synthesis/review-heegner-gysin.md": {
+      "sha256": "8f9ae7536c691ca1dbd3ec2e1b4609e77f61fc2b90acfef942e4dc9041d59b4a",
+      "bytes": 11071
+    },
+    "docs/synthesis/review-heegner-higher-residue.md": {
+      "sha256": "9739ec86649a7eecf03aa41270c1a57efa6454cef11efbb0b26d10a0fbedd83b",
+      "bytes": 8801
+    },
+    "docs/synthesis/review-heegner-kato-comparison.md": {
+      "sha256": "9b3d517a275fc8c632968cf24ff4bf35850d7312f34e01793258c82ab64bfc33",
+      "bytes": 10432
+    },
+    "docs/synthesis/review-heegner-local-reciprocity.md": {
+      "sha256": "f87f0d161d1b08263a61b445307313499516bfecee26184c1a68cd0bc4360892",
+      "bytes": 9609
+    },
+    "docs/synthesis/review-heegner-mixed-quadratic.md": {
+      "sha256": "88f67e22ed7c5c1dac4b9258a272b325498cb1e450fe72bb1e84c687e2a51455",
+      "bytes": 11942
+    },
+    "docs/synthesis/review-heegner-native-height.md": {
+      "sha256": "6a47e70e1b51ff4772c26c54adf965216e0716399b48a3c841c378e438ed2084",
+      "bytes": 7857
+    },
+    "docs/synthesis/review-heegner-native-pairing.md": {
+      "sha256": "31b4179202dd6d49f236fe383df7740776a93e016470d19fd84501ce5cb124e5",
+      "bytes": 9410
+    },
+    "docs/synthesis/review-heegner-prym-norm.md": {
+      "sha256": "a5fae101ea74228bb036040697cee12ea428ee8da9a51accca057aadbe6a3840",
+      "bytes": 8451
+    },
+    "docs/synthesis/review-heegner-tame-nullhomotopy.md": {
+      "sha256": "53936de6a8777a037e250b82a178c9ce906a69ef8c0ca9c08adeb6852809b141",
+      "bytes": 13779
+    },
+    "docs/synthesis/review-heegner-toric-vanishing.md": {
+      "sha256": "6a22921cdea7a0c3dd960ac965b1599ad306ce20ec3e4a04a8f8b1d6ee7aa484",
+      "bytes": 6102
+    },
+    "docs/synthesis/review-higher-arithmetic-theta.md": {
+      "sha256": "d606d1716bd601c9826792a5abe9991f57ee26d578a53649fb9275cdd8bf2b9a",
+      "bytes": 9919
+    },
+    "docs/synthesis/review-higher-period-integrality.md": {
+      "sha256": "34099c49464ca5b46b85c6d6a8f952fedf2dc474486023174e0ce37b3ba267cc",
+      "bytes": 5457
+    },
+    "docs/synthesis/review-integrated-spectral-comparison.md": {
+      "sha256": "8d93b5e35bb5b816c9e25b6a3827f842a241250e8f8fc1e53707b70b5b2bd447",
+      "bytes": 13304
+    },
+    "docs/synthesis/review-k-theory-lattice.md": {
+      "sha256": "0821550079e287cddf575b4fd26eb3fa9043ada4a9596c75023a67e7ab4a774b",
+      "bytes": 8394
+    },
+    "docs/synthesis/review-k2-arithmetic-divisor.md": {
+      "sha256": "7eb7ee28c71939e6688a844b6efa7f7c62e407b3994938cbc00be77ed5137626",
+      "bytes": 12315
+    },
+    "docs/synthesis/review-marked-coefficient-extension.md": {
+      "sha256": "ca03b193e90da2ea6ae101ba12fd8e6b316b136c2194b8400d8301422ed0f5e6",
+      "bytes": 26808
+    },
+    "docs/synthesis/review-marked-rational-boundary-lift.md": {
+      "sha256": "322af5b8356ea08a755804040b00095a31db177dc15740d5f6b18d0c7a353368",
+      "bytes": 6384
+    },
+    "docs/synthesis/review-mellin-trace.md": {
+      "sha256": "37994199ec3c0f7e2cabe498eb20cee7d67e74c09a20ffd1b35479bf86facfef",
+      "bytes": 8451
+    },
+    "docs/synthesis/review-mellin-variation.md": {
+      "sha256": "985a825cc3cf7f1faee448f2be9e3f8d7304755c8f09a4f9ad08a03207c495d0",
+      "bytes": 9870
+    },
+    "docs/synthesis/review-modular-visibility.md": {
+      "sha256": "342227f2b24456f37bc3c5d7667c1916d7e3fe711148e7bfcbe0f5a8ac784511",
+      "bytes": 4224
+    },
+    "docs/synthesis/review-point-determinant-single-valued.md": {
+      "sha256": "e179b03c7c718c64fc11898f065ec73df33d1b87ca76d00c641da05ca6206111",
+      "bytes": 16989
+    },
+    "docs/synthesis/review-point-k2-derived-symbol.md": {
+      "sha256": "e76055ab54f3177ac843caf956237e3de095d8e982f25ea71833076d70069f5b",
+      "bytes": 8017
+    },
+    "docs/synthesis/review-poisson-hodge-framing.md": {
+      "sha256": "b88f4ecf7056253deac4c278a26aa23fdaa7522c4b922c707420238abc5caea9",
+      "bytes": 14165
+    },
+    "docs/synthesis/review-poisson-iterated-source.md": {
+      "sha256": "81083729dd8efed6627c5c3099a90948dace3db930da5df28d9796b033256d4a",
+      "bytes": 10397
+    },
+    "docs/synthesis/review-poisson-path-motive.md": {
+      "sha256": "58493a73fbb441dc1b8b029b327a4ba7f0d5dfee1c0a9c2aada0190b46c34afb",
+      "bytes": 7161
+    },
+    "docs/synthesis/review-poisson-tangential-fiber.md": {
+      "sha256": "b3f6bfe898c8db865f052f97176a99244aab5ab6c33fb08c7e45f73410c581e5",
+      "bytes": 14489
+    },
+    "docs/synthesis/review-projective-monodromy.md": {
+      "sha256": "eb0033747ca824266ba8de8d75a7c6884b741752accbb6cc628796ae7a50891c",
+      "bytes": 8953
+    },
+    "docs/synthesis/review-projective-torsion-connection.md": {
+      "sha256": "e5ddf3a38cc291ec66da0c877f894a08fa9a194cd4b0f21a875b7fc8d74973a2",
+      "bytes": 9343
+    },
+    "docs/synthesis/review-radial-graph-correction.md": {
+      "sha256": "9d1c50b03e4de8876cff0dfa62a7118bcf90606ca39b097f61c9ffda24c7e61e",
+      "bytes": 10111
+    },
+    "docs/synthesis/review-relative-beta2-boundary.md": {
+      "sha256": "f9b624258255ada08b14a033482beac4e17688ea8c89482790b480575efde2ef",
+      "bytes": 10586
+    },
+    "docs/synthesis/review-relative-cup-trace.md": {
+      "sha256": "45b07441f668cbdc8b3eedc296612b139b4f28ee4f9e1dbab08f22fb5c5e2794",
+      "bytes": 6989
+    },
+    "docs/synthesis/review-relative-modular-cycle.md": {
+      "sha256": "ca37e4ab8546d96a6067892bac5c5c7a7c51773663cb702261f6006203dcdf9d",
+      "bytes": 12004
+    },
+    "docs/synthesis/review-secondary-kummer-theta.md": {
+      "sha256": "a2495515cb4fe48e1e9f7e6f2dc42ebe87da4c0c4919df5294e645b2a58ab9d9",
+      "bytes": 10448
+    },
+    "docs/synthesis/review-spectral-regular-singular.md": {
+      "sha256": "8d8d5eb9895541965e789afbeda51825d20c4770e870630053256b5ee35e121b",
+      "bytes": 12583
+    },
+    "docs/synthesis/review-spectral-second-variation.md": {
+      "sha256": "f2cb7ce3e39cb7148f3d11aaa5d855b9b2137c4c537e89b49316f2b0218b729e",
+      "bytes": 8486
+    },
+    "docs/synthesis/review-theta-doubling-arithmetic.md": {
+      "sha256": "8aa49b86d31ca03122bade0f632ac39542bd549c7c44ab93268fe42eb3ceb94a",
+      "bytes": 24181
+    },
+    "docs/synthesis/review-theta-elliptic-projection.md": {
+      "sha256": "e4c675f645bffcc5c28880a857dab221e6ce4c05bd9f42ed70d568921b121c33",
+      "bytes": 11523
+    },
+    "docs/synthesis/review-twisted-fm.md": {
+      "sha256": "cb5ee91cd4e5eb97357f71790f3ec3ca3b5983deb95ae0e5055f641c0608cc55",
+      "bytes": 10590
+    },
+    "docs/synthesis/review-twisted-sheaf-lifting.md": {
+      "sha256": "b7b37b5e8684089575f8fd53ddc6d933f2e47d3fb061935fab73b5dd5c57e8e2",
+      "bytes": 8119
+    },
+    "docs/synthesis/review-two-prime-heegner-height.md": {
+      "sha256": "bab76e7c73c8d1574d32c800843bb88165a70030a928c3ced30e8717502558be",
+      "bytes": 7470
+    },
+    "docs/synthesis/review-uniform-witness.md": {
+      "sha256": "55b9e40260e42e9a15d27dcab9b5ca475b2bf1013c465107f0e6bd31aad3e919",
+      "bytes": 11317
+    },
+    "docs/synthesis/review-weighted-theta-adjoint.md": {
+      "sha256": "6f38c40b9634a452db136123841f98091f96488bfbee36644be9bffe1d27daa2",
+      "bytes": 9153
+    },
+    "docs/synthesis/review-weil-etale-lattice.md": {
+      "sha256": "9a0e18cdf7477fced89f5c0f2ad1f923f60f73c5bec2165c9cb6b1bd4bd23d4f",
+      "bytes": 11944
+    },
+    "docs/synthesis/secondary-kummer-theta-attack.md": {
+      "sha256": "4f43fe6529753de06a177ee192c171db42308b2fc943db23741a1f7d3bef75e0",
+      "bytes": 18055
+    },
+    "docs/synthesis/secondary-kummer-theta-checkpoint.md": {
+      "sha256": "33f49d5b05bd548b720d7068f7c870431198a097e8b082f22430ceba5fcbf06b",
+      "bytes": 6244
+    },
+    "docs/synthesis/source-cache-index.json": {
+      "sha256": "f31e4298ae20ed6a45680b2ec3dbab38edf4cce030911ac96bd105e99067b71d",
+      "bytes": 8803
+    },
+    "docs/synthesis/spectral-regular-singular-attack.md": {
+      "sha256": "02f1b95c94ae56870a9113eb21c5025ec3f2b1f155207e83fdc2ff13e743ccff",
+      "bytes": 19725
+    },
+    "docs/synthesis/spectral-regular-singular-checkpoint.md": {
+      "sha256": "5a662e7bca1a369f8385a20e7530e0e2a02db2151e82e5fe5bd816c58d5f5bf9",
+      "bytes": 4947
+    },
+    "docs/synthesis/spectral-second-variation-attack.md": {
+      "sha256": "8395662260c30f743d6253d1d00140bac0892feed147e4f62f2b715fb4133ad7",
+      "bytes": 17698
+    },
+    "docs/synthesis/spectral-second-variation-checkpoint.md": {
+      "sha256": "043aeda42e5476f61a2f8947dd6a96d8ca936303319f746e76015eea4486e5db",
+      "bytes": 4866
+    },
+    "docs/synthesis/theta-doubling-arithmetic-attack.md": {
+      "sha256": "3bfe812f9ca0ef9568db99621aedadd021c751e9419da11084718bc46221ab97",
+      "bytes": 21788
+    },
+    "docs/synthesis/theta-doubling-arithmetic-checkpoint.md": {
+      "sha256": "6c902159155682f9e494f50cc96bf92728d3eb4116c94bd92de718971b31f2d9",
+      "bytes": 5695
+    },
+    "docs/synthesis/theta-elliptic-projection-attack.md": {
+      "sha256": "6ccde60714d5edcac99d33fb09592e8c253d357a814fa3415a2b84e58dd2bb8c",
+      "bytes": 20588
+    },
+    "docs/synthesis/theta-elliptic-projection-checkpoint.md": {
+      "sha256": "4afda3fbf83faae0830cecaa24480c171db338541f4a188191106263aa9ed56a",
+      "bytes": 4426
+    },
+    "docs/synthesis/twisted-sheaf-checkpoint.md": {
+      "sha256": "6f8c0f26914005a9c8039240b84a1d1bcb6a8f00a4f2f5c5314bd4b083caed19",
+      "bytes": 10868
+    },
+    "docs/synthesis/twisted-sheaf-lifting-attack.md": {
+      "sha256": "81e63855f1485e2886334a2598ee804e7380b335f65d5f01bbbfcfda3fa82d02",
+      "bytes": 43380
+    },
+    "docs/synthesis/two-prime-heegner-height-attack.md": {
+      "sha256": "c4cd095a85806ec7c33bb477884ea985e0728eaf5246053f5f06101a980b4745",
+      "bytes": 30452
+    },
+    "docs/synthesis/two-prime-heegner-height-checkpoint.md": {
+      "sha256": "c0236c757c1c2989607fa00231043f81567c5c2201545cdc484783afd2b1250c",
+      "bytes": 4492
+    },
+    "docs/synthesis/uniform-witness-attack.md": {
+      "sha256": "7095b10c84d59dd8721c1aa4bfb3065fcd2069146d1ec428c44f5f13d4c462b0",
+      "bytes": 23014
+    },
+    "docs/synthesis/weighted-theta-adjoint-attack.md": {
+      "sha256": "929fbd03b72822e42e4138dcb65cdaac89948852d773a5fccae085f0e9bd40a4",
+      "bytes": 15356
+    },
+    "docs/synthesis/weighted-theta-adjoint-checkpoint.md": {
+      "sha256": "0a23f339dd25f819001aa9995dc7b747f0ecf074046eacc309b2ab819e1dfaf4",
+      "bytes": 4778
+    },
+    "docs/synthesis/weil-etale-checkpoint.md": {
+      "sha256": "2aa129fb20fa234cb2ca29d652394f189d66df52f502ff38faaaf76e6a6ea261",
+      "bytes": 2459
+    },
+    "docs/synthesis/weil-etale-lattice-attack.md": {
+      "sha256": "05b5fb3e306ea81176829d0837e39fd58429649ecdb49a73fb291f42501dbc01",
+      "bytes": 12772
+    }
+  }
+}

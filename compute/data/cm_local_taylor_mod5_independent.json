@@ -1,0 +1,252 @@
+{
+  "author_certificate_sha256": "900a9060c40de02e5d541276d358938a7929b6538f4fef23db31f6954462c307",
+  "author_script_sha256": "0fffae4120bc9a2632bc174444832fea0bb3f91450bdc984e594d2ee0e336586",
+  "independent_script_sha256": "72c397c20fcb27e250b282d950305fc36493a4ef1b8231be276adec0eb788027",
+  "different_point": "[i]B, outside the original H orbit",
+  "point_x": [
+    4,
+    1,
+    0,
+    0,
+    3,
+    2,
+    4,
+    0,
+    0,
+    3,
+    1,
+    4,
+    3,
+    1,
+    3,
+    1,
+    4,
+    0,
+    2,
+    3,
+    4,
+    4,
+    4,
+    4
+  ],
+  "point_y": [
+    1,
+    4,
+    4,
+    2,
+    2,
+    4,
+    0,
+    3,
+    0,
+    4,
+    0,
+    3,
+    4,
+    4,
+    4,
+    0,
+    0,
+    0,
+    3,
+    4,
+    1,
+    2,
+    0,
+    1
+  ],
+  "cm_image_order": 4608,
+  "frobenius_order": 24,
+  "gaussian_unit_group_order": 18432,
+  "frobenius_generators": [
+    {
+      "ell": 17,
+      "trace": -8,
+      "i_mod_ell": 4,
+      "psi": [
+        -4,
+        1
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 29,
+      "trace": -4,
+      "i_mod_ell": 12,
+      "psi": [
+        -2,
+        5
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 37,
+      "trace": -12,
+      "i_mod_ell": 6,
+      "psi": [
+        -6,
+        1
+      ],
+      "rho_mod5": 1
+    },
+    {
+      "ell": 41,
+      "trace": -10,
+      "i_mod_ell": 9,
+      "psi": [
+        -5,
+        -4
+      ],
+      "rho_mod5": 3
+    },
+    {
+      "ell": 53,
+      "trace": 4,
+      "i_mod_ell": 23,
+      "psi": [
+        2,
+        -7
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 61,
+      "trace": -10,
+      "i_mod_ell": 11,
+      "psi": [
+        -5,
+        6
+      ],
+      "rho_mod5": 3
+    },
+    {
+      "ell": 73,
+      "trace": -16,
+      "i_mod_ell": 27,
+      "psi": [
+        -8,
+        3
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 89,
+      "trace": 10,
+      "i_mod_ell": 34,
+      "psi": [
+        5,
+        -8
+      ],
+      "rho_mod5": 4
+    },
+    {
+      "ell": 97,
+      "trace": -8,
+      "i_mod_ell": 22,
+      "psi": [
+        -4,
+        9
+      ],
+      "rho_mod5": 4
+    },
+    {
+      "ell": 101,
+      "trace": -20,
+      "i_mod_ell": 10,
+      "psi": [
+        -10,
+        1
+      ],
+      "rho_mod5": 3
+    },
+    {
+      "ell": 109,
+      "trace": -20,
+      "i_mod_ell": 33,
+      "psi": [
+        -10,
+        -3
+      ],
+      "rho_mod5": 4
+    },
+    {
+      "ell": 113,
+      "trace": 16,
+      "i_mod_ell": 15,
+      "psi": [
+        8,
+        7
+      ],
+      "rho_mod5": 3
+    }
+  ],
+  "derivative_method": "invariant Taylor flow and Hasse polynomial expansion, not A+yB recurrence",
+  "derivative_sums": [
+    [],
+    [
+      4,
+      4,
+      2,
+      4,
+      4,
+      2,
+      4,
+      2,
+      2,
+      1,
+      1,
+      4,
+      3,
+      0,
+      2,
+      4,
+      4,
+      3,
+      4,
+      3,
+      0,
+      3,
+      4,
+      3
+    ],
+    [
+      1,
+      1,
+      3,
+      1,
+      1,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      1,
+      2,
+      0,
+      3,
+      1,
+      1,
+      2,
+      1,
+      2,
+      0,
+      2,
+      1,
+      2
+    ],
+    []
+  ],
+  "nonzero_pattern": [
+    false,
+    true,
+    true,
+    false
+  ],
+  "exact_gaussian_scaling_verified": true,
+  "point_t_valuations": [
+    1,
+    1,
+    2
+  ]
+}

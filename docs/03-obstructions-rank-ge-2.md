@@ -1,6 +1,10 @@
-# 03 — Exactly why analytic rank $\ge 2$ is out of reach, and what would suffice
+# 03 — Proof obligations in analytic rank $\ge 2$
 
-Status: first complete draft (2026-09-11). Owner: obstruction analysis. Tags follow `00-charter.md`.
+Status: historical draft (2026-09-11), with selected logical corrections on 2026-09-12.
+The [continuation audit](synthesis/continuation-2026-09-12.md) and
+[corrected architecture](synthesis/proof-architecture.md) supersede conflicting synthesis claims.
+The [odd-rank bridge](synthesis/odd-rank-selmer-bridge.md) now resolves the former ordinary-prime GAP 5 and the irreducible case of GAP 2.
+Unreviewed legacy assertions are not promoted by this audit. Owner: obstruction analysis. Tags follow `00-charter.md`.
 Cross-references: `01-statement-and-reductions.md`, `02-state-of-the-art.md`, `approaches/A-iwasawa-padic.md`,
 `approaches/B-euler-systems-heegner-kolyvagin.md`, `approaches/C-higher-rank-euler-systems-diagonal-cycles.md`,
 `approaches/D-function-field-analogy.md`, `approaches/E-arithmetic-statistics.md`, `approaches/H-sha-and-descent.md`.
@@ -27,7 +31,7 @@ $$
 \text{(L)}\quad r_{\mathrm{an}}\le r_{\mathrm{alg}}.
 $$
 
-(U) is an *upper bound on a Selmer group* (Euler systems, main conjectures); (L) is *the production of $r_{\mathrm{an}}$ independent rational points*, or equivalently, given (U) at some $p$, the finiteness of $\operatorname{Sha}[p^\infty]$ at that $p$. In rank $\le 1$ the two halves are furnished by a *single object* — the rational number $L(E,1)/\Omega_E$ in rank $0$, the Heegner point $P_K$ in rank $1$ — whose non-vanishing is *equivalent* to the analytic hypothesis by an exact formula (the interpolation formula, resp. Gross–Zagier), and whose arithmetic controls both (U) and (L), at all $p$ simultaneously. For $r_{\mathrm{an}}\ge 2$ no object with these two properties is known; this document isolates, technique by technique, the exact step where this is used, and formulates what would replace it.
+(U) is an *upper bound on a Selmer group* (Euler systems, main conjectures); (L) is *the production of $r_{\mathrm{an}}$ independent rational points*, or, if the stronger equality $\operatorname{corank}\operatorname{Sel}_{p^\infty}=r_{\mathrm{an}}$ is known, the finiteness of $\operatorname{Sha}[p^\infty]$ at that $p$. In rank $\le 1$ the two halves are furnished by a *single object* — the rational number $L(E,1)/\Omega_E$ in rank $0$, the Heegner point $P_K$ in rank $1$ — whose non-vanishing is *equivalent* to the analytic hypothesis by an exact formula (the interpolation formula, resp. Gross–Zagier), and whose arithmetic controls both (U) and (L), at all $p$ simultaneously. For $r_{\mathrm{an}}\ge 2$ no object with these two properties is known; this document isolates, technique by technique, the exact step where this is used, and formulates what would replace it.
 
 ---
 
@@ -144,7 +148,13 @@ $$
 
 **What is known for $r_{\mathrm{an}}\ge 2$.** [THEOREM] (i) For $r_{\mathrm{an}}$ even $\ge 2$ and good ordinary $p$: $r_p\ge 2$ ($L_p(E,0)=0$ and $r_p\equiv r_{\mathrm{an}}$). (ii) For any $E$ and good ordinary odd $p$: $r_p\ge r_{\mathrm{alg}}$ (Prop. 1.2). (iii) Nothing else: for $r_{\mathrm{an}}=3$ it is not known that $r_p\ge 3$ unless $r_{\mathrm{alg}}\ge 3$ is known for the specific curve.
 
-**[GAP 2] ($\mathrm{T}(E,p)$ in rank $\ge 2$; lower bound half).** *Let $E/\mathbb{Q}$ with $r_{\mathrm{an}}\ge 3$ odd and $p$ good ordinary. Show $r_p\ge 3$, equivalently $L_p'(E,0)=0$.* By Prop. 1.2 this follows from $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\ge 3$, i.e. from the Selmer lower bound [GAP 5] below; conversely, under the rational main conjecture, $r_p\ge 3$ gives $\operatorname{ord}_{T=0}f_E\ge 3$ but *not* $\operatorname{corank}\operatorname{Sel}\ge 3$ (that needs (E2)).
+**[THEOREM / remaining cases of former GAP 2].** If $E/\mathbb Q$ is
+non-CM, $p\ge5$ is good ordinary with irreducible $E[p]$, and the analytic
+rank is odd and at least three, then $s_p(E)\ge3$ by the
+[odd-rank bridge](synthesis/odd-rank-selmer-bridge.md). Proposition 1.2 gives
+$r_p\ge3$. The previous blanket statement that this was a gap is withdrawn
+in this range. Other residual-image and reduction cases require their
+own converse theorem; no claim about them is added here.
 
 **[GAP 3] ($\mathrm{T}(E,p)$ in rank $\ge 2$; upper bound half).** *Let $E/\mathbb{Q}$ with $r_{\mathrm{an}}=r\ge 2$, $p$ good ordinary with $E[p]$ irreducible. Show $r_p\le r$.* Under the rational main conjecture this is $\operatorname{ord}_{T=0}f_E\le r$, which by Schneider–Perrin-Riou is equivalent to: $\operatorname{Sha}[p^\infty]$ finite, $r_{\mathrm{alg}}=r$, and the $p$-adic height on $E(\mathbb{Q})$ non-degenerate. So [GAP 3] $\iff$ [BSD rank at $E$] $\wedge$ [$\operatorname{Sha}[p^\infty]$ finite] $\wedge$ [Schneider at $p$]. It is *strictly stronger* than BSD (rank) for $E$.
 
@@ -199,11 +209,33 @@ $$
 $$
 3. consequently
 $$
-\big[\operatorname{rank}E(\mathbb{Q})=2\ \text{ and }\ \operatorname{Sha}(E/\mathbb{Q})[p^\infty]\text{ finite}\big]\iff\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=2\iff\nu_\infty=1\iff\exists\,\ell\in\mathcal{L}^{\mathrm{Heeg}}:\ \kappa^{\mathrm{Heeg}}_\ell\ne 0 .
+\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb Q)=2
+\iff\nu_\infty=1
+\iff\exists\ell\in\mathcal L^{\mathrm{Heeg}}:\kappa^{\mathrm{Heeg}}_\ell\ne0.
 $$
-In divisibility-index language: $\nu_\infty=1\iff\mathscr{M}_1=\mathscr{M}_\infty<\infty$; and under the hypotheses of [BCGS, Thm. B] ($p>3$, $\bar\rho_{E,p}$ surjective, integral anticyclotomic main conjecture, $p$-optimal parametrisation) $\mathscr{M}_\infty=\sum_{\ell\mid N}\operatorname{ord}_p(c_\ell)$, so the statement reads: *some first derived Heegner class $\kappa_\ell^{\mathrm{Heeg}}$ has $p$-divisibility exactly $\sum_{\ell\mid N}\operatorname{ord}_p c_\ell$*.
+If two independent rational points are additionally exhibited, these conditions
+imply $\operatorname{rank}E(\mathbb Q)=2$ and $\operatorname{Sha}[p^\infty]$ finite.
+Alternatively $\mathrm{Fin}(p)$ plus any of the equivalent conditions gives the same conclusion.
+The converse from rank two **and** primary finiteness is valid without an extra point hypothesis.
 
-*Proof.* (1) $r_{\mathrm{an}}(E^K)=1$, so by Gross–Zagier–Kolyvagin ($E^K$ is modular; [GZ86], [Kol90], [BFH90]) $\operatorname{rank}E^K(\mathbb{Q})=1$ and $\operatorname{Sha}(E^K/\mathbb{Q})$ is finite; hence $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E^K/\mathbb{Q})=1$ for every $p$, and for $p$ odd this group is $\operatorname{Sel}_{p^\infty}(E/K)^-$. (2) $\operatorname{ord}_{s=1}L(E/K,s)=r_{\mathrm{an}}(E)+r_{\mathrm{an}}(E^K)=3$, so $P_K$ is torsion (Gross–Zagier) and $\kappa^{\mathrm{Heeg}}_1=0$, whence $\nu_\infty\ge 1$; $\nu_\infty<\infty$ by hypothesis. Apply Kolyvagin's theorem. If $\nu_\infty$ were even, $\varepsilon_{\nu_\infty}=(+1)(-1)^{\nu_\infty+1}=-1$ and $r^-=\nu_\infty+1\ge 3$, contradicting (1). So $\nu_\infty$ is odd, $\varepsilon_{\nu_\infty}=+1$, and $r^+=\nu_\infty+1\ge 2$; also $\nu_\infty-r^-=\nu_\infty-1$ is even, consistently. (3) $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=r_{\mathrm{alg}}+\operatorname{corank}\operatorname{Sha}[p^\infty]$ and $r_{\mathrm{alg}}\le\operatorname{corank}\operatorname{Sel}=\nu_\infty+1$; if $\nu_\infty=1$ then $\operatorname{corank}\operatorname{Sel}=2$, and since $\operatorname{corank}\operatorname{Sel}\ge 2$ always here, $r_{\mathrm{alg}}=2$ with $\operatorname{Sha}[p^\infty]$ finite forces $\operatorname{corank}\operatorname{Sel}=2$, i.e. $\nu_\infty=1$; conversely $\operatorname{corank}\operatorname{Sel}=2$ with $r_{\mathrm{alg}}\le 2$ gives either ($r_{\mathrm{alg}}=2$, $\operatorname{Sha}[p^\infty]$ finite) or ($r_{\mathrm{alg}}\le 1$, $\operatorname{Sha}[p^\infty]$ of positive corank); the latter is excluded only if one knows $r_{\mathrm{alg}}=2$ — for the *specific curve* this is a finite computation (exhibit two independent points), which is how the equivalence in (3) is to be read (as in the charter: "rank BSD + finiteness of $\operatorname{Sha}[p^\infty]$" for $E$ with $r_{\mathrm{alg}}$ known). The last equivalence is the definition of $\nu_\infty=1$; the $\mathscr{M}$-reformulation is [BCGS, §0.1, Thm. B]. $\square$
+First nonvanishing does not imply $\mathscr M_1=\mathscr M_\infty$.
+That stronger divisibility condition must be kept separate. Under compatible
+index conventions, the additional corank-difference-one hypotheses in
+[Kim24, Theorem 2.3] give the finite-part formula
+$\operatorname{length}\operatorname{Sel}(E/K)_{/\mathrm{div}}
+=2(\mathscr M_1-\mathscr M_\infty)$ when $\nu_\infty=1$.
+Thus stabilization also forces a trivial finite Selmer quotient; it is not
+just a statement about the first nonzero class.
+
+*Proof.* The analytic-rank-one twist has Mordell–Weil rank one and finite Sha,
+so $r^-=1$. Gross–Zagier makes $P_K$ torsion since the analytic rank over $K$
+is three. As $E(K)[p]=0$, its Kummer class is zero, and $\nu_\infty\ge1$.
+If $\nu_\infty$ were even, the structure theorem would give
+$r^-=\nu_\infty+1\ge3$, a contradiction. Hence $\nu_\infty$ is odd and
+$r^+=\nu_\infty+1$. This proves the displayed equivalences. Finally
+$r^+=r_{\mathrm{alg}}+\operatorname{corank}\operatorname{Sha}[p^\infty]$;
+the extra rank lower bound, or primary finiteness, supplies exactly the
+missing condition for rank two. $\square$
 
 *Remark.* Part (2) says that under Kolyvagin's conjecture, $r_{\mathrm{an}}=2$ forces $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\ge 2$ — the Selmer lower bound in even rank (also obtainable from the rational main conjecture + parity, §1.1). Nothing forces $\nu_\infty\ne 3,5,\dots$: BSD predicts $\nu_\infty=1$, and Prop. 2.2 makes "$\nu_\infty=1$" the exact statement to prove. This is the complete statement of Bridge (iii) on the Heegner side; the full Kolyvagin analysis is in `approaches/B`.
 
@@ -221,7 +253,7 @@ $$
 $$
 and the finite part $\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})_{/\mathrm{div}}$ is determined by the $\partial^{(i)}(\tilde{\boldsymbol\delta})$ [Kim24, Thm. 3.1(2),(3)]. Moreover $\operatorname{ord}(\tilde{\boldsymbol\delta})<\infty$ holds if $E$ is semistable with good ordinary reduction at $p\ge 5$ and $\bar\rho_{E,p}$ surjective [Kim24, Cor. 2.2]; in general it is equivalent to the main conjecture localised at the augmentation ideal [Kim24, Thm. 2.1 (IMC)].
 
-**[THEOREM] (Kim's "higher Gross–Zagier formula" [Kim24, Thm. 2.3]).** Under the working hypotheses of [Kim24, §2.1] with $\nu(N^-)$ even, if $\kappa^{\mathrm{Heeg}}\ne 0$ and $\tilde{\boldsymbol\delta}(E),\tilde{\boldsymbol\delta}(E^K)\ne 0$, then $\operatorname{ord}(\kappa^{\mathrm{Heeg}})+1=\max\{\operatorname{ord}\tilde{\boldsymbol\delta}(E),\operatorname{ord}\tilde{\boldsymbol\delta}(E^K)\}$ (and $=\min$ for $\operatorname{ord}(\kappa^{\mathrm{Heeg}})$), together with an exact formula for $\operatorname{length}\operatorname{Sel}_{p^\infty}(E/K)_{/\mathrm{div}}$.
+**[THEOREM] (Kim's "higher Gross–Zagier formula" [Kim24, Thm. 2.3]).** Under the working hypotheses of [Kim24, §2.1] with $\nu(N^-)$ even, if $\kappa^{\mathrm{Heeg}}\ne 0$ and $\tilde{\boldsymbol\delta}(E),\tilde{\boldsymbol\delta}(E^K)\ne 0$, then $\operatorname{ord}(\kappa^{\mathrm{Heeg}})+1=\max\{\operatorname{ord}\tilde{\boldsymbol\delta}(E),\operatorname{ord}\tilde{\boldsymbol\delta}(E^K)\}$ (and the corresponding minimum formula for $\operatorname{ord}(\kappa^{\mathrm{Heeg}})$ holds only if the two Selmer coranks differ by one), together with an exact formula for $\operatorname{length}\operatorname{Sel}_{p^\infty}(E/K)_{/\mathrm{div}}$.
 
 So the two Kolyvagin systems (Heegner, Kato) are both *complete* descriptions of $\operatorname{Sel}_{p^\infty}$, and both are now known to be non-zero. The bridge to $r_{\mathrm{an}}$ is missing on both. On the cyclotomic side the missing bridge can be stated with unusual precision, because $\tilde\delta_n$ *is* built from $L$-values:
 
@@ -253,17 +285,26 @@ $$
 $$
 (\zeta_p-1)^2\ \big|\ L^{\mathrm{alg}}(E,\bar\chi,1)\quad\text{for every }\ell\in\mathcal{P}_1^{(1)}\text{ and every }\chi\text{ mod }\ell\text{ of order }p .
 $$
-3. Assume $\operatorname{ord}(\tilde{\boldsymbol\delta})<\infty$ (automatic if $E$ is semistable, [Kim24, Cor. 2.2]). Then $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\ge2$ iff $L(E,1)=0$ and $\tilde\delta_\ell=0$ in $\mathbb{Z}_p/I_\ell$ for every $\ell\in\mathcal{P}^{\mathrm{cyc}}_1$; this implies the congruence in (2) for all $(\ell,\chi)$, and for those $\ell$ with $I_\ell=p\mathbb{Z}_p$ the vanishing of $\tilde\delta_\ell$ *is* the congruence. In particular, for $r_{\mathrm{an}}(E)\ge3$ odd, BSD predicts the congruence in (2) for all $(\ell,\chi)$, and the congruence for all $(\ell,\chi)$ implies $\dim_{\mathbb{F}_p}\operatorname{Sel}(E/\mathbb{Q},E[p])\ge2$.
+3. Assume $\operatorname{ord}(\tilde{\boldsymbol\delta})<\infty$ (automatic if $E$ is semistable, [Kim24, Cor. 2.2]). Then $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\ge2$ iff $L(E,1)=0$ and $\tilde\delta_\ell=0$ in $\mathbb{Z}_p/I_\ell$ for every $\ell\in\mathcal{P}^{\mathrm{cyc}}_1$; this implies the congruence in (2) for all $(\ell,\chi)$, and for those $\ell$ with $I_\ell=p\mathbb{Z}_p$ the vanishing of $\tilde\delta_\ell$ *is* the congruence. In particular, for $r_{\mathrm{an}}(E)\ge3$ odd, BSD predicts the congruence in (2) for all $(\ell,\chi)$. The congruence alone does not establish a Selmer lower bound: its converse has not been proved here.
 
-*Proof.* (1) By Prop. 2.3, $\tilde\delta_\ell$ is a unit mod $p$; Kurihara's theorem [Kur14, Thm. 1.2.3(1)] (with $N=1$, $m=\ell$) says the localisation map $\operatorname{Sel}(E/\mathbb{Q},E[p])\to E(\mathbb{Q}_\ell)\otimes\mathbb{Z}/p\cong\mathbb{Z}/p$ is injective. As $E(\mathbb{Q})[p]=0$, $\operatorname{Sel}(E/\mathbb{Q},E[p])=\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})[p]$, whose $\mathbb{F}_p$-dimension bounds the corank. Parity [DD10] gives the sign. (2) Under the rational main conjecture, $L(E,1)=0\Rightarrow\operatorname{corank}\operatorname{Sel}\ge1$ (§1.1), and parity gives $\ge2$; so by (1) no $\tilde\delta_\ell$ is a unit mod $p$, and Prop. 2.3 converts this into the congruence. (3) By [Kim24, Thm. 3.1(1)], $\operatorname{corank}\operatorname{Sel}\ge 2\iff\operatorname{ord}(\tilde{\boldsymbol\delta})\ge2\iff\tilde\delta_1=0$ and $\tilde\delta_\ell=0$ in $\mathbb{Z}_p/I_\ell$ for all $\ell\in\mathcal{P}^{\mathrm{cyc}}_1$; $\tilde\delta_1=L(E,1)/\Omega^+_E$. Vanishing in $\mathbb{Z}_p/I_\ell$ implies vanishing mod $p$ (as $I_\ell\subset p\mathbb{Z}_p$), which is the congruence by Prop. 2.3; if $I_\ell=p\mathbb{Z}_p$ the two are the same. The last assertion is the contrapositive of (1). $\square$
+*Proof.* (1) By Prop. 2.3, $\tilde\delta_\ell$ is a unit mod $p$; Kurihara's theorem [Kur14, Thm. 1.2.3(1)] (with $N=1$, $m=\ell$) says the localisation map $\operatorname{Sel}(E/\mathbb{Q},E[p])\to E(\mathbb{Q}_\ell)\otimes\mathbb{Z}/p\cong\mathbb{Z}/p$ is injective. As $E(\mathbb{Q})[p]=0$, $\operatorname{Sel}(E/\mathbb{Q},E[p])=\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})[p]$, whose $\mathbb{F}_p$-dimension bounds the corank. Parity [DD10] gives the sign. (2) Under the rational main conjecture, $L(E,1)=0\Rightarrow\operatorname{corank}\operatorname{Sel}\ge1$ (§1.1), and parity gives $\ge2$; so by (1) no $\tilde\delta_\ell$ is a unit mod $p$, and Prop. 2.3 converts this into the congruence. (3) By [Kim24, Thm. 3.1(1)], $\operatorname{corank}\operatorname{Sel}\ge 2\iff\operatorname{ord}(\tilde{\boldsymbol\delta})\ge2\iff\tilde\delta_1=0$ and $\tilde\delta_\ell=0$ in $\mathbb{Z}_p/I_\ell$ for all $\ell\in\mathcal{P}^{\mathrm{cyc}}_1$; $\tilde\delta_1=L(E,1)/\Omega^+_E$. Vanishing in $\mathbb{Z}_p/I_\ell$ implies vanishing mod $p$ (as $I_\ell\subset p\mathbb{Z}_p$), which is the congruence by Prop. 2.3; if $I_\ell=p\mathbb{Z}_p$ the two are the same. No converse from the mod-$p$ congruences alone is asserted. $\square$
 
-*Remark (what is and is not captured mod $p$).* The Kurihara number $\tilde\delta_\ell\in\mathbb{Z}_p/I_\ell$ is the image of the Mazur–Tate element $\theta_\ell=\sum_a[a/\ell]^+\sigma_a$ in $I/I^2$ of the augmentation ideal of $\mathbb{Z}_p[(\mathbb{Z}/\ell)^\times\otimes\mathbb{Z}_p]$; its reduction mod $p$ is detected by *individual* twisted $L$-values modulo $(\zeta-1)^2$ (Prop. 2.3), but its class modulo $p^k$ for $k\ge2$ is a $p$-adic linear combination of all the $[a/\ell]^+$ with coefficients $\log_{\eta_\ell}(a)$ that is not a value of $\theta_\ell$ at a single character. So the exact Selmer statement lives in $\mathbb{Z}_p/I_\ell$, while its mod-$p$ shadow is an honest statement about twisted $L$-values.
+*Remark (what is and is not captured mod $p$).* First reduce coefficients modulo $I_\ell$. The augmentation of $\theta_\ell=\sum_a[a/\ell]^+\sigma_a$ then vanishes, and its linear augmentation term yields $\tilde\delta_\ell$. Over $\mathbb Z_p$ itself, the augmentation $(a_\ell-2)[0]^+$ need not be zero, so a class in $I/I^2$ cannot be asserted without this qualification; its reduction mod $p$ is detected by *individual* twisted $L$-values modulo $(\zeta-1)^2$ (Prop. 2.3), but its class modulo $p^k$ for $k\ge2$ is a $p$-adic linear combination of all the $[a/\ell]^+$ with coefficients $\log_{\eta_\ell}(a)$ that is not a value of $\theta_\ell$ at a single character. So the exact Selmer statement lives in $\mathbb{Z}_p/I_\ell$, while its mod-$p$ shadow is an honest statement about twisted $L$-values.
 
 *Why this is the right formulation of the missing bridge.* The cyclotomic $p$-adic $L$-function sees twists by characters of $p$-power **conductor** ("vertical" direction; this is where $\operatorname{ord}_{s=1}L(E,s)$ lives). The Kurihara numbers see twists of order $p$ and prime conductor $\ell\equiv 1\pmod p$ ("horizontal" direction; this is where the Mazur–Tate elements $\theta_\ell=\sum_a[a/\ell]^+\sigma_a\in\mathbb{Z}_{(p)}[(\mathbb{Z}/\ell)^\times]$ live, and Prop. 2.3 identifies $\tilde\delta_\ell$ with the image of $\theta_\ell$ in $I/I^2$ of the augmentation ideal, i.e. with the *Mazur–Tate refined conjecture* [MT87] at the level of first derivatives). The Mazur–Tate refined conjecture predicts $\theta_n\in I_n^{\,r_{\mathrm{alg}}}$; combined with BSD this is "$\tilde\delta_n=0$ for $\nu(n)<r_{\mathrm{an}}$". **There is no known mechanism relating vertical vanishing ($\operatorname{ord}_{s=1}$) to horizontal vanishing ($\theta_\ell\in I^2$).** Everything proved in rank $\le 1$ (and in even rank $\ge 2$, Cor. 2.4(2)) about horizontal vanishing goes *through the Selmer group*, never directly through analysis.
 
-**[GAP 5] (Selmer lower bound in odd analytic rank $\ge 3$; horizontal form).** *Let $E/\mathbb{Q}$, $p$ be as in Cor. 2.4 with $\operatorname{ord}(\tilde{\boldsymbol\delta})<\infty$, and $r_{\mathrm{an}}(E)\ge 3$. Prove that $\tilde\delta_\ell=0$ in $\mathbb{Z}_p/I_\ell$ for every $\ell\in\mathcal{P}^{\mathrm{cyc}}_1$; in particular (and this is the part that is a statement about $L$-values) that for every prime $\ell\equiv1\pmod p$ with $E(\mathbb{F}_\ell)[p]\cong\mathbb{Z}/p$ and every character $\chi$ mod $\ell$ of order $p$, $(\zeta_p-1)^2$ divides $\tau(\chi)L(E,\bar\chi,1)/\Omega^+_E$.* The first statement is equivalent (Cor. 2.4(3), parity) to $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\ge 3$, which implies $r_p\ge 3$ [GAP 2] by Prop. 1.2.
+**[THEOREM: former GAP 5 resolved in its standing hypotheses].**
+For non-CM $E$, $p\ge5$ good ordinary with irreducible $E[p]$, odd analytic
+rank at least three implies $s_p(E)\ge3$. Under residual surjectivity and
+the Manin-constant hypothesis, Kim's theorem then forces
+$\tilde\delta_n=0$ in the full quotient $\mathbb Z_p/I_n$ for every
+$\nu(n)<3$. No independent nonvanishing hypothesis for the family is needed
+for this implication. The proof and the semistable supersingular extension
+are in [odd-rank-selmer-bridge.md](synthesis/odd-rank-selmer-bridge.md).
+The next odd lower-bound target is O5 there, concerning two-prime Heegner
+classes when the analytic rank is at least five.
 
-**[GAP 6] (the Kolyvagin bridge for rank-2 curves).** *Let $E/\mathbb{Q}$ with $r_{\mathrm{an}}=2$, $K$ with $r_{\mathrm{an}}(E^K)=1$, $(E,p,K)$ as in Prop. 2.2 with $\bar\rho_{E,p}$ surjective and $p>3$. Prove $\operatorname{ord}(\kappa^{\mathrm{Heeg}})=1$, i.e. exhibit one Kolyvagin prime $\ell$ with $\kappa^{\mathrm{Heeg}}_\ell\ne0$; equivalently (with [BCGS, Thm. B]) $\mathscr{M}_1=\sum_{q\mid N}\operatorname{ord}_p c_q$.* The known analytic handle on $\kappa_\ell^{\mathrm{Heeg}}$ is *mod $p$ and for a different form*: by the first explicit reciprocity law of Bertolini–Darmon [BD05] in Zhang's formulation [Zha14, §§5–7] (bipartite Euler systems, cf. [Kim24, §2.4]), the localisation $\operatorname{loc}_\ell(\kappa^{\mathrm{Heeg}}_{\ell})$ is (up to units) the algebraic part mod $p$ of $L(g_\ell/K,1)$ for a newform $g_\ell$ of level $N\ell$ congruent to $f_E$ mod $p$ (level raising). Thus $\kappa^{\mathrm{Heeg}}_\ell\ne0$ follows from $p\nmid L^{\mathrm{alg}}(g_\ell/K,1)$ for *some* level-raised $g_\ell$ — a statement about a congruent form, not about $L(E,s)$. Details and the attempt: `approaches/B` and §6 below.
+**[GAP 6] (the Kolyvagin bridge for rank-2 curves).** *Let $E/\mathbb{Q}$ with $r_{\mathrm{an}}=2$, $K$ with $r_{\mathrm{an}}(E^K)=1$, $(E,p,K)$ as in Prop. 2.2 with $\bar\rho_{E,p}$ surjective and $p>3$. Prove $\operatorname{ord}(\kappa^{\mathrm{Heeg}})=1$, i.e. exhibit one Kolyvagin prime $\ell$ with $\kappa^{\mathrm{Heeg}}_\ell\ne0$. Do not replace this by equality of the first and limiting divisibility indices.* The known analytic handle on $\kappa_\ell^{\mathrm{Heeg}}$ is *mod $p$ and for a different form*: by the first explicit reciprocity law of Bertolini–Darmon [BD05] in Zhang's formulation [Zha14, §§5–7] (bipartite Euler systems, cf. [Kim24, §2.4]), the localisation $\operatorname{loc}_\ell(\kappa^{\mathrm{Heeg}}_{\ell})$ is (up to units) the algebraic part mod $p$ of $L(g_\ell/K,1)$ for a newform $g_\ell$ of level $N\ell$ congruent to $f_E$ mod $p$ (level raising). Thus $\kappa^{\mathrm{Heeg}}_\ell\ne0$ follows from $p\nmid L^{\mathrm{alg}}(g_\ell/K,1)$ for *some* level-raised $g_\ell$ — a statement about a congruent form, not about $L(E,s)$. Details and the attempt: `approaches/B` and §6 below.
 
 ---
 
@@ -287,7 +328,7 @@ For rank $\ge 2$ curves, (S2) and (S3) are known for many $(E,p)$; (S1) for none
 $$
 r_{\mathrm{alg}}=\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=\operatorname{ord}_{T=0}f_E=r_p,\qquad\operatorname{Sha}(E/\mathbb{Q})[p^\infty]\ \text{is finite},
 $$
-the $p$-adic height pairing on $E(\mathbb{Q})$ is non-degenerate, and
+the $p$-adic height pairing on $E(\mathbb{Q})$ is non-degenerate. If Kato's divisibility holds integrally (in particular under the surjectivity hypothesis stated in §1.3), then
 $$
 \operatorname{ord}_p\#\operatorname{Sha}[p^\infty]\ \le\ \operatorname{ord}_p\Big(\frac{L_p^{(r)}(E,0)}{r!}\Big)-\operatorname{ord}_p\Big(\frac{\epsilon_p\prod_vc_v\cdot\operatorname{Reg}_\gamma(E/\mathbb{Q})}{\#E(\mathbb{Q})[p^\infty]^2}\Big),
 $$
@@ -316,9 +357,18 @@ with equality if $\bar\rho_{E,p}$ is surjective and the integral main conjecture
 **Lemma 3.2 (elementary).** For a fixed prime $\ell\nmid ND_K$ inert in $K$, the set of primes $p$ for which $\ell$ is a Kolyvagin prime (i.e. $p\mid\gcd(\ell+1,a_\ell)$) is finite, of cardinality $\le\omega(\ell+1)$.
 *Proof.* $\ell+1\neq0$, so $\gcd(\ell+1,a_\ell)$ is a positive integer dividing $\ell+1$ (it equals $\ell+1$ if $a_\ell=0$). $\square$
 
-Hence *no finite set of derived Heegner points controls $\operatorname{Sha}[p^\infty]$ for infinitely many $p$*. Any "all $p$" argument via Prop. 2.2 needs, for each $p$, a Kolyvagin prime $\ell_p$ with $\kappa^{\mathrm{Heeg}}_{\ell_p}\not\equiv 0\pmod p$ — and by the structure theorem that is equivalent to $\operatorname{Sha}[p]=0$ (and $p\nmid\prod c_q$), i.e. it is what one wants to prove.
+Thus a fixed finite set of conductors can be used as Kolyvagin indices
+for only finitely many $p$ through the stated divisibility conditions.
+A varying-conductor construction is not ruled out. Nonzero derived classes,
+unit derived classes, and a trivial finite Selmer quotient are distinct
+conditions; the exact implications require the rank and divisibility
+hypotheses discussed in corrected Proposition 2.2.
 
-(d) *The BSD leading term.* The number $c_E:=L^{(r)}(E,1)/(r!\,\Omega_E\operatorname{Reg}_{\mathrm{NT}}(E/\mathbb{Q}))$ is the right $p$-independent object — *if* it is rational and non-zero, which is the BSD leading-term conjecture itself. The following makes precise that "all $p$ at once" is *equivalent* to a uniformity statement about $p$-adic leading terms.
+(d) *The BSD leading term.* Rationality of
+$c_E=L^{(r)}(E,1)/(r!\Omega_E\operatorname{Reg}_{\mathrm{NT}})$ is only a
+rationality assertion. It does not identify $c_E$ with an arithmetic order
+or with $p$-adic leading terms. The following proposition uses a separate
+comparison hypothesis and concludes only within its stated ordinary-prime set.
 
 **[NEW] Proposition 3.3 (uniformity $\Rightarrow$ almost-all-$p$ triviality of $\operatorname{Sha}$; conditional on the main conjecture).** Let $E/\mathbb{Q}$ be non-CM with $r:=r_{\mathrm{alg}}$, and assume $E$ has at least one prime $q$ of multiplicative reduction. Let $\mathcal{P}$ be the set of good ordinary primes $p>3$ with $\bar\rho_{E,p}$ surjective and $p\nmid\operatorname{ord}_q\Delta_E$; $\mathcal{P}$ contains all but finitely many good ordinary primes ([Ser72]; $\bar\rho_{E,p}$ is ramified at $q$ if $p\nmid\operatorname{ord}_q\Delta_E$, [SW13, after Thm. 7.5]), and the integral main conjecture $L_p(E,T)=f_E(T)\cdot u(T)$, $u\in\Lambda^\times$, holds at every $p\in\mathcal{P}$ [SU14, Thm. 1], [SW13, Thm. 7.5]. Write the $p$-adic BSD conjecture of [MTT86] in the normalisation of [SW13, Conj. 5.1 and Thm. 6.1] as
 $$
@@ -328,15 +378,20 @@ with $\epsilon_p$ the explicit $p$-adic multiplier of loc. cit. (a $p$-adic unit
 $$
 \mathrm{U}(E):\qquad \exists\,c_E\in\mathbb{Q}^\times\ \text{ such that for all but finitely many }p\in\mathcal{P}:\quad \operatorname{Reg}_\gamma(E/\mathbb{Q})\ne0\ \text{ and }\ \frac{L_p^{(r)}(E,0)/r!}{\epsilon_p\operatorname{Reg}_\gamma(E/\mathbb{Q})}=c_E .
 $$
-Then $\mathrm{U}(E)$ implies: for all but finitely many $p\in\mathcal{P}$, $r_p=r$, $\operatorname{Sha}(E/\mathbb{Q})[p^\infty]$ is finite, the $p$-adic height is non-degenerate, and $\operatorname{Sha}(E/\mathbb{Q})[p^\infty]=0$ (the exceptions being the finitely many $p$ excluded in $\mathrm{U}(E)$ together with the divisors of the numerator and denominator of $c_E$, of $\prod_vc_v$ and of $\#E(\mathbb{Q})_{\mathrm{tors}}$). Conversely, BSD (leading term) for $E$ together with the $p$-adic BSD conjecture for all $p\in\mathcal{P}$ implies $\mathrm{U}(E)$ with $c_E=L^{(r)}(E,1)/(r!\,\Omega_E\operatorname{Reg}_{\mathrm{NT}}(E/\mathbb{Q}))$.
+Then $\mathrm{U}(E)$ implies: for all but finitely many $p\in\mathcal{P}$, $r_p=r$, $\operatorname{Sha}(E/\mathbb{Q})[p^\infty]$ is finite, the $p$-adic height is non-degenerate, and $\operatorname{Sha}(E/\mathbb{Q})[p^\infty]=0$ (the exceptions being the finitely many $p$ excluded in $\mathrm{U}(E)$ together with the divisors of the numerator and denominator of $c_E$, of $\prod_vc_v$ and of $\#E(\mathbb{Q})_{\mathrm{tors}}$). Conversely, BSD (leading term) for $E$, the $p$-adic BSD formulas for all $p\in\mathcal{P}$, and nonzero $p$-adic regulators for all but finitely many $p\in\mathcal P$ imply $\mathrm{U}(E)$ with $c_E=L^{(r)}(E,1)/(r!\,\Omega_E\operatorname{Reg}_{\mathrm{NT}}(E/\mathbb{Q}))$.
 
-*Proof.* Fix $p\in\mathcal{P}$ as in $\mathrm{U}(E)$, not dividing the numerator or denominator of $c_E$, nor $\prod c_v$, nor $\#E(\mathbb{Q})_{\mathrm{tors}}$. Since $c_E\ne0$ and $\operatorname{Reg}_\gamma\ne0$, $L_p^{(r)}(E,0)\ne0$, so $r_p\le r$; Prop. 1.2 gives $r_p\ge r$. Hence $r_p=r=r_{\mathrm{alg}}$ and Prop. 3.1 applies: $\operatorname{Sha}[p^\infty]$ is finite, the height is non-degenerate, and by [SW13, Thm. 6.1] $\operatorname{ord}_p f_E^{*}(0)=\operatorname{ord}_p\big(\epsilon_p\prod c_v\#\operatorname{Sha}[p^\infty]\operatorname{Reg}_\gamma/\#E(\mathbb{Q})[p^\infty]^2\big)$, where $f_E^*(0)$ is the leading coefficient of $f_E$ at $T=0$. The integral main conjecture gives $\operatorname{ord}_p(L_p^{(r)}(E,0)/r!)=\operatorname{ord}_pf_E^*(0)$ (same order of vanishing, unit ratio). Substituting $\mathrm{U}(E)$: $\operatorname{ord}_p(c_E)+\operatorname{ord}_p(\epsilon_p\operatorname{Reg}_\gamma)=\operatorname{ord}_p(\epsilon_p\operatorname{Reg}_\gamma)+\operatorname{ord}_p\#\operatorname{Sha}[p^\infty]+\operatorname{ord}_p\prod c_v-2\operatorname{ord}_p\#E(\mathbb{Q})_{\mathrm{tors}}$, i.e. $\operatorname{ord}_p\#\operatorname{Sha}[p^\infty]=0$. The converse is obtained by dividing the two conjectural formulas ($p$-adic BSD as displayed; BSD: $L^{(r)}(E,1)/r!=\Omega_E\prod c_v\#\operatorname{Sha}\operatorname{Reg}_{\mathrm{NT}}/\#E_{\mathrm{tors}}^2$). $\square$
+*Proof.* Fix $p\in\mathcal{P}$ as in $\mathrm{U}(E)$, not dividing the numerator or denominator of $c_E$, nor $\prod c_v$, nor $\#E(\mathbb{Q})_{\mathrm{tors}}$. Since $c_E\ne0$ and $\operatorname{Reg}_\gamma\ne0$, $L_p^{(r)}(E,0)\ne0$, so $r_p\le r$; Prop. 1.2 gives $r_p\ge r$. Hence $r_p=r=r_{\mathrm{alg}}$ and Prop. 3.1 applies: $\operatorname{Sha}[p^\infty]$ is finite, the height is non-degenerate, and by [SW13, Thm. 6.1] $\operatorname{ord}_p f_E^{*}(0)=\operatorname{ord}_p\big(\epsilon_p\prod c_v\#\operatorname{Sha}[p^\infty]\operatorname{Reg}_\gamma/\#E(\mathbb{Q})[p^\infty]^2\big)$, where $f_E^*(0)$ is the leading coefficient of $f_E$ at $T=0$. The integral main conjecture gives $\operatorname{ord}_p(L_p^{(r)}(E,0)/r!)=\operatorname{ord}_pf_E^*(0)$ (same order of vanishing, unit ratio). Substituting $\mathrm{U}(E)$: $\operatorname{ord}_p(c_E)+\operatorname{ord}_p(\epsilon_p\operatorname{Reg}_\gamma)=\operatorname{ord}_p(\epsilon_p\operatorname{Reg}_\gamma)+\operatorname{ord}_p\#\operatorname{Sha}[p^\infty]+\operatorname{ord}_p\prod c_v-2\operatorname{ord}_p\#E(\mathbb{Q})_{\mathrm{tors}}$, i.e. $\operatorname{ord}_p\#\operatorname{Sha}[p^\infty]=0$. Under the added regulator hypothesis the converse is obtained by dividing the two conjectural formulas ($p$-adic BSD as displayed; BSD: $L^{(r)}(E,1)/r!=\Omega_E\prod c_v\#\operatorname{Sha}\operatorname{Reg}_{\mathrm{NT}}/\#E_{\mathrm{tors}}^2$). $\square$
 
 *Caveat on normalisations.* Whether $\epsilon_p$ and the $\log_p\kappa(\gamma)$-factors are placed in $\operatorname{Reg}_\gamma$ or displayed separately varies between [MTT86], [SW13, §4–6] and [PR03]; the proof uses only that [SW13, Thm. 6.1] and the $p$-adic BSD conjecture are written in *the same* normalisation, which is how [SW13] states them. A reader testing $\mathrm{U}(E)$ numerically must fix conventions as in [SW13, Lemma 4.2].
 
 **[GAP 7] (uniformity of $p$-adic leading terms in rank $\ge 2$).** *Prove $\mathrm{U}(E)$ for one $E/\mathbb{Q}$ with $r_{\mathrm{alg}}=r_{\mathrm{an}}=2$ (e.g. $389a1$).* In rank $\le 1$, $\mathrm{U}(E)$ is a theorem: rank $0$ by interpolation; rank $1$ by $p$-adic Gross–Zagier + Gross–Zagier, *modulo* $\operatorname{Reg}_p\ne0$ at each $p$ [GAP 1]. In rank $2$ it is an open statement about infinitely many *unrelated* $p$-adic numbers, with no complex number known to tie them together. This is the exact content of "all $p$ at once".
 
-**Could any uniformity argument close it?** The three conceivable sources of uniformity are: (i) a $p$-independent rational/algebraic object whose $p$-adic realisations are the $\kappa^{\mathrm{Heeg}}_{\ell_p}$ or $\kappa^{\mathrm{Kato}}_{n_p}$ — excluded by Lemma 3.2 for Heegner-derived points and by the $p$-dependence of $\ell\equiv1\pmod p$ for Kato; (ii) a motivic cycle whose Beilinson–Bloch height is $L''(E,1)$ up to a fixed rational — [GAP 4], no candidate (§2.2); (iii) a *statistical* argument that $\operatorname{Sha}[p]=0$ for almost all $p$ for reasons of size (e.g. $\#\operatorname{Sha}[p^\infty]\le p$-part of a fixed integer) — this is precisely what a rational $c_E$ would provide and nothing else does. We therefore record: *there is no known route to (S1) for a single rank-$2$ curve that does not pass through BSD (leading term) or through $\mathrm{U}(E)$.*
+**Further uniformity work.** Lemma 3.2 limits which primes a *fixed*
+derived conductor can serve. It does not exclude a varying-conductor family
+or a different global construction. In particular the
+[continuation](synthesis/continuation-2026-09-12.md) gives a sufficient
+unit-Kurihara-witness target covering both ordinary and supersingular primes
+under Kim's hypotheses. No implication from complex rationality alone is used.
 
 ---
 
@@ -386,12 +441,12 @@ $$
 Thus **Layer 2 alone yields (U); the missing half (L) is again either a point construction or [finiteness of $\operatorname{Sha}[p^\infty]$ + Schneider at $p$]**. Note that Schneider's conjecture is *implied* by Layer 2 + BSD (rank) + finiteness (by (2)), so it is not an extra assumption beyond BSD; but no route to it is known that does not pass through BSD.
 
 **Layer 3 (Selmer lower bound).** For each $E$ there is a good ordinary odd prime $p$ with $E[p]$ irreducible and $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\ge r_{\mathrm{an}}$.
-*What it gives.* Combined with Layer 2 at the same $p$: $\operatorname{corank}\operatorname{Sel}=r_{\mathrm{an}}$, hence Layer 1 up to finiteness of $\operatorname{Sha}[p^\infty]$. Known: $r_{\mathrm{an}}\le1$ (Lemma 1.3), $r_{\mathrm{an}}$ even (rational main conjecture + parity: $L(E,1)=0\Rightarrow\operatorname{corank}\ge1\Rightarrow\ge2$ — but *not* $\ge r_{\mathrm{an}}$ for $r_{\mathrm{an}}\ge4$). Open for $r_{\mathrm{an}}\ge3$: [GAP 5], with the horizontal analytic reformulation of Cor. 2.4.
+*What it gives.* Combined with Layer 2 at the same $p$: $\operatorname{corank}\operatorname{Sel}=r_{\mathrm{an}}$, hence Layer 1 up to finiteness of $\operatorname{Sha}[p^\infty]$. Known: $r_{\mathrm{an}}\le1$ (Lemma 1.3), $r_{\mathrm{an}}$ even (rational main conjecture + parity: $L(E,1)=0\Rightarrow\operatorname{corank}\ge1\Rightarrow\ge2$ — but *not* $\ge r_{\mathrm{an}}$ for $r_{\mathrm{an}}\ge4$). The case $r_{\mathrm{an}}=3$ is now proved for non-CM curves at good ordinary $p\ge5$ with irreducible residual representation; see the odd-rank bridge. For higher odd analytic rank it proves only the lower bound three. O5 is the next odd-rank obligation.
 
 **Layer 4 (the Kolyvagin layer for $r_{\mathrm{an}}=2$).** For each $E$ with $r_{\mathrm{an}}=2$ and $K$ with $r_{\mathrm{an}}(E^K)=1$ there is $p$ as in Prop. 2.2 with $\operatorname{ord}(\kappa^{\mathrm{Heeg}})=1$.
 *What it gives.* $\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=2$ (Prop. 2.2), i.e. Layer 1 up to finiteness of $\operatorname{Sha}[p^\infty]$; for a curve with two known independent points, BSD (rank) and finiteness of $\operatorname{Sha}[p^\infty]$.
 
-**Layer 5 (the Kurihara–Mazur–Tate layer).** For each $E$ there is $p\ge5$ good ordinary with $\bar\rho_{E,p}$ surjective, Manin constant prime to $p$, and
+**Layer 5 (the Kurihara–Mazur–Tate layer).** For each non-CM $E$ there is $p\ge5$ good ordinary with $\bar\rho_{E,p}$ surjective, Manin constant prime to $p$, and
 $$
 \tilde\delta_n=0\ \text{ in }\mathbb{Z}_p/I_n\ \text{ for all }n\in\mathcal{N}^{\mathrm{cyc}}_1\text{ with }\nu(n)<r_{\mathrm{an}},\qquad\tilde\delta_n\ne0\ \text{ for some }n\text{ with }\nu(n)=r_{\mathrm{an}}.
 $$
@@ -401,9 +456,9 @@ $$
 
 **Summary of the logical structure.** Writing $\mathrm{Sel}(p)$ for "$\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})=r_{\mathrm{an}}$" and $\mathrm{Fin}(p)$ for "$\operatorname{Sha}[p^\infty]$ finite":
 $$
-\text{BSD(rank) for }E\iff\exists p:\ \mathrm{Sel}(p)\wedge\mathrm{Fin}(p)\iff\forall p:\ \mathrm{Sel}(p)\wedge\mathrm{Fin}(p);
+\big[\forall p:\ \mathrm{Sel}(p)\wedge\mathrm{Fin}(p)\big]\Rightarrow\big[\exists p:\ \mathrm{Sel}(p)\wedge\mathrm{Fin}(p)\big]\Rightarrow\text{BSD(rank) for }E;
 $$
-under the rational main conjecture, $[\text{Layer 2 at }p]\wedge[\text{Perrin-Riou non-degeneracy at }p]\Rightarrow\mathrm{Sel}(p)$, and given $\mathrm{Sel}(p)$, Layer 2 at $p$ holds iff Perrin-Riou non-degeneracy holds at $p$ (Prop. 5.1(1)); $\mathrm{Sel}(p)\iff$ [Layer 4 at $p$] (for $r_{\mathrm{an}}=2$, Prop. 2.2) $\iff$ [Layer 5 at $p$] ([Kim24, Thm. 3.1]); and $\mathrm{Fin}(p)$ has **no** known reformulation in terms of $L$-values other than through $\mathrm{Sel}(p)\wedge(r_{\mathrm{alg}}\ge r_{\mathrm{an}})$.
+Neither reverse implication is established by rank equality alone. Under the rational main conjecture, $[\text{Layer 2 at }p]\wedge[\text{Perrin-Riou non-degeneracy at }p]\Rightarrow\mathrm{Sel}(p)$, and given $\mathrm{Sel}(p)$, Layer 2 at $p$ holds iff Perrin-Riou non-degeneracy holds at $p$ (Prop. 5.1(1)); $\mathrm{Sel}(p)\iff$ [Layer 4 at $p$] (for $r_{\mathrm{an}}=2$, Prop. 2.2) $\iff$ [Layer 5 at $p$] ([Kim24, Thm. 3.1]); and $\mathrm{Fin}(p)$ has **no** known reformulation in terms of $L$-values other than through $\mathrm{Sel}(p)\wedge(r_{\mathrm{alg}}\ge r_{\mathrm{an}})$.
 
 ---
 
@@ -411,7 +466,13 @@ under the rational main conjecture, $[\text{Layer 2 at }p]\wedge[\text{Perrin-Ri
 
 **[GAP 1] Schneider non-degeneracy, rank 1.** *Attempt.* (a) Reformulations established: $\langle P,P\rangle_p\ne0\iff r_p=1\iff$ the zero of $f_E$ at $T=0$ is simple (under the rational main conjecture) $\iff L_p'(E,0)\ne0$; and, granting the Rubin-style formula of Perrin-Riou/Nekovář in the form described in [BDV22, §1.3] (exact statement not re-verified here), $\iff\langle\zeta^{\mathrm{Kato}}_E,P\rangle_p\ne0$. (b) Observed that for the purposes of BSD in rank $1$ the gap is *avoidable* (anticyclotomic route; $\log_\omega$ is injective on non-torsion points), whereas for $\mathrm{T}(E,p)$ it is *essential*; and that in rank $2$ its analogue is the non-degeneracy of the *derived* anticyclotomic height $h^{(\rho)}(P,Q)$ in [CH22] — which Castella–Hsieh prove is non-zero in their setting, so that in rank $2$ the anticyclotomic side *does* avoid the degeneracy; what is missing there is the complex partner of $\bar\theta_{f/K}$, not a non-degeneracy. (c) No progress on the statement itself; no non-CM case at infinitely many $p$ located in the literature.
 
-**[GAP 2]/[GAP 5] Selmer lower bound in odd rank $\ge3$; $r_p\ge3$.** *Attempt.* Proved (Prop. 2.3, Cor. 2.4) that $\operatorname{corank}\operatorname{Sel}\ge3$ is equivalent to the vanishing in $\mathbb{Z}_p/I_\ell$ of all prime-conductor Kurihara numbers, whose mod-$p$ shadow is the congruence $(\zeta_p-1)^2\mid\tau(\chi)L(E,\bar\chi,1)/\Omega^+$ for all Kolyvagin $(\ell,\chi)$ (exactly equivalent when $I_\ell=p\mathbb{Z}_p$). Tried to derive this from $\operatorname{ord}_{s=1}L(E,s)\ge3$ analytically: the twisted values $L(E,\bar\chi,1)$ for $\chi$ of conductor $\ell$ are values of the *horizontal* Mazur–Tate element $\theta_\ell$, and $\operatorname{ord}_{s=1}L(E,s)$ is a *vertical* statement; the only known link between them is through the Selmer group (Kurihara–Kim), which is what we want to prove. The approximate functional equation / explicit formula for $L(E,\chi,s)$ gives archimedean information (size), never $(\zeta-1)$-adic divisibility. Outcome: the gap is now a sharply stated congruence problem, checkable numerically for rank-$3$ curves (e.g. $5077a1$) as a test of BSD's prediction; no proof.
+**[THEOREM: resolution of former GAP 2 / GAP 5 in the ordinary irreducible range].**
+The [new deduction](synthesis/odd-rank-selmer-bridge.md) combines an auxiliary
+analytic-rank-zero twist, BCGS nonvanishing and its corank formula, and
+$p$-parity. It proves $s_p\ge3$, hence $r_p\ge3$, in odd analytic rank at
+least three. Kim then supplies full-modulus low-index Kurihara vanishing.
+The previous attempt recorded here overlooked the rank-one converse route.
+The deduction does not produce rational points or an upper bound on $s_p$.
 
 **[GAP 3] $\mathrm{T}(E,p)$, upper half.** *Attempt.* Shown equivalent to [BSD rank] $\wedge$ [$\operatorname{Sha}[p^\infty]$ finite] $\wedge$ [Schneider at $p$] under the rational main conjecture (Prop. 5.1). Hence strictly stronger than BSD (rank) for $E$; no independent approach.
 

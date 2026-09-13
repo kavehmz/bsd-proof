@@ -1,0 +1,53 @@
+{
+  "fixed_integral_group_ring_element": "U + U^(-1) - 2 = (U-1)^2/U",
+  "realization": "U -> (1+T)^(log_p(2)/log_p(1+p))",
+  "records": [
+    {
+      "p": 5,
+      "valuation_of_2_to_p_minus_1_minus_1": 1,
+      "valuation_of_log2_over_log1plusp": 0,
+      "central_order_from_proof": 2,
+      "valuation_of_second_coefficient_from_proof": 0,
+      "mu_from_proof": 0,
+      "lambda_from_proof": 2
+    },
+    {
+      "p": 7,
+      "valuation_of_2_to_p_minus_1_minus_1": 1,
+      "valuation_of_log2_over_log1plusp": 0,
+      "central_order_from_proof": 2,
+      "valuation_of_second_coefficient_from_proof": 0,
+      "mu_from_proof": 0,
+      "lambda_from_proof": 2
+    },
+    {
+      "p": 11,
+      "valuation_of_2_to_p_minus_1_minus_1": 1,
+      "valuation_of_log2_over_log1plusp": 0,
+      "central_order_from_proof": 2,
+      "valuation_of_second_coefficient_from_proof": 0,
+      "mu_from_proof": 0,
+      "lambda_from_proof": 2
+    },
+    {
+      "p": 1093,
+      "valuation_of_2_to_p_minus_1_minus_1": 2,
+      "valuation_of_log2_over_log1plusp": 1,
+      "central_order_from_proof": 2,
+      "valuation_of_second_coefficient_from_proof": 2,
+      "mu_from_proof": 0,
+      "lambda_from_proof": 2186
+    },
+    {
+      "p": 3511,
+      "valuation_of_2_to_p_minus_1_minus_1": 2,
+      "valuation_of_log2_over_log1plusp": 1,
+      "central_order_from_proof": 2,
+      "valuation_of_second_coefficient_from_proof": 2,
+      "mu_from_proof": 0,
+      "lambda_from_proof": 7022
+    }
+  ],
+  "scope": "One coherent integral measure; not an elliptic L-function or BSD counterexample",
+  "no_infinite_exception_claim": true
+}

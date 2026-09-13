@@ -1,0 +1,28 @@
+{
+  "curve": "389a1",
+  "affine_equation_F": "y^2+y-x^3-x^2+2*x",
+  "projective_equation": "Y^2*Z+Y*Z^2-X^3-X^2*Z+2*X*Z^2",
+  "discriminant": 389,
+  "c4": 112,
+  "c6": -856,
+  "unique_special_fiber_node": [
+    299,
+    194
+  ],
+  "F_at_integer_lift_divided_by_389": -68848,
+  "regular_total_space_residue": 5,
+  "distinct_tangent_slopes": [
+    148,
+    241
+  ],
+  "special_fiber_point_count": 389,
+  "analytic_input_sha256": "6752e42e19c7cd5d4d3d8ba48e3c267cd8113dbd2ba2c3c47b2f071b0a1fcc0f",
+  "arithmetic_surface_zeta_identity_from_proof": "zeta(s)*zeta(s-1)/L(E,s)",
+  "surface_pole_order_at_1_from_proof": 3,
+  "surface_leading_coefficient_identity": "-1/(2*(L''(E,1)/2))",
+  "surface_leading_coefficient_rational_endpoints": [
+    "-85070591730234615865843651857942052864/129191007980134657424839548475396733285",
+    "-85070591730234615865843651857942052864/129191007980134657424839548476190970957"
+  ],
+  "scope": "Regularity/fiber arithmetic and analytic identity only; no finite Brauer or Sha claim"
+}

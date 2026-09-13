@@ -1,0 +1,62 @@
+{
+  "curve": "389a1",
+  "ainvs": [
+    0,
+    1,
+    1,
+    -2,
+    0
+  ],
+  "sage_version": "10.7",
+  "p": 5,
+  "a_p": -3,
+  "rank_certificate_pari": "[2, 2, 0, [[-2, 0], [4, 8]]]",
+  "rank": 2,
+  "mod_5_representation_surjective": true,
+  "non_CM": true,
+  "modular_symbol_normalization": "least positive real Neron period; sign +1",
+  "backends": [
+    "eclib",
+    "sage"
+  ],
+  "all_backend_values_equal": true,
+  "checked_cusps": 2501,
+  "symbol_at_zero": "0",
+  "primes": [
+    {
+      "ell": 41,
+      "a_ell": -3,
+      "primitive_root": 6,
+      "I_ell_exponent": 1,
+      "weighted_sum": "-40",
+      "delta_mod_5": 0
+    },
+    {
+      "ell": 61,
+      "a_ell": -8,
+      "primitive_root": 2,
+      "I_ell_exponent": 1,
+      "weighted_sum": "0",
+      "delta_mod_5": 0
+    }
+  ],
+  "n": 2501,
+  "unit_residues": 2400,
+  "weighted_sum": "244",
+  "delta_mod_5": 4,
+  "cyclotomic_generator": "zeta = primitive fifth root; pi = zeta - 1",
+  "character_sums_by_mask": [
+    "0",
+    "0",
+    "0",
+    "84*zeta5^3 + 82*zeta5^2 + 84*zeta5"
+  ],
+  "mixed_difference": "84*zeta5^3 + 82*zeta5^2 + 84*zeta5",
+  "mixed_difference_norm": "52128400",
+  "mixed_difference_pi_valuation": 2,
+  "difference_divided_by_pi_squared": "-50*zeta5^2 - 66*zeta5 - 50",
+  "mixed_derivative_residue": 4,
+  "imprimitive_Euler_relations_checked": true,
+  "arithmetic_conclusion_using_Kim_Theorem_3_1": "ord(delta)=2; Sel_5_infinity=(Q_5/Z_5)^2; Sha[5^infinity]=0",
+  "scope": "one curve and one prime; no complex analytic rank certification or full BSD claim"
+}

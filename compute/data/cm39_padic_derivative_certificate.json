@@ -1,0 +1,4917 @@
+{
+  "curve_label": "48672i1",
+  "ainvs": [
+    0,
+    0,
+    0,
+    39,
+    0
+  ],
+  "conductor": 48672,
+  "prime": 5,
+  "a_p": -2,
+  "N_p": 8,
+  "sage_version": "10.7",
+  "neron_differential": "dx/(2*y) on the displayed global minimal model",
+  "period": "full real Neron period; equals least positive real period",
+  "real_components": 1,
+  "eclib_to_neron_real_scaling": "1/2",
+  "manin_constant": 1,
+  "optimality_source": "Cremona, Appendix Theorem 5.2 in Agashe-Ribet-Stein (2006): N<60000, index1 optimal except990h, Manin constant1",
+  "primary_manin_pdf": "https://wstein.org/papers/ars-manin/agashe-ribet-stein-the_manin_constant.pdf",
+  "table_row": "48672 i 1 [0,0,0,39,0] 2 2",
+  "table_url": "https://raw.githubusercontent.com/JohnCremona/ecdata/master/allcurves/allcurves.40000-49999",
+  "table_sha256": "53c60910cc04de5de37372795d9ad79a9c2551364802f6a808242d3b5543139f",
+  "rank_certificate_sha256": "ca709ee9550994f0e3d1022423ce6ac1eb27c5bc1ae6b152338684e7a6f11c2d",
+  "measure_integrality": "5-integral Neron modular symbols; CM ordinary inertia and complex conjugation imply irreducibility, alternatively optimal Manin1 and rational unitary cusps give half-integral symbols",
+  "c2_nonzero_certified": true,
+  "c2_residue_mod_25": 20,
+  "c2_valuation": 1,
+  "normalization_constants_retained": {
+    "T": "gamma-1, chi_cyc(gamma)=6",
+    "tame_norm_degree": 18432,
+    "auxiliary_a": 7,
+    "q_a": "12*(a^2-u_a*(1+X)^lambda_a*(1+Y)^lambda_a)",
+    "betti_coefficient": "2*pr_rho(gamma_E_plus)",
+    "g_p": "log_5(6)",
+    "e_p": "(1-alpha^(-1))^2",
+    "k_alpha": "(1-alpha^(-1))^(-1)*(1-beta^(-1))",
+    "c_cmp_p": "(156*i*Omega_p)^(-1)"
+  },
+  "records": [
+    {
+      "level_n": 3,
+      "measure_modulus": 125,
+      "cyclotomic_exponent_count": 25,
+      "gamma": 6,
+      "teichmuller_residues": {
+        "1": 1,
+        "2": 57,
+        "3": 68,
+        "4": 124
+      },
+      "unit_root_modulus": 25,
+      "unit_root_residue": 13,
+      "unit_root_polynomial": [
+        5,
+        2,
+        1
+      ],
+      "exact_A": "3540",
+      "exact_B": "-275",
+      "formula": "alpha^(-n) * (A - alpha^(-1) * B)",
+      "coefficient_residue": 20,
+      "coefficient_modulus": 25,
+      "infinite_error_valuation_at_least": 2,
+      "c2_valuation_certified": 1,
+      "bin_count": 100,
+      "all_symbols_cross_checked_eclib_vs_num": true,
+      "sage_series_secondary_check": "O(5^5) + O(5^2)*T + (4*5 + O(5^2))*T^2 + (3*5 + O(5^2))*T^3 + O(T^4)",
+      "rational_symbol_rows": [
+        {
+          "j": 0,
+          "teich_label": 1,
+          "residue": 1,
+          "binomial_j_2": 0,
+          "symbol_high": "1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 0,
+          "teich_label": 2,
+          "residue": 57,
+          "binomial_j_2": 0,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 0,
+          "teich_label": 3,
+          "residue": 68,
+          "binomial_j_2": 0,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 0,
+          "teich_label": 4,
+          "residue": 124,
+          "binomial_j_2": 0,
+          "symbol_high": "1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 1,
+          "teich_label": 1,
+          "residue": 6,
+          "binomial_j_2": 0,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 1,
+          "teich_label": 2,
+          "residue": 92,
+          "binomial_j_2": 0,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 1,
+          "teich_label": 3,
+          "residue": 33,
+          "binomial_j_2": 0,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 1,
+          "teich_label": 4,
+          "residue": 119,
+          "binomial_j_2": 0,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 2,
+          "teich_label": 1,
+          "residue": 36,
+          "binomial_j_2": 1,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 2,
+          "teich_label": 2,
+          "residue": 52,
+          "binomial_j_2": 1,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 2,
+          "teich_label": 3,
+          "residue": 73,
+          "binomial_j_2": 1,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 2,
+          "teich_label": 4,
+          "residue": 89,
+          "binomial_j_2": 1,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 3,
+          "teich_label": 1,
+          "residue": 91,
+          "binomial_j_2": 3,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 3,
+          "teich_label": 2,
+          "residue": 62,
+          "binomial_j_2": 3,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 3,
+          "teich_label": 3,
+          "residue": 63,
+          "binomial_j_2": 3,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 3,
+          "teich_label": 4,
+          "residue": 34,
+          "binomial_j_2": 3,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 4,
+          "teich_label": 1,
+          "residue": 46,
+          "binomial_j_2": 6,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 4,
+          "teich_label": 2,
+          "residue": 122,
+          "binomial_j_2": 6,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 4,
+          "teich_label": 3,
+          "residue": 3,
+          "binomial_j_2": 6,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 4,
+          "teich_label": 4,
+          "residue": 79,
+          "binomial_j_2": 6,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 5,
+          "teich_label": 1,
+          "residue": 26,
+          "binomial_j_2": 10,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 5,
+          "teich_label": 2,
+          "residue": 107,
+          "binomial_j_2": 10,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 5,
+          "teich_label": 3,
+          "residue": 18,
+          "binomial_j_2": 10,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 5,
+          "teich_label": 4,
+          "residue": 99,
+          "binomial_j_2": 10,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 6,
+          "teich_label": 1,
+          "residue": 31,
+          "binomial_j_2": 15,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 6,
+          "teich_label": 2,
+          "residue": 17,
+          "binomial_j_2": 15,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 6,
+          "teich_label": 3,
+          "residue": 108,
+          "binomial_j_2": 15,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 6,
+          "teich_label": 4,
+          "residue": 94,
+          "binomial_j_2": 15,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 7,
+          "teich_label": 1,
+          "residue": 61,
+          "binomial_j_2": 21,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 7,
+          "teich_label": 2,
+          "residue": 102,
+          "binomial_j_2": 21,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 7,
+          "teich_label": 3,
+          "residue": 23,
+          "binomial_j_2": 21,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 7,
+          "teich_label": 4,
+          "residue": 64,
+          "binomial_j_2": 21,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 8,
+          "teich_label": 1,
+          "residue": 116,
+          "binomial_j_2": 28,
+          "symbol_high": "1",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 8,
+          "teich_label": 2,
+          "residue": 112,
+          "binomial_j_2": 28,
+          "symbol_high": "1",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 8,
+          "teich_label": 3,
+          "residue": 13,
+          "binomial_j_2": 28,
+          "symbol_high": "1",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 8,
+          "teich_label": 4,
+          "residue": 9,
+          "binomial_j_2": 28,
+          "symbol_high": "1",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 9,
+          "teich_label": 1,
+          "residue": 71,
+          "binomial_j_2": 36,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 9,
+          "teich_label": 2,
+          "residue": 47,
+          "binomial_j_2": 36,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 9,
+          "teich_label": 3,
+          "residue": 78,
+          "binomial_j_2": 36,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 9,
+          "teich_label": 4,
+          "residue": 54,
+          "binomial_j_2": 36,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 10,
+          "teich_label": 1,
+          "residue": 51,
+          "binomial_j_2": 45,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 10,
+          "teich_label": 2,
+          "residue": 32,
+          "binomial_j_2": 45,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 10,
+          "teich_label": 3,
+          "residue": 93,
+          "binomial_j_2": 45,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 10,
+          "teich_label": 4,
+          "residue": 74,
+          "binomial_j_2": 45,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 11,
+          "teich_label": 1,
+          "residue": 56,
+          "binomial_j_2": 55,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 11,
+          "teich_label": 2,
+          "residue": 67,
+          "binomial_j_2": 55,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 11,
+          "teich_label": 3,
+          "residue": 58,
+          "binomial_j_2": 55,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 11,
+          "teich_label": 4,
+          "residue": 69,
+          "binomial_j_2": 55,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 12,
+          "teich_label": 1,
+          "residue": 86,
+          "binomial_j_2": 66,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 12,
+          "teich_label": 2,
+          "residue": 27,
+          "binomial_j_2": 66,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 12,
+          "teich_label": 3,
+          "residue": 98,
+          "binomial_j_2": 66,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 12,
+          "teich_label": 4,
+          "residue": 39,
+          "binomial_j_2": 66,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 13,
+          "teich_label": 1,
+          "residue": 16,
+          "binomial_j_2": 78,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 13,
+          "teich_label": 2,
+          "residue": 37,
+          "binomial_j_2": 78,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 13,
+          "teich_label": 3,
+          "residue": 88,
+          "binomial_j_2": 78,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 13,
+          "teich_label": 4,
+          "residue": 109,
+          "binomial_j_2": 78,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 14,
+          "teich_label": 1,
+          "residue": 96,
+          "binomial_j_2": 91,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 14,
+          "teich_label": 2,
+          "residue": 97,
+          "binomial_j_2": 91,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 14,
+          "teich_label": 3,
+          "residue": 28,
+          "binomial_j_2": 91,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 14,
+          "teich_label": 4,
+          "residue": 29,
+          "binomial_j_2": 91,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 15,
+          "teich_label": 1,
+          "residue": 76,
+          "binomial_j_2": 105,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 15,
+          "teich_label": 2,
+          "residue": 82,
+          "binomial_j_2": 105,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 15,
+          "teich_label": 3,
+          "residue": 43,
+          "binomial_j_2": 105,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 15,
+          "teich_label": 4,
+          "residue": 49,
+          "binomial_j_2": 105,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 16,
+          "teich_label": 1,
+          "residue": 81,
+          "binomial_j_2": 120,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 16,
+          "teich_label": 2,
+          "residue": 117,
+          "binomial_j_2": 120,
+          "symbol_high": "1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 16,
+          "teich_label": 3,
+          "residue": 8,
+          "binomial_j_2": 120,
+          "symbol_high": "1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 16,
+          "teich_label": 4,
+          "residue": 44,
+          "binomial_j_2": 120,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 17,
+          "teich_label": 1,
+          "residue": 111,
+          "binomial_j_2": 136,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 17,
+          "teich_label": 2,
+          "residue": 77,
+          "binomial_j_2": 136,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 17,
+          "teich_label": 3,
+          "residue": 48,
+          "binomial_j_2": 136,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 17,
+          "teich_label": 4,
+          "residue": 14,
+          "binomial_j_2": 136,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 18,
+          "teich_label": 1,
+          "residue": 41,
+          "binomial_j_2": 153,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 18,
+          "teich_label": 2,
+          "residue": 87,
+          "binomial_j_2": 153,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 18,
+          "teich_label": 3,
+          "residue": 38,
+          "binomial_j_2": 153,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 18,
+          "teich_label": 4,
+          "residue": 84,
+          "binomial_j_2": 153,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 19,
+          "teich_label": 1,
+          "residue": 121,
+          "binomial_j_2": 171,
+          "symbol_high": "3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 19,
+          "teich_label": 2,
+          "residue": 22,
+          "binomial_j_2": 171,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 19,
+          "teich_label": 3,
+          "residue": 103,
+          "binomial_j_2": 171,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 19,
+          "teich_label": 4,
+          "residue": 4,
+          "binomial_j_2": 171,
+          "symbol_high": "3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 20,
+          "teich_label": 1,
+          "residue": 101,
+          "binomial_j_2": 190,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 20,
+          "teich_label": 2,
+          "residue": 7,
+          "binomial_j_2": 190,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 20,
+          "teich_label": 3,
+          "residue": 118,
+          "binomial_j_2": 190,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 20,
+          "teich_label": 4,
+          "residue": 24,
+          "binomial_j_2": 190,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 21,
+          "teich_label": 1,
+          "residue": 106,
+          "binomial_j_2": 210,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 21,
+          "teich_label": 2,
+          "residue": 42,
+          "binomial_j_2": 210,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 21,
+          "teich_label": 3,
+          "residue": 83,
+          "binomial_j_2": 210,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 21,
+          "teich_label": 4,
+          "residue": 19,
+          "binomial_j_2": 210,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 22,
+          "teich_label": 1,
+          "residue": 11,
+          "binomial_j_2": 231,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 22,
+          "teich_label": 2,
+          "residue": 2,
+          "binomial_j_2": 231,
+          "symbol_high": "3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 22,
+          "teich_label": 3,
+          "residue": 123,
+          "binomial_j_2": 231,
+          "symbol_high": "3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 22,
+          "teich_label": 4,
+          "residue": 114,
+          "binomial_j_2": 231,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 23,
+          "teich_label": 1,
+          "residue": 66,
+          "binomial_j_2": 253,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 23,
+          "teich_label": 2,
+          "residue": 12,
+          "binomial_j_2": 253,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 23,
+          "teich_label": 3,
+          "residue": 113,
+          "binomial_j_2": 253,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 23,
+          "teich_label": 4,
+          "residue": 59,
+          "binomial_j_2": 253,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 24,
+          "teich_label": 1,
+          "residue": 21,
+          "binomial_j_2": 276,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 24,
+          "teich_label": 2,
+          "residue": 72,
+          "binomial_j_2": 276,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 24,
+          "teich_label": 3,
+          "residue": 53,
+          "binomial_j_2": 276,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 24,
+          "teich_label": 4,
+          "residue": 104,
+          "binomial_j_2": 276,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        }
+      ]
+    },
+    {
+      "level_n": 4,
+      "measure_modulus": 625,
+      "cyclotomic_exponent_count": 125,
+      "gamma": 6,
+      "teichmuller_residues": {
+        "1": 1,
+        "2": 182,
+        "3": 443,
+        "4": 624
+      },
+      "unit_root_modulus": 125,
+      "unit_root_residue": 113,
+      "unit_root_polynomial": [
+        5,
+        2,
+        1
+      ],
+      "exact_A": "46545",
+      "exact_B": "86450",
+      "formula": "alpha^(-n) * (A - alpha^(-1) * B)",
+      "coefficient_residue": 70,
+      "coefficient_modulus": 125,
+      "infinite_error_valuation_at_least": 3,
+      "c2_valuation_certified": 1,
+      "bin_count": 500,
+      "all_symbols_cross_checked_eclib_vs_num": true,
+      "sage_series_secondary_check": "O(5^6) + O(5^3)*T + (4*5 + 2*5^2 + O(5^3))*T^2 + (3*5 + 4*5^2 + O(5^3))*T^3 + O(T^4)",
+      "rational_symbol_rows": [
+        {
+          "j": 0,
+          "teich_label": 1,
+          "residue": 1,
+          "binomial_j_2": 0,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 0,
+          "teich_label": 2,
+          "residue": 182,
+          "binomial_j_2": 0,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 0,
+          "teich_label": 3,
+          "residue": 443,
+          "binomial_j_2": 0,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 0,
+          "teich_label": 4,
+          "residue": 624,
+          "binomial_j_2": 0,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 1,
+          "teich_label": 1,
+          "residue": 6,
+          "binomial_j_2": 0,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 1,
+          "teich_label": 2,
+          "residue": 467,
+          "binomial_j_2": 0,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 1,
+          "teich_label": 3,
+          "residue": 158,
+          "binomial_j_2": 0,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 1,
+          "teich_label": 4,
+          "residue": 619,
+          "binomial_j_2": 0,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 2,
+          "teich_label": 1,
+          "residue": 36,
+          "binomial_j_2": 1,
+          "symbol_high": "1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 2,
+          "teich_label": 2,
+          "residue": 302,
+          "binomial_j_2": 1,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 2,
+          "teich_label": 3,
+          "residue": 323,
+          "binomial_j_2": 1,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 2,
+          "teich_label": 4,
+          "residue": 589,
+          "binomial_j_2": 1,
+          "symbol_high": "1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 3,
+          "teich_label": 1,
+          "residue": 216,
+          "binomial_j_2": 3,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 3,
+          "teich_label": 2,
+          "residue": 562,
+          "binomial_j_2": 3,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 3,
+          "teich_label": 3,
+          "residue": 63,
+          "binomial_j_2": 3,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 3,
+          "teich_label": 4,
+          "residue": 409,
+          "binomial_j_2": 3,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 4,
+          "teich_label": 1,
+          "residue": 46,
+          "binomial_j_2": 6,
+          "symbol_high": "5/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 4,
+          "teich_label": 2,
+          "residue": 247,
+          "binomial_j_2": 6,
+          "symbol_high": "-1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 4,
+          "teich_label": 3,
+          "residue": 378,
+          "binomial_j_2": 6,
+          "symbol_high": "-1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 4,
+          "teich_label": 4,
+          "residue": 579,
+          "binomial_j_2": 6,
+          "symbol_high": "5/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 5,
+          "teich_label": 1,
+          "residue": 276,
+          "binomial_j_2": 10,
+          "symbol_high": "-1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 5,
+          "teich_label": 2,
+          "residue": 232,
+          "binomial_j_2": 10,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 5,
+          "teich_label": 3,
+          "residue": 393,
+          "binomial_j_2": 10,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 5,
+          "teich_label": 4,
+          "residue": 349,
+          "binomial_j_2": 10,
+          "symbol_high": "-1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 6,
+          "teich_label": 1,
+          "residue": 406,
+          "binomial_j_2": 15,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 6,
+          "teich_label": 2,
+          "residue": 142,
+          "binomial_j_2": 15,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 6,
+          "teich_label": 3,
+          "residue": 483,
+          "binomial_j_2": 15,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 6,
+          "teich_label": 4,
+          "residue": 219,
+          "binomial_j_2": 15,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 7,
+          "teich_label": 1,
+          "residue": 561,
+          "binomial_j_2": 21,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 7,
+          "teich_label": 2,
+          "residue": 227,
+          "binomial_j_2": 21,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 7,
+          "teich_label": 3,
+          "residue": 398,
+          "binomial_j_2": 21,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 7,
+          "teich_label": 4,
+          "residue": 64,
+          "binomial_j_2": 21,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 8,
+          "teich_label": 1,
+          "residue": 241,
+          "binomial_j_2": 28,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 8,
+          "teich_label": 2,
+          "residue": 112,
+          "binomial_j_2": 28,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 8,
+          "teich_label": 3,
+          "residue": 513,
+          "binomial_j_2": 28,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 8,
+          "teich_label": 4,
+          "residue": 384,
+          "binomial_j_2": 28,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 9,
+          "teich_label": 1,
+          "residue": 196,
+          "binomial_j_2": 36,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 9,
+          "teich_label": 2,
+          "residue": 47,
+          "binomial_j_2": 36,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 9,
+          "teich_label": 3,
+          "residue": 578,
+          "binomial_j_2": 36,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 9,
+          "teich_label": 4,
+          "residue": 429,
+          "binomial_j_2": 36,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 10,
+          "teich_label": 1,
+          "residue": 551,
+          "binomial_j_2": 45,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 10,
+          "teich_label": 2,
+          "residue": 282,
+          "binomial_j_2": 45,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 10,
+          "teich_label": 3,
+          "residue": 343,
+          "binomial_j_2": 45,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 10,
+          "teich_label": 4,
+          "residue": 74,
+          "binomial_j_2": 45,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 11,
+          "teich_label": 1,
+          "residue": 181,
+          "binomial_j_2": 55,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 11,
+          "teich_label": 2,
+          "residue": 442,
+          "binomial_j_2": 55,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 11,
+          "teich_label": 3,
+          "residue": 183,
+          "binomial_j_2": 55,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 11,
+          "teich_label": 4,
+          "residue": 444,
+          "binomial_j_2": 55,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 12,
+          "teich_label": 1,
+          "residue": 461,
+          "binomial_j_2": 66,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 12,
+          "teich_label": 2,
+          "residue": 152,
+          "binomial_j_2": 66,
+          "symbol_high": "1/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 12,
+          "teich_label": 3,
+          "residue": 473,
+          "binomial_j_2": 66,
+          "symbol_high": "1/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 12,
+          "teich_label": 4,
+          "residue": 164,
+          "binomial_j_2": 66,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 13,
+          "teich_label": 1,
+          "residue": 266,
+          "binomial_j_2": 78,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 13,
+          "teich_label": 2,
+          "residue": 287,
+          "binomial_j_2": 78,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 13,
+          "teich_label": 3,
+          "residue": 338,
+          "binomial_j_2": 78,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 13,
+          "teich_label": 4,
+          "residue": 359,
+          "binomial_j_2": 78,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 14,
+          "teich_label": 1,
+          "residue": 346,
+          "binomial_j_2": 91,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 14,
+          "teich_label": 2,
+          "residue": 472,
+          "binomial_j_2": 91,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 14,
+          "teich_label": 3,
+          "residue": 153,
+          "binomial_j_2": 91,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 14,
+          "teich_label": 4,
+          "residue": 279,
+          "binomial_j_2": 91,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 15,
+          "teich_label": 1,
+          "residue": 201,
+          "binomial_j_2": 105,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 15,
+          "teich_label": 2,
+          "residue": 332,
+          "binomial_j_2": 105,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 15,
+          "teich_label": 3,
+          "residue": 293,
+          "binomial_j_2": 105,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 15,
+          "teich_label": 4,
+          "residue": 424,
+          "binomial_j_2": 105,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 16,
+          "teich_label": 1,
+          "residue": 581,
+          "binomial_j_2": 120,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 16,
+          "teich_label": 2,
+          "residue": 117,
+          "binomial_j_2": 120,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 16,
+          "teich_label": 3,
+          "residue": 508,
+          "binomial_j_2": 120,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 16,
+          "teich_label": 4,
+          "residue": 44,
+          "binomial_j_2": 120,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 17,
+          "teich_label": 1,
+          "residue": 361,
+          "binomial_j_2": 136,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 17,
+          "teich_label": 2,
+          "residue": 77,
+          "binomial_j_2": 136,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 17,
+          "teich_label": 3,
+          "residue": 548,
+          "binomial_j_2": 136,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 17,
+          "teich_label": 4,
+          "residue": 264,
+          "binomial_j_2": 136,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 18,
+          "teich_label": 1,
+          "residue": 291,
+          "binomial_j_2": 153,
+          "symbol_high": "-3",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 18,
+          "teich_label": 2,
+          "residue": 462,
+          "binomial_j_2": 153,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 18,
+          "teich_label": 3,
+          "residue": 163,
+          "binomial_j_2": 153,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 18,
+          "teich_label": 4,
+          "residue": 334,
+          "binomial_j_2": 153,
+          "symbol_high": "-3",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 19,
+          "teich_label": 1,
+          "residue": 496,
+          "binomial_j_2": 171,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 19,
+          "teich_label": 2,
+          "residue": 272,
+          "binomial_j_2": 171,
+          "symbol_high": "-2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 19,
+          "teich_label": 3,
+          "residue": 353,
+          "binomial_j_2": 171,
+          "symbol_high": "-2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 19,
+          "teich_label": 4,
+          "residue": 129,
+          "binomial_j_2": 171,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 20,
+          "teich_label": 1,
+          "residue": 476,
+          "binomial_j_2": 190,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 20,
+          "teich_label": 2,
+          "residue": 382,
+          "binomial_j_2": 190,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 20,
+          "teich_label": 3,
+          "residue": 243,
+          "binomial_j_2": 190,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 20,
+          "teich_label": 4,
+          "residue": 149,
+          "binomial_j_2": 190,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 21,
+          "teich_label": 1,
+          "residue": 356,
+          "binomial_j_2": 210,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 21,
+          "teich_label": 2,
+          "residue": 417,
+          "binomial_j_2": 210,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 21,
+          "teich_label": 3,
+          "residue": 208,
+          "binomial_j_2": 210,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 21,
+          "teich_label": 4,
+          "residue": 269,
+          "binomial_j_2": 210,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 22,
+          "teich_label": 1,
+          "residue": 261,
+          "binomial_j_2": 231,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 22,
+          "teich_label": 2,
+          "residue": 2,
+          "binomial_j_2": 231,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 22,
+          "teich_label": 3,
+          "residue": 623,
+          "binomial_j_2": 231,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 22,
+          "teich_label": 4,
+          "residue": 364,
+          "binomial_j_2": 231,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 23,
+          "teich_label": 1,
+          "residue": 316,
+          "binomial_j_2": 253,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 23,
+          "teich_label": 2,
+          "residue": 12,
+          "binomial_j_2": 253,
+          "symbol_high": "1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 23,
+          "teich_label": 3,
+          "residue": 613,
+          "binomial_j_2": 253,
+          "symbol_high": "1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 23,
+          "teich_label": 4,
+          "residue": 309,
+          "binomial_j_2": 253,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 24,
+          "teich_label": 1,
+          "residue": 21,
+          "binomial_j_2": 276,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 24,
+          "teich_label": 2,
+          "residue": 72,
+          "binomial_j_2": 276,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 24,
+          "teich_label": 3,
+          "residue": 553,
+          "binomial_j_2": 276,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 24,
+          "teich_label": 4,
+          "residue": 604,
+          "binomial_j_2": 276,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 25,
+          "teich_label": 1,
+          "residue": 126,
+          "binomial_j_2": 300,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 25,
+          "teich_label": 2,
+          "residue": 432,
+          "binomial_j_2": 300,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 25,
+          "teich_label": 3,
+          "residue": 193,
+          "binomial_j_2": 300,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 25,
+          "teich_label": 4,
+          "residue": 499,
+          "binomial_j_2": 300,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 26,
+          "teich_label": 1,
+          "residue": 131,
+          "binomial_j_2": 325,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 26,
+          "teich_label": 2,
+          "residue": 92,
+          "binomial_j_2": 325,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 26,
+          "teich_label": 3,
+          "residue": 533,
+          "binomial_j_2": 325,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 26,
+          "teich_label": 4,
+          "residue": 494,
+          "binomial_j_2": 325,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 27,
+          "teich_label": 1,
+          "residue": 161,
+          "binomial_j_2": 351,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 27,
+          "teich_label": 2,
+          "residue": 552,
+          "binomial_j_2": 351,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 27,
+          "teich_label": 3,
+          "residue": 73,
+          "binomial_j_2": 351,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 27,
+          "teich_label": 4,
+          "residue": 464,
+          "binomial_j_2": 351,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 28,
+          "teich_label": 1,
+          "residue": 341,
+          "binomial_j_2": 378,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 28,
+          "teich_label": 2,
+          "residue": 187,
+          "binomial_j_2": 378,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 28,
+          "teich_label": 3,
+          "residue": 438,
+          "binomial_j_2": 378,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 28,
+          "teich_label": 4,
+          "residue": 284,
+          "binomial_j_2": 378,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 29,
+          "teich_label": 1,
+          "residue": 171,
+          "binomial_j_2": 406,
+          "symbol_high": "-1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 29,
+          "teich_label": 2,
+          "residue": 497,
+          "binomial_j_2": 406,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 29,
+          "teich_label": 3,
+          "residue": 128,
+          "binomial_j_2": 406,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 29,
+          "teich_label": 4,
+          "residue": 454,
+          "binomial_j_2": 406,
+          "symbol_high": "-1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 30,
+          "teich_label": 1,
+          "residue": 401,
+          "binomial_j_2": 435,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 30,
+          "teich_label": 2,
+          "residue": 482,
+          "binomial_j_2": 435,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 30,
+          "teich_label": 3,
+          "residue": 143,
+          "binomial_j_2": 435,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 30,
+          "teich_label": 4,
+          "residue": 224,
+          "binomial_j_2": 435,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 31,
+          "teich_label": 1,
+          "residue": 531,
+          "binomial_j_2": 465,
+          "symbol_high": "3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 31,
+          "teich_label": 2,
+          "residue": 392,
+          "binomial_j_2": 465,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 31,
+          "teich_label": 3,
+          "residue": 233,
+          "binomial_j_2": 465,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 31,
+          "teich_label": 4,
+          "residue": 94,
+          "binomial_j_2": 465,
+          "symbol_high": "3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 32,
+          "teich_label": 1,
+          "residue": 61,
+          "binomial_j_2": 496,
+          "symbol_high": "3/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 32,
+          "teich_label": 2,
+          "residue": 477,
+          "binomial_j_2": 496,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 32,
+          "teich_label": 3,
+          "residue": 148,
+          "binomial_j_2": 496,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 32,
+          "teich_label": 4,
+          "residue": 564,
+          "binomial_j_2": 496,
+          "symbol_high": "3/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 33,
+          "teich_label": 1,
+          "residue": 366,
+          "binomial_j_2": 528,
+          "symbol_high": "-5/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 33,
+          "teich_label": 2,
+          "residue": 362,
+          "binomial_j_2": 528,
+          "symbol_high": "-5/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 33,
+          "teich_label": 3,
+          "residue": 263,
+          "binomial_j_2": 528,
+          "symbol_high": "-5/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 33,
+          "teich_label": 4,
+          "residue": 259,
+          "binomial_j_2": 528,
+          "symbol_high": "-5/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 34,
+          "teich_label": 1,
+          "residue": 321,
+          "binomial_j_2": 561,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 34,
+          "teich_label": 2,
+          "residue": 297,
+          "binomial_j_2": 561,
+          "symbol_high": "3/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 34,
+          "teich_label": 3,
+          "residue": 328,
+          "binomial_j_2": 561,
+          "symbol_high": "3/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 34,
+          "teich_label": 4,
+          "residue": 304,
+          "binomial_j_2": 561,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 35,
+          "teich_label": 1,
+          "residue": 51,
+          "binomial_j_2": 595,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 35,
+          "teich_label": 2,
+          "residue": 532,
+          "binomial_j_2": 595,
+          "symbol_high": "3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 35,
+          "teich_label": 3,
+          "residue": 93,
+          "binomial_j_2": 595,
+          "symbol_high": "3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 35,
+          "teich_label": 4,
+          "residue": 574,
+          "binomial_j_2": 595,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 36,
+          "teich_label": 1,
+          "residue": 306,
+          "binomial_j_2": 630,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 36,
+          "teich_label": 2,
+          "residue": 67,
+          "binomial_j_2": 630,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 36,
+          "teich_label": 3,
+          "residue": 558,
+          "binomial_j_2": 630,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 36,
+          "teich_label": 4,
+          "residue": 319,
+          "binomial_j_2": 630,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 37,
+          "teich_label": 1,
+          "residue": 586,
+          "binomial_j_2": 666,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 37,
+          "teich_label": 2,
+          "residue": 402,
+          "binomial_j_2": 666,
+          "symbol_high": "-1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 37,
+          "teich_label": 3,
+          "residue": 223,
+          "binomial_j_2": 666,
+          "symbol_high": "-1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 37,
+          "teich_label": 4,
+          "residue": 39,
+          "binomial_j_2": 666,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 38,
+          "teich_label": 1,
+          "residue": 391,
+          "binomial_j_2": 703,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 38,
+          "teich_label": 2,
+          "residue": 537,
+          "binomial_j_2": 703,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 38,
+          "teich_label": 3,
+          "residue": 88,
+          "binomial_j_2": 703,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 38,
+          "teich_label": 4,
+          "residue": 234,
+          "binomial_j_2": 703,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 39,
+          "teich_label": 1,
+          "residue": 471,
+          "binomial_j_2": 741,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 39,
+          "teich_label": 2,
+          "residue": 97,
+          "binomial_j_2": 741,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 39,
+          "teich_label": 3,
+          "residue": 528,
+          "binomial_j_2": 741,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 39,
+          "teich_label": 4,
+          "residue": 154,
+          "binomial_j_2": 741,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 40,
+          "teich_label": 1,
+          "residue": 326,
+          "binomial_j_2": 780,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 40,
+          "teich_label": 2,
+          "residue": 582,
+          "binomial_j_2": 780,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 40,
+          "teich_label": 3,
+          "residue": 43,
+          "binomial_j_2": 780,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 40,
+          "teich_label": 4,
+          "residue": 299,
+          "binomial_j_2": 780,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 41,
+          "teich_label": 1,
+          "residue": 81,
+          "binomial_j_2": 820,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 41,
+          "teich_label": 2,
+          "residue": 367,
+          "binomial_j_2": 820,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 41,
+          "teich_label": 3,
+          "residue": 258,
+          "binomial_j_2": 820,
+          "symbol_high": "-3/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 41,
+          "teich_label": 4,
+          "residue": 544,
+          "binomial_j_2": 820,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 42,
+          "teich_label": 1,
+          "residue": 486,
+          "binomial_j_2": 861,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 42,
+          "teich_label": 2,
+          "residue": 327,
+          "binomial_j_2": 861,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 42,
+          "teich_label": 3,
+          "residue": 298,
+          "binomial_j_2": 861,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 42,
+          "teich_label": 4,
+          "residue": 139,
+          "binomial_j_2": 861,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 43,
+          "teich_label": 1,
+          "residue": 416,
+          "binomial_j_2": 903,
+          "symbol_high": "1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 43,
+          "teich_label": 2,
+          "residue": 87,
+          "binomial_j_2": 903,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 43,
+          "teich_label": 3,
+          "residue": 538,
+          "binomial_j_2": 903,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 43,
+          "teich_label": 4,
+          "residue": 209,
+          "binomial_j_2": 903,
+          "symbol_high": "1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 44,
+          "teich_label": 1,
+          "residue": 621,
+          "binomial_j_2": 946,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 44,
+          "teich_label": 2,
+          "residue": 522,
+          "binomial_j_2": 946,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 44,
+          "teich_label": 3,
+          "residue": 103,
+          "binomial_j_2": 946,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 44,
+          "teich_label": 4,
+          "residue": 4,
+          "binomial_j_2": 946,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 45,
+          "teich_label": 1,
+          "residue": 601,
+          "binomial_j_2": 990,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 45,
+          "teich_label": 2,
+          "residue": 7,
+          "binomial_j_2": 990,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 45,
+          "teich_label": 3,
+          "residue": 618,
+          "binomial_j_2": 990,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 45,
+          "teich_label": 4,
+          "residue": 24,
+          "binomial_j_2": 990,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 46,
+          "teich_label": 1,
+          "residue": 481,
+          "binomial_j_2": 1035,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 46,
+          "teich_label": 2,
+          "residue": 42,
+          "binomial_j_2": 1035,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 46,
+          "teich_label": 3,
+          "residue": 583,
+          "binomial_j_2": 1035,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 46,
+          "teich_label": 4,
+          "residue": 144,
+          "binomial_j_2": 1035,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 47,
+          "teich_label": 1,
+          "residue": 386,
+          "binomial_j_2": 1081,
+          "symbol_high": "-2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 47,
+          "teich_label": 2,
+          "residue": 252,
+          "binomial_j_2": 1081,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 47,
+          "teich_label": 3,
+          "residue": 373,
+          "binomial_j_2": 1081,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 47,
+          "teich_label": 4,
+          "residue": 239,
+          "binomial_j_2": 1081,
+          "symbol_high": "-2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 48,
+          "teich_label": 1,
+          "residue": 441,
+          "binomial_j_2": 1128,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 48,
+          "teich_label": 2,
+          "residue": 262,
+          "binomial_j_2": 1128,
+          "symbol_high": "-3",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 48,
+          "teich_label": 3,
+          "residue": 363,
+          "binomial_j_2": 1128,
+          "symbol_high": "-3",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 48,
+          "teich_label": 4,
+          "residue": 184,
+          "binomial_j_2": 1128,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 49,
+          "teich_label": 1,
+          "residue": 146,
+          "binomial_j_2": 1176,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 49,
+          "teich_label": 2,
+          "residue": 322,
+          "binomial_j_2": 1176,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 49,
+          "teich_label": 3,
+          "residue": 303,
+          "binomial_j_2": 1176,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 49,
+          "teich_label": 4,
+          "residue": 479,
+          "binomial_j_2": 1176,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 50,
+          "teich_label": 1,
+          "residue": 251,
+          "binomial_j_2": 1225,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 50,
+          "teich_label": 2,
+          "residue": 57,
+          "binomial_j_2": 1225,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 50,
+          "teich_label": 3,
+          "residue": 568,
+          "binomial_j_2": 1225,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 50,
+          "teich_label": 4,
+          "residue": 374,
+          "binomial_j_2": 1225,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 51,
+          "teich_label": 1,
+          "residue": 256,
+          "binomial_j_2": 1275,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 51,
+          "teich_label": 2,
+          "residue": 342,
+          "binomial_j_2": 1275,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 51,
+          "teich_label": 3,
+          "residue": 283,
+          "binomial_j_2": 1275,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 51,
+          "teich_label": 4,
+          "residue": 369,
+          "binomial_j_2": 1275,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 52,
+          "teich_label": 1,
+          "residue": 286,
+          "binomial_j_2": 1326,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 52,
+          "teich_label": 2,
+          "residue": 177,
+          "binomial_j_2": 1326,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 52,
+          "teich_label": 3,
+          "residue": 448,
+          "binomial_j_2": 1326,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 52,
+          "teich_label": 4,
+          "residue": 339,
+          "binomial_j_2": 1326,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 53,
+          "teich_label": 1,
+          "residue": 466,
+          "binomial_j_2": 1378,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 53,
+          "teich_label": 2,
+          "residue": 437,
+          "binomial_j_2": 1378,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 53,
+          "teich_label": 3,
+          "residue": 188,
+          "binomial_j_2": 1378,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 53,
+          "teich_label": 4,
+          "residue": 159,
+          "binomial_j_2": 1378,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 54,
+          "teich_label": 1,
+          "residue": 296,
+          "binomial_j_2": 1431,
+          "symbol_high": "1/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 54,
+          "teich_label": 2,
+          "residue": 122,
+          "binomial_j_2": 1431,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 54,
+          "teich_label": 3,
+          "residue": 503,
+          "binomial_j_2": 1431,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 54,
+          "teich_label": 4,
+          "residue": 329,
+          "binomial_j_2": 1431,
+          "symbol_high": "1/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 55,
+          "teich_label": 1,
+          "residue": 526,
+          "binomial_j_2": 1485,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 55,
+          "teich_label": 2,
+          "residue": 107,
+          "binomial_j_2": 1485,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 55,
+          "teich_label": 3,
+          "residue": 518,
+          "binomial_j_2": 1485,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 55,
+          "teich_label": 4,
+          "residue": 99,
+          "binomial_j_2": 1485,
+          "symbol_high": "5/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 56,
+          "teich_label": 1,
+          "residue": 31,
+          "binomial_j_2": 1540,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 56,
+          "teich_label": 2,
+          "residue": 17,
+          "binomial_j_2": 1540,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 56,
+          "teich_label": 3,
+          "residue": 608,
+          "binomial_j_2": 1540,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 56,
+          "teich_label": 4,
+          "residue": 594,
+          "binomial_j_2": 1540,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 57,
+          "teich_label": 1,
+          "residue": 186,
+          "binomial_j_2": 1596,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 57,
+          "teich_label": 2,
+          "residue": 102,
+          "binomial_j_2": 1596,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 57,
+          "teich_label": 3,
+          "residue": 523,
+          "binomial_j_2": 1596,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 57,
+          "teich_label": 4,
+          "residue": 439,
+          "binomial_j_2": 1596,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 58,
+          "teich_label": 1,
+          "residue": 491,
+          "binomial_j_2": 1653,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 58,
+          "teich_label": 2,
+          "residue": 612,
+          "binomial_j_2": 1653,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 58,
+          "teich_label": 3,
+          "residue": 13,
+          "binomial_j_2": 1653,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 58,
+          "teich_label": 4,
+          "residue": 134,
+          "binomial_j_2": 1653,
+          "symbol_high": "1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 59,
+          "teich_label": 1,
+          "residue": 446,
+          "binomial_j_2": 1711,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 59,
+          "teich_label": 2,
+          "residue": 547,
+          "binomial_j_2": 1711,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 59,
+          "teich_label": 3,
+          "residue": 78,
+          "binomial_j_2": 1711,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 59,
+          "teich_label": 4,
+          "residue": 179,
+          "binomial_j_2": 1711,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 60,
+          "teich_label": 1,
+          "residue": 176,
+          "binomial_j_2": 1770,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 60,
+          "teich_label": 2,
+          "residue": 157,
+          "binomial_j_2": 1770,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 60,
+          "teich_label": 3,
+          "residue": 468,
+          "binomial_j_2": 1770,
+          "symbol_high": "-3/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 60,
+          "teich_label": 4,
+          "residue": 449,
+          "binomial_j_2": 1770,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 61,
+          "teich_label": 1,
+          "residue": 431,
+          "binomial_j_2": 1830,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 61,
+          "teich_label": 2,
+          "residue": 317,
+          "binomial_j_2": 1830,
+          "symbol_high": "-1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 61,
+          "teich_label": 3,
+          "residue": 308,
+          "binomial_j_2": 1830,
+          "symbol_high": "-1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 61,
+          "teich_label": 4,
+          "residue": 194,
+          "binomial_j_2": 1830,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 62,
+          "teich_label": 1,
+          "residue": 86,
+          "binomial_j_2": 1891,
+          "symbol_high": "-1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 62,
+          "teich_label": 2,
+          "residue": 27,
+          "binomial_j_2": 1891,
+          "symbol_high": "5/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 62,
+          "teich_label": 3,
+          "residue": 598,
+          "binomial_j_2": 1891,
+          "symbol_high": "5/2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 62,
+          "teich_label": 4,
+          "residue": 539,
+          "binomial_j_2": 1891,
+          "symbol_high": "-1",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 63,
+          "teich_label": 1,
+          "residue": 516,
+          "binomial_j_2": 1953,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 63,
+          "teich_label": 2,
+          "residue": 162,
+          "binomial_j_2": 1953,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 63,
+          "teich_label": 3,
+          "residue": 463,
+          "binomial_j_2": 1953,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 63,
+          "teich_label": 4,
+          "residue": 109,
+          "binomial_j_2": 1953,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 64,
+          "teich_label": 1,
+          "residue": 596,
+          "binomial_j_2": 2016,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 64,
+          "teich_label": 2,
+          "residue": 347,
+          "binomial_j_2": 2016,
+          "symbol_high": "1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 64,
+          "teich_label": 3,
+          "residue": 278,
+          "binomial_j_2": 2016,
+          "symbol_high": "1/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 64,
+          "teich_label": 4,
+          "residue": 29,
+          "binomial_j_2": 2016,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 65,
+          "teich_label": 1,
+          "residue": 451,
+          "binomial_j_2": 2080,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 65,
+          "teich_label": 2,
+          "residue": 207,
+          "binomial_j_2": 2080,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 65,
+          "teich_label": 3,
+          "residue": 418,
+          "binomial_j_2": 2080,
+          "symbol_high": "3/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 65,
+          "teich_label": 4,
+          "residue": 174,
+          "binomial_j_2": 2080,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 66,
+          "teich_label": 1,
+          "residue": 206,
+          "binomial_j_2": 2145,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 66,
+          "teich_label": 2,
+          "residue": 617,
+          "binomial_j_2": 2145,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 66,
+          "teich_label": 3,
+          "residue": 8,
+          "binomial_j_2": 2145,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 66,
+          "teich_label": 4,
+          "residue": 419,
+          "binomial_j_2": 2145,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 67,
+          "teich_label": 1,
+          "residue": 611,
+          "binomial_j_2": 2211,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 67,
+          "teich_label": 2,
+          "residue": 577,
+          "binomial_j_2": 2211,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 67,
+          "teich_label": 3,
+          "residue": 48,
+          "binomial_j_2": 2211,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 67,
+          "teich_label": 4,
+          "residue": 14,
+          "binomial_j_2": 2211,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 68,
+          "teich_label": 1,
+          "residue": 541,
+          "binomial_j_2": 2278,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 68,
+          "teich_label": 2,
+          "residue": 337,
+          "binomial_j_2": 2278,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 68,
+          "teich_label": 3,
+          "residue": 288,
+          "binomial_j_2": 2278,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 68,
+          "teich_label": 4,
+          "residue": 84,
+          "binomial_j_2": 2278,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 69,
+          "teich_label": 1,
+          "residue": 121,
+          "binomial_j_2": 2346,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 69,
+          "teich_label": 2,
+          "residue": 147,
+          "binomial_j_2": 2346,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 69,
+          "teich_label": 3,
+          "residue": 478,
+          "binomial_j_2": 2346,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 69,
+          "teich_label": 4,
+          "residue": 504,
+          "binomial_j_2": 2346,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 70,
+          "teich_label": 1,
+          "residue": 101,
+          "binomial_j_2": 2415,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 70,
+          "teich_label": 2,
+          "residue": 257,
+          "binomial_j_2": 2415,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 70,
+          "teich_label": 3,
+          "residue": 368,
+          "binomial_j_2": 2415,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 70,
+          "teich_label": 4,
+          "residue": 524,
+          "binomial_j_2": 2415,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 71,
+          "teich_label": 1,
+          "residue": 606,
+          "binomial_j_2": 2485,
+          "symbol_high": "1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 71,
+          "teich_label": 2,
+          "residue": 292,
+          "binomial_j_2": 2485,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 71,
+          "teich_label": 3,
+          "residue": 333,
+          "binomial_j_2": 2485,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 71,
+          "teich_label": 4,
+          "residue": 19,
+          "binomial_j_2": 2485,
+          "symbol_high": "1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 72,
+          "teich_label": 1,
+          "residue": 511,
+          "binomial_j_2": 2556,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 72,
+          "teich_label": 2,
+          "residue": 502,
+          "binomial_j_2": 2556,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 72,
+          "teich_label": 3,
+          "residue": 123,
+          "binomial_j_2": 2556,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 72,
+          "teich_label": 4,
+          "residue": 114,
+          "binomial_j_2": 2556,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 73,
+          "teich_label": 1,
+          "residue": 566,
+          "binomial_j_2": 2628,
+          "symbol_high": "3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 73,
+          "teich_label": 2,
+          "residue": 512,
+          "binomial_j_2": 2628,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 73,
+          "teich_label": 3,
+          "residue": 113,
+          "binomial_j_2": 2628,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 73,
+          "teich_label": 4,
+          "residue": 59,
+          "binomial_j_2": 2628,
+          "symbol_high": "3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 74,
+          "teich_label": 1,
+          "residue": 271,
+          "binomial_j_2": 2701,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 74,
+          "teich_label": 2,
+          "residue": 572,
+          "binomial_j_2": 2701,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 74,
+          "teich_label": 3,
+          "residue": 53,
+          "binomial_j_2": 2701,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 74,
+          "teich_label": 4,
+          "residue": 354,
+          "binomial_j_2": 2701,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 75,
+          "teich_label": 1,
+          "residue": 376,
+          "binomial_j_2": 2775,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 75,
+          "teich_label": 2,
+          "residue": 307,
+          "binomial_j_2": 2775,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 75,
+          "teich_label": 3,
+          "residue": 318,
+          "binomial_j_2": 2775,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 75,
+          "teich_label": 4,
+          "residue": 249,
+          "binomial_j_2": 2775,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 76,
+          "teich_label": 1,
+          "residue": 381,
+          "binomial_j_2": 2850,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 76,
+          "teich_label": 2,
+          "residue": 592,
+          "binomial_j_2": 2850,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 76,
+          "teich_label": 3,
+          "residue": 33,
+          "binomial_j_2": 2850,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 76,
+          "teich_label": 4,
+          "residue": 244,
+          "binomial_j_2": 2850,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 77,
+          "teich_label": 1,
+          "residue": 411,
+          "binomial_j_2": 2926,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 77,
+          "teich_label": 2,
+          "residue": 427,
+          "binomial_j_2": 2926,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 77,
+          "teich_label": 3,
+          "residue": 198,
+          "binomial_j_2": 2926,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 77,
+          "teich_label": 4,
+          "residue": 214,
+          "binomial_j_2": 2926,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 78,
+          "teich_label": 1,
+          "residue": 591,
+          "binomial_j_2": 3003,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 78,
+          "teich_label": 2,
+          "residue": 62,
+          "binomial_j_2": 3003,
+          "symbol_high": "5/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 78,
+          "teich_label": 3,
+          "residue": 563,
+          "binomial_j_2": 3003,
+          "symbol_high": "5/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 78,
+          "teich_label": 4,
+          "residue": 34,
+          "binomial_j_2": 3003,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 79,
+          "teich_label": 1,
+          "residue": 421,
+          "binomial_j_2": 3081,
+          "symbol_high": "1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 79,
+          "teich_label": 2,
+          "residue": 372,
+          "binomial_j_2": 3081,
+          "symbol_high": "-5/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 79,
+          "teich_label": 3,
+          "residue": 253,
+          "binomial_j_2": 3081,
+          "symbol_high": "-5/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 79,
+          "teich_label": 4,
+          "residue": 204,
+          "binomial_j_2": 3081,
+          "symbol_high": "1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 80,
+          "teich_label": 1,
+          "residue": 26,
+          "binomial_j_2": 3160,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 80,
+          "teich_label": 2,
+          "residue": 357,
+          "binomial_j_2": 3160,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 80,
+          "teich_label": 3,
+          "residue": 268,
+          "binomial_j_2": 3160,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 80,
+          "teich_label": 4,
+          "residue": 599,
+          "binomial_j_2": 3160,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 81,
+          "teich_label": 1,
+          "residue": 156,
+          "binomial_j_2": 3240,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 81,
+          "teich_label": 2,
+          "residue": 267,
+          "binomial_j_2": 3240,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 81,
+          "teich_label": 3,
+          "residue": 358,
+          "binomial_j_2": 3240,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 81,
+          "teich_label": 4,
+          "residue": 469,
+          "binomial_j_2": 3240,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 82,
+          "teich_label": 1,
+          "residue": 311,
+          "binomial_j_2": 3321,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 82,
+          "teich_label": 2,
+          "residue": 352,
+          "binomial_j_2": 3321,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 82,
+          "teich_label": 3,
+          "residue": 273,
+          "binomial_j_2": 3321,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 82,
+          "teich_label": 4,
+          "residue": 314,
+          "binomial_j_2": 3321,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 83,
+          "teich_label": 1,
+          "residue": 616,
+          "binomial_j_2": 3403,
+          "symbol_high": "2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 83,
+          "teich_label": 2,
+          "residue": 237,
+          "binomial_j_2": 3403,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 83,
+          "teich_label": 3,
+          "residue": 388,
+          "binomial_j_2": 3403,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 83,
+          "teich_label": 4,
+          "residue": 9,
+          "binomial_j_2": 3403,
+          "symbol_high": "2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 84,
+          "teich_label": 1,
+          "residue": 571,
+          "binomial_j_2": 3486,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 84,
+          "teich_label": 2,
+          "residue": 172,
+          "binomial_j_2": 3486,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 84,
+          "teich_label": 3,
+          "residue": 453,
+          "binomial_j_2": 3486,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 84,
+          "teich_label": 4,
+          "residue": 54,
+          "binomial_j_2": 3486,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 85,
+          "teich_label": 1,
+          "residue": 301,
+          "binomial_j_2": 3570,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 85,
+          "teich_label": 2,
+          "residue": 407,
+          "binomial_j_2": 3570,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 85,
+          "teich_label": 3,
+          "residue": 218,
+          "binomial_j_2": 3570,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 85,
+          "teich_label": 4,
+          "residue": 324,
+          "binomial_j_2": 3570,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 86,
+          "teich_label": 1,
+          "residue": 556,
+          "binomial_j_2": 3655,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 86,
+          "teich_label": 2,
+          "residue": 567,
+          "binomial_j_2": 3655,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 86,
+          "teich_label": 3,
+          "residue": 58,
+          "binomial_j_2": 3655,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 86,
+          "teich_label": 4,
+          "residue": 69,
+          "binomial_j_2": 3655,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 87,
+          "teich_label": 1,
+          "residue": 211,
+          "binomial_j_2": 3741,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 87,
+          "teich_label": 2,
+          "residue": 277,
+          "binomial_j_2": 3741,
+          "symbol_high": "2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 87,
+          "teich_label": 3,
+          "residue": 348,
+          "binomial_j_2": 3741,
+          "symbol_high": "2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 87,
+          "teich_label": 4,
+          "residue": 414,
+          "binomial_j_2": 3741,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 88,
+          "teich_label": 1,
+          "residue": 16,
+          "binomial_j_2": 3828,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 88,
+          "teich_label": 2,
+          "residue": 412,
+          "binomial_j_2": 3828,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 88,
+          "teich_label": 3,
+          "residue": 213,
+          "binomial_j_2": 3828,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 88,
+          "teich_label": 4,
+          "residue": 609,
+          "binomial_j_2": 3828,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 89,
+          "teich_label": 1,
+          "residue": 96,
+          "binomial_j_2": 3916,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 89,
+          "teich_label": 2,
+          "residue": 597,
+          "binomial_j_2": 3916,
+          "symbol_high": "3",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 89,
+          "teich_label": 3,
+          "residue": 28,
+          "binomial_j_2": 3916,
+          "symbol_high": "3",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 89,
+          "teich_label": 4,
+          "residue": 529,
+          "binomial_j_2": 3916,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 90,
+          "teich_label": 1,
+          "residue": 576,
+          "binomial_j_2": 4005,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 90,
+          "teich_label": 2,
+          "residue": 457,
+          "binomial_j_2": 4005,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 90,
+          "teich_label": 3,
+          "residue": 168,
+          "binomial_j_2": 4005,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 90,
+          "teich_label": 4,
+          "residue": 49,
+          "binomial_j_2": 4005,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 91,
+          "teich_label": 1,
+          "residue": 331,
+          "binomial_j_2": 4095,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 91,
+          "teich_label": 2,
+          "residue": 242,
+          "binomial_j_2": 4095,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 91,
+          "teich_label": 3,
+          "residue": 383,
+          "binomial_j_2": 4095,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 91,
+          "teich_label": 4,
+          "residue": 294,
+          "binomial_j_2": 4095,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 92,
+          "teich_label": 1,
+          "residue": 111,
+          "binomial_j_2": 4186,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 92,
+          "teich_label": 2,
+          "residue": 202,
+          "binomial_j_2": 4186,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 92,
+          "teich_label": 3,
+          "residue": 423,
+          "binomial_j_2": 4186,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 92,
+          "teich_label": 4,
+          "residue": 514,
+          "binomial_j_2": 4186,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 93,
+          "teich_label": 1,
+          "residue": 41,
+          "binomial_j_2": 4278,
+          "symbol_high": "1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 93,
+          "teich_label": 2,
+          "residue": 587,
+          "binomial_j_2": 4278,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 93,
+          "teich_label": 3,
+          "residue": 38,
+          "binomial_j_2": 4278,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 93,
+          "teich_label": 4,
+          "residue": 584,
+          "binomial_j_2": 4278,
+          "symbol_high": "1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 94,
+          "teich_label": 1,
+          "residue": 246,
+          "binomial_j_2": 4371,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 94,
+          "teich_label": 2,
+          "residue": 397,
+          "binomial_j_2": 4371,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 94,
+          "teich_label": 3,
+          "residue": 228,
+          "binomial_j_2": 4371,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 94,
+          "teich_label": 4,
+          "residue": 379,
+          "binomial_j_2": 4371,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 95,
+          "teich_label": 1,
+          "residue": 226,
+          "binomial_j_2": 4465,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 95,
+          "teich_label": 2,
+          "residue": 507,
+          "binomial_j_2": 4465,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 95,
+          "teich_label": 3,
+          "residue": 118,
+          "binomial_j_2": 4465,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 95,
+          "teich_label": 4,
+          "residue": 399,
+          "binomial_j_2": 4465,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 96,
+          "teich_label": 1,
+          "residue": 106,
+          "binomial_j_2": 4560,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 96,
+          "teich_label": 2,
+          "residue": 542,
+          "binomial_j_2": 4560,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 96,
+          "teich_label": 3,
+          "residue": 83,
+          "binomial_j_2": 4560,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 96,
+          "teich_label": 4,
+          "residue": 519,
+          "binomial_j_2": 4560,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 97,
+          "teich_label": 1,
+          "residue": 11,
+          "binomial_j_2": 4656,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 97,
+          "teich_label": 2,
+          "residue": 127,
+          "binomial_j_2": 4656,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 97,
+          "teich_label": 3,
+          "residue": 498,
+          "binomial_j_2": 4656,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 97,
+          "teich_label": 4,
+          "residue": 614,
+          "binomial_j_2": 4656,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 98,
+          "teich_label": 1,
+          "residue": 66,
+          "binomial_j_2": 4753,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 98,
+          "teich_label": 2,
+          "residue": 137,
+          "binomial_j_2": 4753,
+          "symbol_high": "1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 98,
+          "teich_label": 3,
+          "residue": 488,
+          "binomial_j_2": 4753,
+          "symbol_high": "1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 98,
+          "teich_label": 4,
+          "residue": 559,
+          "binomial_j_2": 4753,
+          "symbol_high": "1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 99,
+          "teich_label": 1,
+          "residue": 396,
+          "binomial_j_2": 4851,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 99,
+          "teich_label": 2,
+          "residue": 197,
+          "binomial_j_2": 4851,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 99,
+          "teich_label": 3,
+          "residue": 428,
+          "binomial_j_2": 4851,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 99,
+          "teich_label": 4,
+          "residue": 229,
+          "binomial_j_2": 4851,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 100,
+          "teich_label": 1,
+          "residue": 501,
+          "binomial_j_2": 4950,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 100,
+          "teich_label": 2,
+          "residue": 557,
+          "binomial_j_2": 4950,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 100,
+          "teich_label": 3,
+          "residue": 68,
+          "binomial_j_2": 4950,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 100,
+          "teich_label": 4,
+          "residue": 124,
+          "binomial_j_2": 4950,
+          "symbol_high": "-1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 101,
+          "teich_label": 1,
+          "residue": 506,
+          "binomial_j_2": 5050,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 101,
+          "teich_label": 2,
+          "residue": 217,
+          "binomial_j_2": 5050,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 101,
+          "teich_label": 3,
+          "residue": 408,
+          "binomial_j_2": 5050,
+          "symbol_high": "-1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 101,
+          "teich_label": 4,
+          "residue": 119,
+          "binomial_j_2": 5050,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 102,
+          "teich_label": 1,
+          "residue": 536,
+          "binomial_j_2": 5151,
+          "symbol_high": "3",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 102,
+          "teich_label": 2,
+          "residue": 52,
+          "binomial_j_2": 5151,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 102,
+          "teich_label": 3,
+          "residue": 573,
+          "binomial_j_2": 5151,
+          "symbol_high": "3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 102,
+          "teich_label": 4,
+          "residue": 89,
+          "binomial_j_2": 5151,
+          "symbol_high": "3",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 103,
+          "teich_label": 1,
+          "residue": 91,
+          "binomial_j_2": 5253,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 103,
+          "teich_label": 2,
+          "residue": 312,
+          "binomial_j_2": 5253,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 103,
+          "teich_label": 3,
+          "residue": 313,
+          "binomial_j_2": 5253,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 103,
+          "teich_label": 4,
+          "residue": 534,
+          "binomial_j_2": 5253,
+          "symbol_high": "0",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 104,
+          "teich_label": 1,
+          "residue": 546,
+          "binomial_j_2": 5356,
+          "symbol_high": "2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 104,
+          "teich_label": 2,
+          "residue": 622,
+          "binomial_j_2": 5356,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 104,
+          "teich_label": 3,
+          "residue": 3,
+          "binomial_j_2": 5356,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 104,
+          "teich_label": 4,
+          "residue": 79,
+          "binomial_j_2": 5356,
+          "symbol_high": "2",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 105,
+          "teich_label": 1,
+          "residue": 151,
+          "binomial_j_2": 5460,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 105,
+          "teich_label": 2,
+          "residue": 607,
+          "binomial_j_2": 5460,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 105,
+          "teich_label": 3,
+          "residue": 18,
+          "binomial_j_2": 5460,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 105,
+          "teich_label": 4,
+          "residue": 474,
+          "binomial_j_2": 5460,
+          "symbol_high": "1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 106,
+          "teich_label": 1,
+          "residue": 281,
+          "binomial_j_2": 5565,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 106,
+          "teich_label": 2,
+          "residue": 517,
+          "binomial_j_2": 5565,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 106,
+          "teich_label": 3,
+          "residue": 108,
+          "binomial_j_2": 5565,
+          "symbol_high": "-1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 106,
+          "teich_label": 4,
+          "residue": 344,
+          "binomial_j_2": 5565,
+          "symbol_high": "-1",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 107,
+          "teich_label": 1,
+          "residue": 436,
+          "binomial_j_2": 5671,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 107,
+          "teich_label": 2,
+          "residue": 602,
+          "binomial_j_2": 5671,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 107,
+          "teich_label": 3,
+          "residue": 23,
+          "binomial_j_2": 5671,
+          "symbol_high": "2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 107,
+          "teich_label": 4,
+          "residue": 189,
+          "binomial_j_2": 5671,
+          "symbol_high": "-1/2",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 108,
+          "teich_label": 1,
+          "residue": 116,
+          "binomial_j_2": 5778,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 108,
+          "teich_label": 2,
+          "residue": 487,
+          "binomial_j_2": 5778,
+          "symbol_high": "2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 108,
+          "teich_label": 3,
+          "residue": 138,
+          "binomial_j_2": 5778,
+          "symbol_high": "2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 108,
+          "teich_label": 4,
+          "residue": 509,
+          "binomial_j_2": 5778,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 109,
+          "teich_label": 1,
+          "residue": 71,
+          "binomial_j_2": 5886,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 109,
+          "teich_label": 2,
+          "residue": 422,
+          "binomial_j_2": 5886,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 109,
+          "teich_label": 3,
+          "residue": 203,
+          "binomial_j_2": 5886,
+          "symbol_high": "1",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 109,
+          "teich_label": 4,
+          "residue": 554,
+          "binomial_j_2": 5886,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 110,
+          "teich_label": 1,
+          "residue": 426,
+          "binomial_j_2": 5995,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 110,
+          "teich_label": 2,
+          "residue": 32,
+          "binomial_j_2": 5995,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 110,
+          "teich_label": 3,
+          "residue": 593,
+          "binomial_j_2": 5995,
+          "symbol_high": "0",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 110,
+          "teich_label": 4,
+          "residue": 199,
+          "binomial_j_2": 5995,
+          "symbol_high": "1/2",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 111,
+          "teich_label": 1,
+          "residue": 56,
+          "binomial_j_2": 6105,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 111,
+          "teich_label": 2,
+          "residue": 192,
+          "binomial_j_2": 6105,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 111,
+          "teich_label": 3,
+          "residue": 433,
+          "binomial_j_2": 6105,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 111,
+          "teich_label": 4,
+          "residue": 569,
+          "binomial_j_2": 6105,
+          "symbol_high": "0",
+          "symbol_low": "1"
+        },
+        {
+          "j": 112,
+          "teich_label": 1,
+          "residue": 336,
+          "binomial_j_2": 6216,
+          "symbol_high": "-5/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 112,
+          "teich_label": 2,
+          "residue": 527,
+          "binomial_j_2": 6216,
+          "symbol_high": "1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 112,
+          "teich_label": 3,
+          "residue": 98,
+          "binomial_j_2": 6216,
+          "symbol_high": "1",
+          "symbol_low": "-3"
+        },
+        {
+          "j": 112,
+          "teich_label": 4,
+          "residue": 289,
+          "binomial_j_2": 6216,
+          "symbol_high": "-5/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 113,
+          "teich_label": 1,
+          "residue": 141,
+          "binomial_j_2": 6328,
+          "symbol_high": "5/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 113,
+          "teich_label": 2,
+          "residue": 37,
+          "binomial_j_2": 6328,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 113,
+          "teich_label": 3,
+          "residue": 588,
+          "binomial_j_2": 6328,
+          "symbol_high": "1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 113,
+          "teich_label": 4,
+          "residue": 484,
+          "binomial_j_2": 6328,
+          "symbol_high": "5/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 114,
+          "teich_label": 1,
+          "residue": 221,
+          "binomial_j_2": 6441,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 114,
+          "teich_label": 2,
+          "residue": 222,
+          "binomial_j_2": 6441,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 114,
+          "teich_label": 3,
+          "residue": 403,
+          "binomial_j_2": 6441,
+          "symbol_high": "-3/2",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 114,
+          "teich_label": 4,
+          "residue": 404,
+          "binomial_j_2": 6441,
+          "symbol_high": "-1",
+          "symbol_low": "-1/2"
+        },
+        {
+          "j": 115,
+          "teich_label": 1,
+          "residue": 76,
+          "binomial_j_2": 6555,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 115,
+          "teich_label": 2,
+          "residue": 82,
+          "binomial_j_2": 6555,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 115,
+          "teich_label": 3,
+          "residue": 543,
+          "binomial_j_2": 6555,
+          "symbol_high": "0",
+          "symbol_low": "-1"
+        },
+        {
+          "j": 115,
+          "teich_label": 4,
+          "residue": 549,
+          "binomial_j_2": 6555,
+          "symbol_high": "1/2",
+          "symbol_low": "1/2"
+        },
+        {
+          "j": 116,
+          "teich_label": 1,
+          "residue": 456,
+          "binomial_j_2": 6670,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 116,
+          "teich_label": 2,
+          "residue": 492,
+          "binomial_j_2": 6670,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 116,
+          "teich_label": 3,
+          "residue": 133,
+          "binomial_j_2": 6670,
+          "symbol_high": "-1/2",
+          "symbol_low": "1"
+        },
+        {
+          "j": 116,
+          "teich_label": 4,
+          "residue": 169,
+          "binomial_j_2": 6670,
+          "symbol_high": "0",
+          "symbol_low": "-3/2"
+        },
+        {
+          "j": 117,
+          "teich_label": 1,
+          "residue": 236,
+          "binomial_j_2": 6786,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 117,
+          "teich_label": 2,
+          "residue": 452,
+          "binomial_j_2": 6786,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 117,
+          "teich_label": 3,
+          "residue": 173,
+          "binomial_j_2": 6786,
+          "symbol_high": "-1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 117,
+          "teich_label": 4,
+          "residue": 389,
+          "binomial_j_2": 6786,
+          "symbol_high": "1/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 118,
+          "teich_label": 1,
+          "residue": 166,
+          "binomial_j_2": 6903,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 118,
+          "teich_label": 2,
+          "residue": 212,
+          "binomial_j_2": 6903,
+          "symbol_high": "3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 118,
+          "teich_label": 3,
+          "residue": 413,
+          "binomial_j_2": 6903,
+          "symbol_high": "3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 118,
+          "teich_label": 4,
+          "residue": 459,
+          "binomial_j_2": 6903,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 119,
+          "teich_label": 1,
+          "residue": 371,
+          "binomial_j_2": 7021,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 119,
+          "teich_label": 2,
+          "residue": 22,
+          "binomial_j_2": 7021,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 119,
+          "teich_label": 3,
+          "residue": 603,
+          "binomial_j_2": 7021,
+          "symbol_high": "3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 119,
+          "teich_label": 4,
+          "residue": 254,
+          "binomial_j_2": 7021,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 120,
+          "teich_label": 1,
+          "residue": 351,
+          "binomial_j_2": 7140,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 120,
+          "teich_label": 2,
+          "residue": 132,
+          "binomial_j_2": 7140,
+          "symbol_high": "1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 120,
+          "teich_label": 3,
+          "residue": 493,
+          "binomial_j_2": 7140,
+          "symbol_high": "1",
+          "symbol_low": "1"
+        },
+        {
+          "j": 120,
+          "teich_label": 4,
+          "residue": 274,
+          "binomial_j_2": 7140,
+          "symbol_high": "-3/2",
+          "symbol_low": "0"
+        },
+        {
+          "j": 121,
+          "teich_label": 1,
+          "residue": 231,
+          "binomial_j_2": 7260,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 121,
+          "teich_label": 2,
+          "residue": 167,
+          "binomial_j_2": 7260,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 121,
+          "teich_label": 3,
+          "residue": 458,
+          "binomial_j_2": 7260,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 121,
+          "teich_label": 4,
+          "residue": 394,
+          "binomial_j_2": 7260,
+          "symbol_high": "-3",
+          "symbol_low": "1"
+        },
+        {
+          "j": 122,
+          "teich_label": 1,
+          "residue": 136,
+          "binomial_j_2": 7381,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 122,
+          "teich_label": 2,
+          "residue": 377,
+          "binomial_j_2": 7381,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 122,
+          "teich_label": 3,
+          "residue": 248,
+          "binomial_j_2": 7381,
+          "symbol_high": "-3/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 122,
+          "teich_label": 4,
+          "residue": 489,
+          "binomial_j_2": 7381,
+          "symbol_high": "0",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 123,
+          "teich_label": 1,
+          "residue": 191,
+          "binomial_j_2": 7503,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 123,
+          "teich_label": 2,
+          "residue": 387,
+          "binomial_j_2": 7503,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 123,
+          "teich_label": 3,
+          "residue": 238,
+          "binomial_j_2": 7503,
+          "symbol_high": "-1/2",
+          "symbol_low": "3/2"
+        },
+        {
+          "j": 123,
+          "teich_label": 4,
+          "residue": 434,
+          "binomial_j_2": 7503,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 124,
+          "teich_label": 1,
+          "residue": 521,
+          "binomial_j_2": 7626,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        },
+        {
+          "j": 124,
+          "teich_label": 2,
+          "residue": 447,
+          "binomial_j_2": 7626,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 124,
+          "teich_label": 3,
+          "residue": 178,
+          "binomial_j_2": 7626,
+          "symbol_high": "0",
+          "symbol_low": "0"
+        },
+        {
+          "j": 124,
+          "teich_label": 4,
+          "residue": 104,
+          "binomial_j_2": 7626,
+          "symbol_high": "-1",
+          "symbol_low": "0"
+        }
+      ]
+    }
+  ],
+  "uniform_carry_identity_test": {
+    "A_level_2": "-5",
+    "carry_C": "237",
+    "formula_mod_p_squared": "alpha^(-2)*A2 + p/(2*alpha^3)*C",
+    "result_mod_25": 20,
+    "A2_div_p_mod_5": 4,
+    "C_mod_5": 2,
+    "alpha_A2_div_p_plus_C_div_2_mod_5": 3,
+    "scope": "One exact instance of the proved uniform finite-sum identity; no extrapolation"
+  },
+  "scope": "Certifies nonzero precisely normalized c2 at p=5; the linked proof deduces nonzero actual derived class. No all-prime or rational BSD conclusion is asserted.",
+  "script_sha256": "6f21c0c8d74af6a248918c9537585da11456f24060425c1b98da5d9ef5fde27e"
+}

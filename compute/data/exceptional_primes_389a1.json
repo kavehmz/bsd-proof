@@ -1,0 +1,84 @@
+{
+  "curve": "389a1",
+  "ainvs": [
+    0,
+    1,
+    1,
+    -2,
+    0
+  ],
+  "sage_version": "10.7",
+  "rank_certificate": "[2, 2, 0, [[-2, 0], [4, 8]]]",
+  "torsion_order": 1,
+  "two_selmer_dimensions": {
+    "pari": 2,
+    "mwrank": 2
+  },
+  "sha_2_primary_order": 1,
+  "mod_389_representation_surjective": true,
+  "records": [
+    {
+      "p": 3,
+      "reduction": "good ordinary",
+      "a_p": -2,
+      "approximation_level": 3,
+      "series": "O(3^5) + O(3^2)*T + (2 + 2*3 + O(3^2))*T^2 + (2 + O(3))*T^3 + O(T^4)",
+      "nonzero_coefficient_degree": 2,
+      "nonzero_coefficient": "2 + 2*3 + O(3^2)",
+      "valuation": 0,
+      "absolute_precision": 2,
+      "p_adic_analytic_rank_certified": 2,
+      "characteristic_series_order_certified": 2,
+      "exceptional_T_factor_required": false,
+      "sha_primary_finite": true,
+      "regulator": "2 + 2*3 + 3^2 + 3^3 + 2*3^6 + 3^7 + O(3^8)",
+      "regulator_valuation": 0,
+      "regulator_absolute_precision": 8,
+      "log_gamma_valuation": 1,
+      "algebraic_multiplier_times_regulator_valuation": 0,
+      "sha_primary_order_upper_exponent": 0,
+      "sha_primary_order": 1,
+      "epsilon_valuation": 2,
+      "regulator_engine": "PARI ellpadicregulator",
+      "regulator_basis": [
+        [
+          0,
+          -1
+        ],
+        [
+          4,
+          8
+        ]
+      ]
+    },
+    {
+      "p": 389,
+      "reduction": "split multiplicative",
+      "a_p": 1,
+      "approximation_level": 2,
+      "series": "O(389^4) + O(389)*T + O(389)*T^2 + (355 + O(389))*T^3 + (51 + O(389))*T^4 + O(T^5)",
+      "nonzero_coefficient_degree": 3,
+      "nonzero_coefficient": "355 + O(389)",
+      "valuation": 0,
+      "absolute_precision": 1,
+      "p_adic_analytic_rank_certified": 3,
+      "characteristic_series_order_certified": 2,
+      "exceptional_T_factor_required": true,
+      "sha_primary_finite": true,
+      "regulator": "232*389^2 + 160*389^3 + 132*389^4 + 367*389^5 + 235*389^6 + 331*389^7 + 354*389^8 + 371*389^9 + 115*389^10 + 324*389^11 + 231*389^12 + 132*389^13 + O(389^14)",
+      "regulator_valuation": 2,
+      "regulator_absolute_precision": 14,
+      "log_gamma_valuation": 1,
+      "algebraic_multiplier_times_regulator_valuation": 0,
+      "sha_primary_order_upper_exponent": 0,
+      "sha_primary_order": 1,
+      "L_invariant": "191*389 + 370*389^2 + 303*389^3 + 374*389^4 + 192*389^5 + 379*389^6 + 140*389^7 + O(389^8)",
+      "L_invariant_valuation": 1,
+      "regulator_engine": "Sage Tate-curve p-adic regulator",
+      "sage_p_primary_bound_exponent": 0
+    }
+  ],
+  "basis_certificate": "/Users/kaveh/bsd-conjecture/compute/data/bsd_archimedean_interval.json",
+  "scope": "Trivial primary groups at {2,3,389}; no full Sha finiteness claim",
+  "precision_warning": "Lower coefficients reported O(p^k) are not exact zero certificates"
+}

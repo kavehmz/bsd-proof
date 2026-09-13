@@ -1,0 +1,86 @@
+{
+  "sage_version": "10.7",
+  "method": "rigorous Arb integration with separately bounded infinite tails",
+  "records": [
+    {
+      "label": "389a1",
+      "ainvs": [
+        0,
+        1,
+        1,
+        -2,
+        0
+      ],
+      "conductor": 389,
+      "root_number": 1,
+      "algebraic_rank_certificate_pari": "[2, 2, 0, [[-2, 0], [4, 8]]]",
+      "algebraic_rank": 2,
+      "analytic_rank_certified": 2,
+      "lower_bound_inputs": [
+        "exact descent rank at least two",
+        "Gross--Zagier--Kolyvagin analytic-rank-zero/one theorem",
+        "exact root number and functional equation"
+      ],
+      "precision_bits": 128,
+      "t_cutoff": 80,
+      "coefficient_cutoff": 252,
+      "coefficient_bound": "abs(a_n) <= d(n)*sqrt(n) <= 2*n",
+      "finite_integral": "[4.767028686267809557395396980116420 +/- 8.66e-34]",
+      "coefficient_tail_bound": "[1.40603794470053171297527702294902829e-37 +/- 7.49e-73]",
+      "integration_tail_bound": "[1.465286208670171527186648061241817256e-29 +/- 4.70e-66]",
+      "completed_derivative": "[4.7670286862678095573953969801 +/- 3.11e-29]",
+      "completed_derivative_rational_endpoints": [
+        "202766975567902752430653033522254425669/42535295865117307932921825928971026432",
+        "202766975567902752430653033523500992065/42535295865117307932921825928971026432"
+      ],
+      "L_derivative_divided_by_factorial": "[0.75931650028842677023019260789 +/- 7.06e-30]",
+      "L_leading_rational_endpoints": [
+        "129191007980134657424839548475396733285/170141183460469231731687303715884105728",
+        "129191007980134657424839548476190970957/170141183460469231731687303715884105728"
+      ],
+      "completed_derivative_positive": true,
+      "conclusion": "BSD rank equality for this curve",
+      "scope": "Does not prove full Sha finiteness or the BSD leading-term formula"
+    },
+    {
+      "label": "5077a1",
+      "ainvs": [
+        0,
+        0,
+        1,
+        -7,
+        6
+      ],
+      "conductor": 5077,
+      "root_number": -1,
+      "algebraic_rank_certificate_pari": "[3, 3, 0, [[-3, 0], [-1, 3], [11, 35]]]",
+      "algebraic_rank": 3,
+      "analytic_rank_certified": 3,
+      "lower_bound_inputs": [
+        "exact descent rank at least two",
+        "Gross--Zagier--Kolyvagin analytic-rank-zero/one theorem",
+        "exact root number and functional equation"
+      ],
+      "precision_bits": 128,
+      "t_cutoff": 80,
+      "coefficient_cutoff": 908,
+      "coefficient_bound": "abs(a_n) <= d(n)*sqrt(n) <= 2*n",
+      "finite_integral": "[117.837959237939507409432764476516 +/- 3.06e-31]",
+      "coefficient_tail_bound": "[9.6606416872688151559539095337217931e-38 +/- 7.54e-73]",
+      "integration_tail_bound": "[6.348213398414838865424958817002862604e-25 +/- 7.43e-62]",
+      "completed_derivative": "[117.83795923793950740943276 +/- 5.12e-24]",
+      "completed_derivative_rational_endpoints": [
+        "313267028770461888003156960476813251777/2658455991569831745807614120560689152",
+        "313267028770461888003156963852103701697/2658455991569831745807614120560689152"
+      ],
+      "L_derivative_divided_by_factorial": "[1.7318499001193006897919751 +/- 2.43e-26]",
+      "L_leading_rational_endpoints": [
+        "294658991582193253476456444036455096665/170141183460469231731687303715884105728",
+        "294658991582193253476456447211253584217/170141183460469231731687303715884105728"
+      ],
+      "completed_derivative_positive": true,
+      "conclusion": "BSD rank equality for this curve",
+      "scope": "Does not prove full Sha finiteness or the BSD leading-term formula"
+    }
+  ]
+}

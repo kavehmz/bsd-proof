@@ -1,0 +1,46 @@
+{
+  "label": "CM-39",
+  "ainvs": [
+    0,
+    0,
+    0,
+    39,
+    0
+  ],
+  "conductor": 48672,
+  "root_number": 1,
+  "algebraic_rank_certificate_pari": "[2, 2, 0, [[3, 12], [27, 144]]]",
+  "algebraic_rank": 2,
+  "analytic_rank_certified": 2,
+  "lower_bound_inputs": [
+    "exact descent rank at least two",
+    "Gross--Zagier--Kolyvagin analytic-rank-zero/one theorem",
+    "exact root number and functional equation"
+  ],
+  "precision_bits": 112,
+  "t_cutoff": 48,
+  "coefficient_cutoff": 1686,
+  "coefficient_bound": "abs(a_n) <= d(n)*sqrt(n) <= 2*n",
+  "finite_integral": "[608.096817041028799765320330660 +/- 6.87e-28]",
+  "coefficient_tail_bound": "[5.89992060317318684866904997398e-21 +/- 3.45e-51]",
+  "integration_tail_bound": "[5.9275748475217496734942571350964e-13 +/- 2.81e-45]",
+  "completed_derivative": "[608.096817041029 +/- 7.94e-13]",
+  "completed_derivative_rational_endpoints": [
+    "192713573779733800958930249507561/316912650057057350374175801344",
+    "192713573779734176663625955468009/316912650057057350374175801344"
+  ],
+  "L_derivative_divided_by_factorial": "[8.6593044012179 +/- 4.60e-14]",
+  "L_leading_rational_endpoints": [
+    "2810104939971291240667331775465019/324518553658426726783156020576256",
+    "2810104939971296719106698615227963/324518553658426726783156020576256"
+  ],
+  "completed_derivative_positive": true,
+  "conclusion": "BSD rank equality for this curve",
+  "scope": "Does not prove full Sha finiteness or the BSD leading-term formula",
+  "independent_coefficient_check": {
+    "through": 1405,
+    "method": "direct finite-field point counts, bad-prime additive factors, Hecke recurrences and multiplicativity",
+    "pass": true
+  },
+  "certificate_script_sha256": "09e1f3993300e4403532792ec728e3fa4653646cf397ab32d25a34f6f2fe06b0"
+}

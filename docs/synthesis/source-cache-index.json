@@ -1,0 +1,219 @@
+{
+  "created_utc": "2026-09-13T06:13:56.306736+00:00",
+  "scope": "Every explicit /tmp/ artifact reference found in pre-migration Markdown notes; not a mirror of every cited paper. Follow referenced_by for primary source URLs, versions and theorem numbers.",
+  "entries": [
+    {
+      "historical_path": "/tmp/cm-derived-kato2004.pdf",
+      "referenced_by": [
+        "docs/synthesis/cm-cyclotomic-pairing-checkpoint.md",
+        "docs/synthesis/cm-derived-unit-checkpoint.md",
+        "docs/synthesis/cm-derived-unsmoothing-checkpoint.md",
+        "docs/synthesis/cm-global-selector-attack.md",
+        "docs/synthesis/cm-iwasawa-presentation-attack.md",
+        "docs/synthesis/cm-symbol-point-reciprocity-attack.md",
+        "docs/synthesis/review-cm-derived-unsmoothing.md",
+        "docs/synthesis/review-cm-two-variable-jet.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/cm-derived-kato2004.pdf",
+      "sha256": "3c6e14b11fa60262db8aff782ce3cf4d83e9100c0be83621a7e4ce502cec605d",
+      "bytes": 18010813
+    },
+    {
+      "historical_path": "/tmp/cm-derived-kato2004.txt",
+      "referenced_by": [
+        "docs/synthesis/cm-cyclotomic-pairing-checkpoint.md",
+        "docs/synthesis/cm-derived-unit-checkpoint.md",
+        "docs/synthesis/cm-iwasawa-presentation-attack.md",
+        "docs/synthesis/cm-symbol-point-reciprocity-attack.md",
+        "docs/synthesis/cm-symbol-point-reciprocity-checkpoint.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/cm-derived-kato2004.txt",
+      "sha256": "eb5256be4d9544180c18311d5872e24e34c94640aef3b05b9531b10f3b5cb3e8",
+      "bytes": 350097
+    },
+    {
+      "historical_path": "/tmp/cm-nonvanishing-nekovar-selmer.txt",
+      "referenced_by": [
+        "docs/synthesis/cm-uniform-carry-attack.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/cm-nonvanishing-nekovar-selmer.txt",
+      "sha256": "8c47bc6b806f1eaced3f334eef86eb7e6a08e4245c09c757f1e144e28deb792a",
+      "bytes": 46052
+    },
+    {
+      "historical_path": "/tmp/cm-presentation-nekovar.pdf",
+      "referenced_by": [
+        "docs/synthesis/cm-derived-unsmoothing-checkpoint.md",
+        "docs/synthesis/cm-iwasawa-presentation-attack.md",
+        "docs/synthesis/cm-iwasawa-presentation-checkpoint.md",
+        "docs/synthesis/cm-uniform-carry-attack.md",
+        "docs/synthesis/review-cm-derived-unsmoothing.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/cm-presentation-nekovar.pdf",
+      "sha256": "61c84e5ad3252a2e520747215ac57a282addc2b58c824a3637bcd77bbe02153f",
+      "bytes": 42932456
+    },
+    {
+      "historical_path": "/tmp/cm-uniform-nekovar-height.txt",
+      "referenced_by": [
+        "docs/synthesis/cm-uniform-carry-attack.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/cm-uniform-nekovar-height.txt",
+      "sha256": "a9bfe1b11a4ac5882b413cc4fba3200bdfcdaa9d72a55e8978deda4766a3a556",
+      "bytes": 47891
+    },
+    {
+      "historical_path": "/tmp/cm_local_taylor_independent.json",
+      "referenced_by": [
+        "docs/synthesis/review-cm-local-taylor-certificate.md"
+      ],
+      "status": "preserved",
+      "portable_path": "compute/data/cm_local_taylor_mod5_independent.json",
+      "sha256": "a9c2cc60c05adeee2f06d17c33a16435c0b6c5f5b9ab8bdbf7621e050e7c31ae",
+      "bytes": 3275
+    },
+    {
+      "historical_path": "/tmp/cm_local_taylor_independent.py",
+      "referenced_by": [
+        "docs/synthesis/review-cm-local-taylor-certificate.md"
+      ],
+      "status": "preserved",
+      "portable_path": "compute/scripts/verify_cm_local_taylor_mod5.py",
+      "sha256": "72c397c20fcb27e250b282d950305fc36493a4ef1b8231be276adec0eb788027",
+      "bytes": 7973
+    },
+    {
+      "historical_path": "/tmp/cm_local_taylor_independent.py/json",
+      "referenced_by": [
+        "docs/synthesis/cm-local-point-comparison-checkpoint.md"
+      ],
+      "status": "notation shorthand, not a real path",
+      "resolution": [
+        "compute/scripts/verify_cm_local_taylor_mod5.py",
+        "compute/data/cm_local_taylor_mod5_independent.json"
+      ]
+    },
+    {
+      "historical_path": "/tmp/harmonic-du-yang.pdf",
+      "referenced_by": [
+        "docs/synthesis/harmonic-theta-arithmetic-attack.md",
+        "docs/synthesis/harmonic-theta-arithmetic-checkpoint.md",
+        "docs/synthesis/weighted-theta-adjoint-attack.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/harmonic-du-yang.pdf",
+      "sha256": "6cc35991ffe96906f491db9ed005cad3ddb93398ad68d6132461604c4d78659b",
+      "bytes": 480395
+    },
+    {
+      "historical_path": "/tmp/harmonic-sprang-polylog.pdf",
+      "referenced_by": [
+        "docs/synthesis/harmonic-theta-arithmetic-attack.md",
+        "docs/synthesis/harmonic-theta-arithmetic-checkpoint.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/harmonic-sprang-polylog.pdf",
+      "sha256": "a116198a0c40dd785ac417d5321e3906de26392afd0c6920489f71bc466727b0",
+      "bytes": 417760
+    },
+    {
+      "historical_path": "/tmp/heegner-kato-bdv22.pdf",
+      "referenced_by": [
+        "docs/synthesis/heegner-kato-comparison-attack.md",
+        "docs/synthesis/heegner-kato-comparison-checkpoint.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/heegner-kato-bdv22.pdf",
+      "sha256": "4536fcf4292acb75b437a5826285ef6daf5083cbd0f1adfc19d96f2728928a8e",
+      "bytes": 868036
+    },
+    {
+      "historical_path": "/tmp/heegner-kato-kato281.png",
+      "referenced_by": [
+        "docs/synthesis/heegner-kato-comparison-attack.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/heegner-kato-kato281.png",
+      "sha256": "5da8bbbadaf269336d40eabc2ef657734d59b16f625bbaddcd8063779a537e91",
+      "bytes": 156731
+    },
+    {
+      "historical_path": "/tmp/higher-theta-kings-rossler.pdf",
+      "referenced_by": [
+        "docs/synthesis/higher-arithmetic-theta-checkpoint.md",
+        "docs/synthesis/review-higher-arithmetic-theta.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/higher-theta-kings-rossler.pdf",
+      "sha256": "6eb0c6ab7208e5630f79f3b35b0b0b998ed8b71ffb371a90c83ba23d0c152893",
+      "bytes": 301549
+    },
+    {
+      "historical_path": "/tmp/higher-theta-ssy.pdf",
+      "referenced_by": [
+        "docs/synthesis/higher-arithmetic-theta-checkpoint.md",
+        "docs/synthesis/review-higher-arithmetic-theta.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/higher-theta-ssy.pdf",
+      "sha256": "59c0b417227cbf4858cfc3405fbcf51641019c692a670731492757c44c019053",
+      "bytes": 577516
+    },
+    {
+      "historical_path": "/tmp/integrated-brunault.pdf",
+      "referenced_by": [
+        "docs/synthesis/integrated-spectral-comparison-attack.md",
+        "docs/synthesis/integrated-spectral-comparison-checkpoint.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/integrated-brunault.pdf",
+      "sha256": "8fd73faba5db08328c2884d9f35b79bc528145428766444f3eb8097f3b494fb7",
+      "bytes": 1506692
+    },
+    {
+      "historical_path": "/tmp/review-secondary-rost.pdf",
+      "referenced_by": [
+        "docs/synthesis/review-secondary-kummer-theta.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/review-secondary-rost.pdf",
+      "sha256": "a87d65d2e5b1744e00e7001fe29110c04c27c6e5e5a1aabc1d7b291e772e851f",
+      "bytes": 543897
+    },
+    {
+      "historical_path": "/tmp/review-secondary-rost328.png",
+      "referenced_by": [
+        "docs/synthesis/review-secondary-kummer-theta.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/review-secondary-rost328.png",
+      "sha256": "145b4f4d88af1d5e0c04c4e252cfd6cd5ffc34f188911dd79051a67d0a02a0f8",
+      "bytes": 125205
+    },
+    {
+      "historical_path": "/tmp/review-theta-bost-p274.png",
+      "referenced_by": [
+        "docs/synthesis/review-theta-doubling-arithmetic.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/review-theta-bost-p274.png",
+      "sha256": "d9ae28c043fa2e34df15bca996e0195882932cabcaf2ade41f21585635f4ceef",
+      "bytes": 124102
+    },
+    {
+      "historical_path": "/tmp/review-theta-bost1999.pdf",
+      "referenced_by": [
+        "docs/synthesis/review-theta-doubling-arithmetic.md"
+      ],
+      "status": "preserved",
+      "portable_path": ".tools/handoff-sources/review-theta-bost1999.pdf",
+      "sha256": "b8153e541bd5b8b7112ec911bcb0a81c79b614926c869512131d062c7e968532",
+      "bytes": 6964750
+    }
+  ]
+}

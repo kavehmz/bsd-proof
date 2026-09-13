@@ -1,0 +1,299 @@
+{
+  "purpose": "New local Taylor coefficient nonvanishing test; no BSD conclusion",
+  "p": 5,
+  "m": 1,
+  "a": 7,
+  "mu": [
+    234,
+    78
+  ],
+  "norm_mu": 60840,
+  "pi": [
+    -1,
+    2
+  ],
+  "i_mod5": 3,
+  "field_degree": 24,
+  "field_modulus": [
+    2,
+    1,
+    3,
+    3,
+    2,
+    0,
+    4,
+    2,
+    4,
+    0,
+    3,
+    1,
+    2,
+    4,
+    0,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "frobenius_pi24": [
+    32125393,
+    -242017776
+  ],
+  "curve_order": 59604644711139840,
+  "point_projector": [
+    -186720,
+    -972024
+  ],
+  "primitive_point": {
+    "x": [
+      1,
+      4,
+      0,
+      0,
+      2,
+      3,
+      1,
+      0,
+      0,
+      2,
+      4,
+      1,
+      2,
+      4,
+      2,
+      4,
+      1,
+      0,
+      3,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "y": [
+      2,
+      3,
+      3,
+      4,
+      4,
+      3,
+      0,
+      1,
+      0,
+      3,
+      0,
+      1,
+      3,
+      3,
+      3,
+      0,
+      0,
+      0,
+      1,
+      3,
+      2,
+      4,
+      0,
+      2
+    ]
+  },
+  "primitive_annihilator_checks": true,
+  "frobenius_generators": [
+    {
+      "ell": 17,
+      "trace": -8,
+      "i_mod_ell": 4,
+      "psi": [
+        -4,
+        1
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 29,
+      "trace": -4,
+      "i_mod_ell": 12,
+      "psi": [
+        -2,
+        5
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 37,
+      "trace": -12,
+      "i_mod_ell": 6,
+      "psi": [
+        -6,
+        1
+      ],
+      "rho_mod5": 1
+    },
+    {
+      "ell": 41,
+      "trace": -10,
+      "i_mod_ell": 9,
+      "psi": [
+        -5,
+        -4
+      ],
+      "rho_mod5": 3
+    },
+    {
+      "ell": 53,
+      "trace": 4,
+      "i_mod_ell": 23,
+      "psi": [
+        2,
+        -7
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 61,
+      "trace": -10,
+      "i_mod_ell": 11,
+      "psi": [
+        -5,
+        6
+      ],
+      "rho_mod5": 3
+    },
+    {
+      "ell": 73,
+      "trace": -16,
+      "i_mod_ell": 27,
+      "psi": [
+        -8,
+        3
+      ],
+      "rho_mod5": 2
+    },
+    {
+      "ell": 89,
+      "trace": 10,
+      "i_mod_ell": 34,
+      "psi": [
+        5,
+        -8
+      ],
+      "rho_mod5": 4
+    },
+    {
+      "ell": 97,
+      "trace": -8,
+      "i_mod_ell": 22,
+      "psi": [
+        -4,
+        9
+      ],
+      "rho_mod5": 4
+    },
+    {
+      "ell": 101,
+      "trace": -20,
+      "i_mod_ell": 10,
+      "psi": [
+        -10,
+        1
+      ],
+      "rho_mod5": 3
+    },
+    {
+      "ell": 109,
+      "trace": -20,
+      "i_mod_ell": 33,
+      "psi": [
+        -10,
+        -3
+      ],
+      "rho_mod5": 4
+    },
+    {
+      "ell": 113,
+      "trace": 16,
+      "i_mod_ell": 15,
+      "psi": [
+        8,
+        7
+      ],
+      "rho_mod5": 3
+    }
+  ],
+  "primitive_point_frobenius_check": "[pi]B=(x(B)^5,y(B)^5)",
+  "cm_image_order": 4608,
+  "image_intersects_gaussian_units_trivially": true,
+  "orbit_size": 4608,
+  "derivative_sums_mod5": [
+    [],
+    [
+      1,
+      1,
+      3,
+      1,
+      1,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      1,
+      2,
+      0,
+      3,
+      1,
+      1,
+      2,
+      1,
+      2,
+      0,
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      3,
+      3,
+      2,
+      4,
+      0,
+      1,
+      2,
+      2,
+      4,
+      2,
+      4,
+      0,
+      4,
+      2,
+      4
+    ],
+    []
+  ],
+  "coefficient_nonzero_mod5": [
+    false,
+    true,
+    true,
+    false
+  ],
+  "frobenius_eigenvalue_check": "S^5=3S for every sum",
+  "frame_scope": "C_d differs from the displayed sum by the matched period, q_a^-1 and alpha^-d, all units; only zero/nonzero is asserted invariant under primitive point choice",
+  "script_sha256": "0fffae4120bc9a2632bc174444832fea0bb3f91450bdc984e594d2ee0e336586"
+}

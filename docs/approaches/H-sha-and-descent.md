@@ -1,69 +1,68 @@
-# H. Finiteness of \(\operatorname{Sha}\) and descent
+# H. Finiteness of Sha and descent
 
-Owner: coordinator (Wave 2 Sha agent did not run). Charter: `../00-charter.md`.
-Cross-references: `../03-obstructions-rank-ge-2.md` §3, `A-iwasawa-padic.md`, `B-euler-systems-heegner-kolyvagin.md`, `../synthesis/proof-architecture.md`.
+Updated 2026-09-12 after the [continuation audit](../synthesis/continuation-2026-09-12.md).
+The September 11 identification of complex rationality with full Sha finiteness
+has been withdrawn.
 
----
+## 1. Exact finiteness criterion
 
-## 0. Outcome of this line
+**[THEOREM]** Sha is a torsion abelian group, so
+$$\operatorname{Sha}(E/\mathbb Q)=\bigoplus_p\operatorname{Sha}(E/\mathbb Q)[p^\infty].$$
+Consequently it is finite if and only if each primary group is finite and all
+but finitely many primary groups vanish. For a primary torsion group,
+$\operatorname{Sha}[p]=0$ is equivalent to $\operatorname{Sha}[p^\infty]=0$.
 
-`[THEOREM]` \(\operatorname{Sha}(E/\mathbb{Q})\) is finite whenever \(r_{\mathrm{an}}\le 1\) (Kato; Gross–Zagier–Kolyvagin).
+*Proof.* Every element has finite order and decomposes into its primary
+components. A finite group has finite prime support. Conversely a finite
+direct sum of finite groups is finite. A nonzero element of $p$-power order
+has a multiple of order $p$. $\square$
 
-`[GAP H.1]` There is no \(E/\mathbb{Q}\) with \(r_{\mathrm{an}}\ge 2\) for which \(\operatorname{Sha}(E/\mathbb{Q})\) is known to be finite. This is still the 2013 status statement of Stein–Wuthrich [SW13, p. 1758]; Wave 1 found no contrary claim through 2026-09-11 (`03` §3.1).
+For every fixed prime, the Kummer sequence gives
+$$s_p=r_{\rm alg}+\operatorname{corank}_{\mathbb Z_p}\operatorname{Sha}[p^\infty].$$
+Thus an exact rank computation and a matching Selmer corank establish primary
+finiteness. They do not supply a finite set containing the support of the full group.
 
-The \(p\)-primary groups \(\operatorname{Sha}[p^\infty]\) **are** finite for many \((E,p)\) of rank \(\ge 2\), by a finite \(p\)-adic computation (Prop. 3.1 of `03`). The obstruction is “all \(p\) at once”: a \(p\)-independent bound on \(\#\operatorname{Sha}\).
+## 2. Completed primary calculations
 
----
+**[THEOREM, certified computational applications]** For 389a1,
+$\operatorname{Sha}[p^\infty]=0$ for $p=2,3,5,389$ in the present certificates.
+The prime five uses the [exact Kurihara witness](../synthesis/continuation-2026-09-12.md).
+The [other three primes](../synthesis/exceptional-prime-finiteness.md) use
+two-descent, Kato's divisibility, and normalized $p$-adic regulators.
+The extra zero at the split multiplicative prime 389 is retained.
 
-## 1. Structure that is unconditional
+## 3. The uniform task
 
-`[THEOREM]` (Cassels). \(\operatorname{Sha}(E/K)\) carries a pairing \(\operatorname{Sha}\times\operatorname{Sha}\to\mathbb{Q}/\mathbb{Z}\) which is alternating and nondegenerate modulo the maximal divisible subgroup. Consequently \(\#\operatorname{Sha}/{\operatorname{Sha}}_{\mathrm{div}}\) is a square (when finite).
+The [unit-index theorem](../synthesis/uniform-witness-attack.md) gives
+$$u_p=2+\dim_{\mathbb F_p}\operatorname{Sha}(389a1)[p]$$
+for every $p\notin S_0=\{2,3,389\}$. Its hypotheses are checked uniformly:
+the residual representation is surjective at every such prime, and
+Castella–Sano's theorem supplies a primitive Kurihara family in both
+ordinary and supersingular reduction.
 
-`[THEOREM]` (Cassels). The BSD leading-term formula is invariant under isogeny over \(K\): if it holds for \(E\) it holds for every \(E'\) isogenous to \(E\) over \(K\).
+**[GAP H.1 / PrimeIndex-389]** Prove $u_p=2$ for every $p\notin S_0$.
+Together with the completed calculations at $S_0$, this would give
+$\operatorname{Sha}(389a1)=0$.
 
-`[THEOREM]` (Tate). The Cassels–Tate pairing is compatible with the Poitou–Tate pairing on Selmer groups. Visibility (Mazur; Cremona–Mazur; Agashe–Stein) produces elements of \(\operatorname{Sha}(E)\) as images of rational points on isogenous abelian varieties; this **constructs** classes, it does not bound them.
+If only an almost-all-prime version is proved, all additional exceptional
+primes require separate primary-finiteness arguments. The existence of a
+unit witness of unspecified index, which is already known here, does not
+bound that index by two.
 
-`[THEOREM]` (Dokchitser–Dokchitser [DD10]). The \(p\)-parity conjecture holds over \(\mathbb{Q}\): \(\operatorname{corank}\operatorname{Sel}_{p^\infty}(E/\mathbb{Q})\equiv r_{\mathrm{an}}\pmod 2\). This gives the even/odd dichotomy, not finiteness.
+**[GAP H.2 / Degree-389, alternative]** Give a uniform bound on the least
+degree of a closed point on every everywhere locally soluble torsor of
+389a1. The [geometric proof attempt](../synthesis/genus-one-finiteness-attack.md)
+proves that this is equivalent to full Sha finiteness. It distinguishes
+fixed-polarization finiteness from a bound uniform over all polarizations.
 
----
+## 4. The remaining leading-term comparison
 
-## 2. Why per-\(p\) finiteness does not give \(\operatorname{Sha}\) finite
-
-`[NEW]` Proposition H.1 (bookkeeping). Let \(E/\mathbb{Q}\). The following are equivalent:
-
-1. \(\operatorname{Sha}(E/\mathbb{Q})\) is finite.
-2. \(\operatorname{Sha}[p^\infty]\) is finite for every \(p\), and \(\operatorname{Sha}[p]=0\) for all but finitely many \(p\).
-
-*Proof.* \(\operatorname{Sha}=\bigoplus_p\operatorname{Sha}[p^\infty]\) (primary decomposition of a torsion abelian group). A direct sum of finite groups is finite iff all but finitely many summands are zero and the rest are finite. \(\square\)
-
-In rank \(\le 1\) the second clause is supplied by a **single** \(p\)-independent integer (the Manin \(L(E,1)/\Omega_E\), or the Heegner index \([E(K):\mathbb{Z}P_K]\)). Kato / Kolyvagin bound \(\#\operatorname{Sha}[p^\infty]\) by the \(p\)-part of that integer, uniformly in \(p\).
-
-In rank \(\ge 2\) every known Euler-system class that could play this role is either zero (Kato bottom class, Heegner point) or indexed by primes \(\ell\equiv 1\pmod p\) or by Kolyvagin primes for that \(p\) (derived classes). Lemma 3.2 of `03`: a fixed derived Heegner point of conductor \(\ell\) is a Kolyvagin class for only finitely many \(p\).
-
-**[GAP H.2]** (same as GAP 7 / P3). Produce a \(p\)-independent rational \(c_E\in\mathbb{Q}^\times\) such that \(\#\operatorname{Sha}[p^\infty]\) divides the \(p\)-part of a fixed integer built from \(c_E\), \(\prod c_v\), and \(\#E_{\mathrm{tors}}\), for all but finitely many \(p\). Prop. 3.3 of `03` shows that \(\mathrm{U}(E)\) supplies this.
-
----
-
-## 3. Descent algorithms: what they prove
-
-`[THEOREM]` (standard 2-, 3-, 4-descent; Cremona, Fisher, Donnelly, Miller). For a fixed \(E/\mathbb{Q}\), descent computes \(\operatorname{Sel}_n(E/\mathbb{Q})\) for small \(n\) and hence an upper bound on \(r_{\mathrm{alg}}\) and on \(\#\operatorname{Sha}[n]\). Combined with exhibited points this often **certifies** \(r_{\mathrm{alg}}\) (PARI `ellrank` with \(r_1=r_2\); Sage `gens`).
-
-This is a finite computation per curve. It does **not** prove \(\operatorname{Sha}[p]=0\) for large \(p\), and it does not prove \(\operatorname{Sha}\) finite.
-
-For 389a1: \(r_{\mathrm{alg}}=2\) is certified; \(\operatorname{Sha}[p]=0\) is known for many ordinary \(p\) by [SW13] and the compute lab; \(\operatorname{Sha}\) as a group is not known to be finite.
-
----
-
-## 4. Visibility does not close GAP H.1
-
-Visibility realises a subgroup of \(\operatorname{Sha}(E)\) inside \(E'(K)/E'(K)_{\mathrm{div}}\) for an auxiliary abelian variety \(E'\). For rank-2 curves with analytic \(\#\operatorname{Sha}=1\), the predicted group is trivial, so visibility has nothing to find. For curves with analytic \(\#\operatorname{Sha}=4,9,\ldots\) (the LMFDB rank-2 examples in `compute/data/`), visibility can explain the known part; it does not bound the unknown part.
-
----
-
-## 5. Residual gaps
-
-**[GAP H.1]** \(\operatorname{Sha}(E/\mathbb{Q})\) finite for one \(E\) with \(r_{\mathrm{an}}\ge 2\).
-
-**[GAP H.2]** A \(p\)-independent integer bounding \(\#\operatorname{Sha}[p^\infty]\) for almost all \(p\) (equivalent to P3 / \(\mathrm{U}(E)\)).
-
-What would finish it: prove that \(L''(389a1,1)/(2\,\Omega\operatorname{Reg})\) is the rational number \(1\), or prove \(\mathrm{U}(389a1)\) by a Hida-family identity that the ratio \(L_p^{(2)}(0)/(\varepsilon_p\operatorname{Reg}_\gamma)\) is independent of \(p\).
+Even after full Sha finiteness, the complex equality
+$$\frac{L^{(r)}(E,1)}{r!\Omega_E\operatorname{Reg}_{\rm NT}}
+=\frac{\prod_{q\mid N}c_q\cdot\#\operatorname{Sha}(E/\mathbb Q)}{\#E(\mathbb Q)_{\rm tors}^2}$$
+needs its own proof. For 389a1 the real quotient on the left is
+[rigorously between 0.9931 and 1.0077](../synthesis/bsd-archimedean-bound.md).
+That interval does not establish rationality or integrality. The
+[one-sided global criterion](../synthesis/derived-comparison-attack.md)
+states precisely what arithmetic comparison would turn the bound into
+the BSD formula.
